@@ -1,0 +1,17 @@
+objectTypes = {
+	pdxmesh = {
+		name = "ascendant_01_strat_stage_1_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/strategic_coordination_center/ascendant_strat_stage_1.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_strat_stage_2_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/strategic_coordination_center/ascendant_strat_stage_2.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_strat_stage_3_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/strategic_coordination_center/ascendant_strat_stage_3.mesh"
+		scale = 1.0
+	}
+}

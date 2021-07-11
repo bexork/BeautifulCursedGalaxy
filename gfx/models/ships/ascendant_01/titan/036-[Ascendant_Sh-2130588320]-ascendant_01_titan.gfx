@@ -1,0 +1,32 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_titan_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/titan/ascendant_titan_bow.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_titan_mid_mesh"
+		file = "gfx/models/ships/ascendant_01/titan/ascendant_titan_mid.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_titan_stern_mesh"
+		file = "gfx/models/ships/ascendant_01/titan/ascendant_titan_stern.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_titan_core_mesh"
+		file = "gfx/models/ships/ascendant_01/titan/ascendant_titan_core.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_titan_rear_mesh"
+		file = "gfx/models/ships/ascendant_01/titan/ascendant_titan_rear.mesh"
+		scale = 1.0
+	}
+}

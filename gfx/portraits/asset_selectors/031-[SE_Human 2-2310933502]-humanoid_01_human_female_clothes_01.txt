@@ -1,0 +1,3687 @@
+######################################################
+### FEMALE CLOTHING - HUMANS - STELLEROTICA SCALED ###
+######################################################
+
+humanoid_01_human_female_clothes_01 = { #START
+
+	default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+	
+		default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+	}
+	
+#####################
+### SPECIES SCOPE ####################################################################################################################################################################################################################################################
+#####################
+	
+	species = { #generic portrait for a species
+	
+		default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+		
+	} # END SPECIES
+	
+################
+### POP SCOPE ########################################################################################################################################################################################################################################################
+################
+
+####  ORDER  ###############
+# 1.  CLOTHES LIST: Used to line up clothes in the ruler design window!
+# 2.  PRIMITIVES
+#		a. PRESAPIENT
+#		b. TRIBAL
+#		c. FEUDAL
+#		d. NATION STATE
+# 3.  GESTALT
+#		a. TECHNOLOGICAL
+#		b. PARASITIC
+#		c. BASE GESTALT
+# 4.  FALLEN EMPIRE
+#		a. FALLEN EMPIRE
+#		b. AWAKENED EMPIRE
+# 5.  SLAVERY
+#		a. CULTURE WORKERS
+#		b. INDENTURED SERVANTS
+#		c. SERVANTS
+#		d. TOILERS
+#		e. CATTLE
+#		f. BATTLE THRALLS
+#		g. GENERIC SLAVERY
+# 6.  SPECIFIC POP CAREERS
+#		a. CULTURE
+#		b. BUSINESS + ADMINISTRATORS FOR COPORATE
+#		c. IMPERIAL
+#		d. COLONIST
+#		e. SPIRITUAL
+#			i. FANATICAL/CULTS
+#			ii. THEOLOGICAL + RELIGIOUS FIGURES
+#		f. SCIENTIFIC + ADMINISTRATORS FOR TECHNOCRATS
+#		g. TELEPATHIC
+#		h. CRIME
+#		i. MILITARY/POLICE
+#			i. COMMONWEALTH OF MAN: MILITARISTIC GOVERNMENTS + ADMINISTRATORS
+#			ii. PIRATES/MARAUDERS/KHANATE GOVERNMENTS + ADMINISTRATORS
+#			iii. CORPORATE GOVERNMENTS + ADMINISTRATORS
+#			iv. UNITED NATIONS OF EARTH: DEMOCRATIC GOVERNMENTS - COVERS ANY GOVERNMENT TYPE NOT COVERED
+# 7.  MATERIALISTIC
+# 7.  BASIC
+#		a. RULERS
+#		b. SPECIALISTS
+#		c. WORKERS
+############################
+
+	pop = { #for a specific pop
+		
+#########################################################################
+### CLOTHES LIST: Used to line up clothes in the ruler design window! ###############################################################################################################################################################################################
+#########################################################################
+			random = {
+				trigger = { always = no }
+				list = {
+				
+				 ####################
+				### LEADERS/RULERS ###
+				 ####################	
+				 
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01.dds"	
+				 
+					### COMMONWEALTH OF MAN						
+						
+						# RULER
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_03.dds"				
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_03_open_01.dds"	
+						
+						# GOVERNORS
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_02.dds"				
+						
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01_jacket_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01_jacket_01_open_01.dds"					#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_02.dds"
+						
+						# GENERALS
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_02.dds"		
+						
+						# ENVOYS
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_02.dds"		
+			
+					### UNITED NATIONS OF EARTH/GENERIC DEFAULTS						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_02.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_03.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_04.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_05.dds"		
+#**REVAMP**governors		
+						# GOVERNORS
+#						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_05.dds"	
+#						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_05_open_01.dds"								#SOFT REMOVE
+#						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_06.dds"	
+#						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_06_open_01.dds"								#SOFT REMOVE
+						
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_admiral_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_admiral_02.dds"			
+						
+						# GENERALS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02.dds"			
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02_open_01.dds"							#SOFT REMOVE
+						
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_open_01.dds"							#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_nude_01.dds"							#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_03.dds"	
+						
+						# ENVOYS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_envoy_01.dds"		
+						
+					### MATERIALISTIC ###						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_02.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_03.dds"										#SOFT REMOVE
+
+					### OLIGARCHIC						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03_nude_01.dds"								#NUDE :O
+					
+						# GOVERNORS
+						
+						# ENVOYS
+						
+					### CORPORATE ###						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01_open_01.dds"				#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_02.dds"
+						
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_admiral_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_admiral_02.dds"		
+						
+						# GENERALS
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_general_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_general_02.dds"		
+						
+					### THEOLOGICAL ###						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_03.dds"	
+						
+					### FANATICAL						
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_05.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_06.dds"	
+						
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_02.dds"	
+						
+						# GENERALS
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_02.dds"	
+					
+						# GOVERNORS
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04_open_01.dds"	
+						
+						# ENVOYS
+			
+					### STAR THIEVES					
+						# RULERS
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_01_jacket_01.dds"		
+						
+						# GOVERNORS
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02_open_01.dds"								#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02_censored_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_03.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_03_nude_01.dds"								#NUDE :O	
+
+						# ADMIRALS/GENERALS
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01_nude_01.dds"						#NUDE :O	
+#						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01_censored_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_open_01.dds"						#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_nude_01.dds"						#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03_nude_01.dds"						#NUDE :O	
+
+				 ##########
+				### POPS ###
+				 ##########
+						
+					### BASICS ###
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_01_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02_open_02.dds"								#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03_open_02.dds"								#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_04.dds"	
+				 
+					### POPSPECIALISTS ###
+						
+						# WARRIOR
+						# CWoM
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_popspecialist_01_enforcer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_popspecialist_01_enforcer_02.dds"	
+						# ALL
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_open_01.dds"			#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_nude_01.dds"			#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_dualist_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_soldier_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_soldier_02.dds"	
+						
+						# COLONIST
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_colonist_01.dds"							
+						
+						# CULTURE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_entertainer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_entertainer_02.dds"				
+						
+						# TELEPATHIC
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_telepath_01.dds"					#SOFT REMOVE
+				 
+					### POPWORKERS ###
+						
+						# CRIMINAL
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popslave_01_overseer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01_open_01.dds"				#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01_nude_01.dds"				#NUDE :O
+						
+					### SLAVES ###
+						# BASIC
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_02.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_03.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_03_nude_01.dds"						#NUDE :O	
+						
+						# TOILERS
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_04_toiler_01.dds"
+						
+						# DANCERS
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_01_censored_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_02_nude_01.dds"				#NUDE :O	
+						
+						# WARRIORS
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01_open_01.dds"		#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01_nude_01.dds"		#NUDE :O	
+						
+						# FOOD
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_07.dds"
+						
+						# DOMESTICS
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_06_domestic_01.dds"						
+		
+	 #####################################
+	### FALLEN/AWAKENED EMPIRE GOVERNMENTS ###
+	 #####################################
+									
+					### FALLEN EMPIRE ###
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_01.dds"	
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_01.dds"	
+						# GENERALS
+						# GOVERNORS
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_01.dds"	
+						
+						
+					### AWAKENED EMPIRE ###
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_02_open_01.dds"
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_02_nude_01.dds"								#NUDE :O	
+						# GENERALS
+						# GOVERNORS
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02_nude_01.dds"							#NUDE :O			
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_02_nude_01.dds"							#NUDE :O	
+		
+	 #########################
+	### GESTALT GOVERNMENTS ###
+	 #########################
+	 
+					### BASIC GESTALT ###
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02.dds"	
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_01.dds"									#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02.dds"	
+						# GENERALS
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_01.dds"									#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02.dds"	
+						
+					### CYBERTRONIC GESTALT ###
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_cyborg_01.dds"	
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02_cyborg_01.dds"	
+						# GENERALS
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_01_cyborg_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02_cyborg_01.dds"	
+						
+					### PARASITIC GESTALT ###
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O CENSORED	
+						# ADMIRALS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_01_parasite_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02_parasite_01_nude_01.dds"				#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02_parasite_01_nude_02.dds"				#NUDE :O CENSORED	
+						# GENERALS
+						# SCIENTISTS
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_01_parasite_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02_parasite_01_nude_01.dds"				#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02_parasite_01_nude_02.dds"				#NUDE :O CENSORED	
+		
+	 ######################################
+	### PRIMITIVE/PRESAPIENT GOVERNMENTS ###
+	 ######################################
+						
+					### PRESAPIENTS ###					
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01_nude_01.dds"					#NUDE :O	
+##NUDE##						"gfx/models/portraits/human/human_male_clothing/human_primitive_male_clothes_sapients_01.dds"									#NUDE :O	
+						
+					### TRIBAL ###			
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_popspecialist_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_popworker_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_warrior_01.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_warrior_01_nude_01.dds"				#NUDE :O						
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_slave_01.dds"
+						
+					### FEUDAL ###		
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_popworker_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_warrior_01.dds"
+						
+					### NATION STATE ###	
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01_open_01.dds"			#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_popworker_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_warrior_01.dds"
+						
+						
+######						"gfx/models/portraits/human/human_female_clothing/human_synthetic_female_clothes_tentacle_01.dds"	
+				}
+			}			
+	
+		default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_01.dds"	
+		
+################################################################################
+### END OF CLOTHES LIST: Used to line up clothes in the ruler design window! #########################################################################################################################################################################################
+################################################################################
+
+##################		
+### PRIMITIVES ###
+##################
+		
+	 #################
+	### PRESAPIENTS ###
+	 #################
+
+			random = {
+				trigger = {
+					is_pop_category = pre_sapients
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01_nude_01.dds"					#NUDE :O	
+				}
+			}
+		
+	 ############
+	### TRIBAL ###
+	 ############
+
+		### TRIBAL RULERS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_tribal_society }
+					is_pop_category = ruler 					
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02_nude_01.dds"				#NUDE :O	
+				}
+			}
+			
+		### TRIBAL/FEUDAL SLAVES ###
+			random = {
+				trigger = {
+					OR = {
+						owner = { has_government = gov_tribal_society }
+						owner = { has_government = gov_feudal_realms }
+					}
+					is_enslaved = yes
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_slave_01.dds"
+				}
+			}
+			
+		### TRIBAL WARRIORS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_tribal_society }
+					OR = {
+						has_job = primitive_warrior
+						has_job = primitive_warrior_2
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_warrior_01.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_warrior_01_nude_01.dds"				#NUDE :O	
+				}
+			}
+			
+		### TRIBAL WORKERS/SPECIALISTS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_tribal_society }
+					OR = {
+						is_pop_category = specialist
+						is_pop_category = worker 
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_popspecialist_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_popworker_01.dds"
+				}
+			}
+		
+	 ############
+	### FEUDAL ###
+	 ############
+
+		### FEUDAL RULERS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_feudal_realms }
+					is_pop_category = ruler 					
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_ruler_01.dds"
+				}
+			}
+			
+		### FEUDAL WARRIORS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_feudal_realms }
+					OR = {
+						has_job = primitive_warrior
+						has_job = primitive_warrior_2
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_warrior_01.dds"
+				}
+			}
+			
+		### FEUDAL WORKERS/SPECIALISTS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_feudal_realms }
+					OR = {
+						is_pop_category = specialist
+						is_pop_category = worker 
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_popworker_01.dds"
+				}
+			}
+		
+	 ##################
+	### NATION STATE ###
+	 ##################
+
+		### NATION STATE RULERS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_fragmented_nation_states }
+					is_pop_category = ruler 					
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01_open_01.dds"			#SOFT REMOVE
+				}
+			}
+			
+		### NATION STATE SLAVES ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_fragmented_nation_states }
+					is_enslaved = yes
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01.dds"
+				}
+			}
+			
+		### NATION STATE WARRIORS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_fragmented_nation_states }
+					OR = {
+						has_job = primitive_warrior
+						has_job = primitive_warrior_2
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_warrior_01.dds"
+				}
+			}
+			
+		### NATION STATE WORKERS/SPECIALISTS ###
+			random = {
+				trigger = {
+					owner = { has_government = gov_fragmented_nation_states }
+					OR = {
+						is_pop_category = specialist
+						is_pop_category = worker 
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_popworker_01.dds"
+				}
+			}
+			
+###############
+### GESTALT ###
+###############		
+			
+		### PARASITE ###
+			random = {
+				trigger = {
+					OR = {
+						is_pop_category = complex_drone
+						is_pop_category = simple_drone
+					}
+					owner = { has_valid_civic = civic_hive_parasitic }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O CENSORED	
+				}
+			}		
+
+		### TECHNOLOGICAL ###
+			random = {
+				trigger = {
+					OR = {
+						is_pop_category = complex_drone
+						is_pop_category = simple_drone
+					}
+					OR = {
+						owner = { has_valid_civic = civic_hive_natural_neural_network }
+						owner = { has_valid_civic = civic_hive_pooled_knowledge }
+						owner = { has_valid_civic = civic_hive_strong_connection }
+						owner = { has_valid_civic = civic_hive_deep_space_connection }	
+					}						
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_cyborg_01.dds"	
+				}
+			}
+			
+		### BASE COLLECTIVE CONSCIOUSNESS ###
+			random = {
+			trigger = {
+					OR = {
+						is_pop_category = complex_drone
+						is_pop_category = simple_drone
+					}
+						owner = { has_authority = auth_hive_mind }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02.dds"	
+				}
+			}
+		
+		
+##############################
+### FALLEN/AWAKENED EMPIRE ###
+##############################				
+					
+		### FALLEN EMPIRE ###
+			random = {
+			trigger = {
+						owner = { has_government = gov_stagnant_ascendancy }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_01.dds"	
+				}
+			}
+			
+		### AWAKENED EMPIRE ###
+			random = {
+			trigger = {
+						owner = { has_government = gov_awakened_ascendancy }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02_nude_01.dds"							#NUDE :O			
+				}
+			}
+						
+
+###############	 
+### SLAVERY ###
+###############	 
+		
+		### CULTURE WORKERS ###
+			random = {
+				trigger = {
+					OR = {
+						AND = {
+							has_job = entertainer
+							is_enslaved = yes
+						}
+					### Various Servant Job ###
+						has_job = pet_servant
+						has_job = reproductive_servant
+					### PSI (UNKNOWN) MOD ###
+						has_job = sex_worker
+						has_job = shroud_drug
+						has_job = shroud_sex
+						has_job = shroud_zro
+					}					
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_01_censored_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01_dancer_02_nude_01.dds"				#NUDE :O	
+				}
+			}
+		
+		### INDENTURED SERVANTS ###
+			random = {
+				trigger = {
+					has_job = clerk
+					is_enslaved = yes
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_02.dds"
+				}
+			}
+		
+		### SERVANTS ###
+			random = {
+				trigger = {
+					OR = {
+					has_job = servant					
+				### Various Servant Job ###
+					has_job = maid_servant
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_06_domestic_01.dds"
+				}
+			}
+		
+		### Toiler (Thrall-World) ###
+			random = {
+				trigger = { has_job = slave_toiler }
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_04_toiler_01.dds"
+				}
+			}
+		
+		### Cattle ###
+			random = {
+				trigger = {
+					OR = {
+						has_job = organic_battery
+						has_job = livestock
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_07.dds"
+				}
+			}
+		
+		### Battle Thralls ###
+			random = {
+				trigger = {
+					has_slavery_type = { type = slavery_military }
+				}
+				list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01_open_01.dds"		#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_05_battle_thrall_01_nude_01.dds"		#NUDE :O	
+				}
+			}
+		
+		### Generic ###
+			random = {
+				trigger = {
+					OR = {
+						is_pop_category = slave
+						is_enslaved = yes
+					}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_02.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_03.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_03_nude_01.dds"						#NUDE :O	
+				}
+			}
+
+#############################
+### CULTURE SPECIFIC JOBS ###
+#############################
+
+	### CULTURE WORKERS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = artisan
+							has_job = entertainer
+							has_job = culture_worker
+							has_job = bio_trophy
+							has_job = fe_hedonist
+						### ALPHA MOD ###
+							has_job = celebrity
+							has_job = beneficiary
+						### APSR Anomalies, Planetary and Space Resources MOD & DISTRICT OVERHAUL 2 ###
+							has_job = apsr21_artisan_normal
+						### MEM MORE EVENTS MOD ###
+							has_job = mem_maze_orb_watcher
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###				
+							has_job = influencer
+							has_job = player
+							has_job = sponsor
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_entertainer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_entertainer_02.dds"	
+				}
+			}	
+
+##############################
+### BUSINESS SPECIFIC JOBS ###
+##############################
+
+	### BUSINESS ###
+			random = {
+				trigger = {
+						OR = {
+							AND = {	### CORPORATE GOVERNMENTS HAVE BUSINESS ADMINISTRATORS
+								owner = { has_authority = auth_corporate }
+								has_job = administrator
+							}
+							has_job = executive
+							has_job = manager
+							has_job = bureaucrat
+							has_job = merchant
+						### APSR Anomalies, Planetary and Space Resources MOD & DISTRICT OVERHAUL 2 ###
+							has_job = apsr5_manager_normal
+							has_job = apsr12_manager_normal
+						### ETHIC REBUILD MOD ###
+							has_job = banker
+							has_job = mogul
+						### MEM MORE EVENTS MOD ###
+							has_job = mem_lunar_age_trader
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###		
+							has_job = industrialist
+							has_job = economist
+							has_job = trading_expert
+							has_job = banker
+							has_job = tax_controller
+							has_job = treasurer
+							has_job = treasures_collector
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01_open_01.dds"				#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_02.dds"
+				}
+			}	
+
+##############################
+### IMPERIAL SPECIFIC JOBS ###
+##############################
+
+	### NOBLES ###
+		random = {
+			trigger = {
+						OR = {
+							has_job = noble
+						### DPE DYNAMIC POLITICAL EVENTS MOD ###
+							has_job = dpe_gurus_followers
+							has_job = dpe_monarchists
+							has_job = dpe_entourage
+						}
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_02.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_03.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_04.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_05.dds"		
+			}
+		}		
+
+##############################
+### COLONIST SPECIFIC JOBS ###
+##############################
+
+	### COLONISTS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = colonist
+						### GPM Guilli's Planet Modifiers MOD ###
+							has_job = gpm_moon_miner
+							has_job = gpm_asteroid_miner
+							has_job = gpm_orbital_alloy_miner
+							has_job = gpm_orbital_mineral_miner
+							has_job = gpm_orbital_particle_collector
+							has_job = gpm_orbital_spicer
+						### MEM MORE EVENTS MOD ###
+							has_job = mem_lunar_age_administrator
+							has_job = gpm_orbital_researcher
+							has_job = mem_colony_ship_colonist
+						### Violent Beetle HABITAT MOD ###
+							has_job = vbp_station_manager
+							has_job = vbp_station_security
+							has_job = vbp_station_engineer
+							has_job = vbp_rockhopper
+							has_job = vbp_hydroponist
+							has_job = vbp_station_technician
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_colonist_01.dds"		
+				}
+			}	
+
+###############################
+### SPIRITUAL SPECIFIC JOBS ###
+###############################
+	
+	 ##################################
+	### SPIRITUAL: FANATICS/CULTISTS ###
+	 ##################################
+
+		### SPIRITUAL RULERS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = administrator
+							has_job = high_priest
+						### ALPHA MOD ###
+							has_job = acolyte
+						### ETHIC REBUILD MOD ###
+							has_job = supervisor #PHILOSOPHER
+						}
+						OR = {
+							owner = { has_valid_civic = civic_fanatic_purifiers }
+							AND = { # CORPORATE SUBVERSIVE CULT
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+								owner = { has_valid_civic = civic_criminal_heritage }
+							}
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_05.dds"	
+				}
+			}	
+
+		### SPIRITUAL SPECIALISTS/WORKERS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = priest
+							has_job = preacher
+						### ETHIC REBUILD MOD ###
+							has_job = techno_priest
+							has_job = druid
+						### Ethics and Civics Alternative MOD ###
+							has_job = templar
+							has_job = preacher
+						### ETHIC REBUILD MOD ###
+							has_job = druid
+						}
+						OR = {
+							owner = { has_valid_civic = civic_fanatic_purifiers }
+							AND = { # CORPORATE SUBVERSIVE CULT
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+								owner = { has_valid_civic = civic_criminal_heritage }
+							}
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_06.dds"	
+				}
+			}
+	
+	 #################################
+	### SPIRITUAL: BASIC THEOCRATIC ###
+	 #################################
+
+		### SPIRITUAL RULERS ###
+			random = {
+				trigger = {
+						OR = {
+							AND = {	### STRONG THEOCRATIC GOVERNMENT WILL HAVE RELIGIOUS ADMINISTRATORS
+								owner = { has_ethic = ethic_fanatic_spiritualist }
+								has_job = administrator
+							}
+							has_job = high_priest
+						### ALPHA MOD ###
+							has_job = acolyte
+						### ETHIC REBUILD MOD ###
+							has_job = supervisor #PHILOSOPHER
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_02.dds"	
+				}
+			}	
+
+		### SPIRITUAL SPECIALISTS/WORKERS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = priest
+							has_job = preacher
+						### ETHIC REBUILD MOD ###
+							has_job = techno_priest
+							has_job = druid
+						### Ethics and Civics Alternative MOD ###
+							has_job = templar
+							has_job = preacher
+						### ETHIC REBUILD MOD ###
+							has_job = druid
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_03.dds"		
+				}
+			}
+
+################################
+### SCIENTIFIC SPECIFIC JOBS ###
+################################
+
+	### SCIENTIFIC ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = head_researcher
+							has_job = dimensional_portal_researcher
+							has_job = researcher
+							has_job = chemist
+							has_job = healthcare
+						### PD PLANETARY DIVERSITY MOD ###
+							has_job = archive_historian
+							has_job = archive_physicist
+							has_job = archive_engineer
+							has_job = archivist
+						### ALPHA MOD ###
+							has_job = actinides_utiliser
+							has_job = biomass_architect
+						### APSR Anomalies, Planetary and Space Resources MOD & DISTRICT OVERHAUL 2 ###
+							has_job = apsr3_scientist_normal
+							has_job = apsr6_scientist_normal
+							has_job = apsr9_scientist_normal
+							has_job = apsr9_head_scientist_normal
+							has_job = apsr11_agronomist_normal
+							has_job = apsr15_agronomist_normal
+							has_job = apsr15_scientist_normal
+							has_job = apsr16_scientist_normal
+							has_job = apsr19_agronomist_normal
+							has_job = ecosystem_researcher
+							has_job = biolumen_researcher
+							has_job = technoorganic_researcher
+							has_job = clone_scientist
+							has_job = do_logistic_worker
+							has_job = do_engineer
+							has_job = do_physicist
+						### ETHIC REBUILD MOD ###
+							has_job = biotechnologist
+							has_job = geoengineer
+							has_job = xenobiologist
+						### GPM Guilli's Planet Modifiers MOD ###
+							has_job = gpm_orbital_researcher
+						### MEM MORE EVENTS MOD ###
+							has_job = mem_crucible_researcher
+							has_job = mem_viral_engineer
+						### ESC EXTRA SHIP COMPONENTS MOD ###
+							has_job = esc_reprocessor
+							has_job = esc_infinity_thinker
+							has_job = esc_zro_distiller
+							has_job = esc_dark_matter_shaper
+							has_job = esc_planetary_core_miner
+							has_job = esc_borehole_maintainer
+							has_job = esc_nanite_breeder
+							has_job = esc_crystal_farmer
+							has_job = esc_gravity_manipulator
+							has_job = esc_dimension_warper
+						### PD PLANETARY DIVERSITY MOD ###
+							has_job = templeresearcher
+							has_job = tiyankicleanup
+							has_job = tiyankirecycler
+							has_job = interdimensional_researcher
+							has_job = virtual_observers
+							has_job = electrodepositionist
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = u_physicist
+							has_job = u_biologist
+							has_job = u_engineer
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_open_01.dds"							#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_nude_01.dds"							#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_03.dds"	
+				}
+			}
+		
+################################
+### TELEPATHIC SPECIFIC JOBS ###
+################################
+
+	### TELEPATHS ###
+		random = {
+			trigger = {
+						OR = {
+							has_job = telepath
+						### ESC EXTRA SHIP COMPONENTS MOD ###
+							has_job = esc_channeller
+							has_job = esc_enigma_reader
+						### Ethics and Civics Alternative MOD ###
+							has_job = transcend
+						### PSI (UNKNOWN) MOD ###
+							has_job = shroud_analyze
+							has_job = shroud_explor
+							has_job = psionic_scientist
+							has_job = psionic_worker
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = secret_alchimist
+						}	
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_telepath_01.dds"					#SOFT REMOVE
+			}
+		}	
+		
+##################
+###	CRIME JOBS ###
+##################
+
+	### CRIMINALS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = criminal
+							has_job = underground_trade_worker
+							has_job = ratling_scavenger
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = smuggler
+						### Violent Beetle HABITAT MOD ###
+							has_job = vbp_government_reminders
+							has_job = vbp_wasteland_ruler
+							has_job = vbp_vault_overseer
+							has_job = vbp_vault_dweller
+							has_job = vbp_vault_custodian
+							has_job = vbp_nuclear_survivor
+							has_job = vbp_caravaneer
+							has_job = vbp_wasteland_raider
+							has_job = vbp_militia
+						}	
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01_open_01.dds"				#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_criminal_01_nude_01.dds"				#NUDE :O
+				}
+			}	
+			
+##############################
+### MILITARY SPECIFIC JOBS ###
+##############################
+	
+	 #####################################################
+	### MILITARY: PIRATES/MARAUDERS/KHANATE GOVERNMENTS ###
+	 #####################################################
+	 
+		### ALL MILITARY JOBS ###
+				random = {
+					trigger = {
+						AND = {
+							OR = {	
+								has_job = enforcer
+								has_job = slave_overseer
+								has_job = fe_xeno_keeper
+							### ALPHA MOD ###	
+								has_job = security_guard
+								has_job = marshall
+							### ETHIC REBUILD MOD ###
+								has_job = commandante
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = military_expert
+								has_job = controller
+								has_job = border_controller
+								has_job = military_expert
+							}
+							NOT = { owner = { has_valid_civic = civic_gospel_of_the_masses } }
+							OR = {
+								owner = { has_government = gov_criminal_syndicate }				# CORPORATE CRIMINAL/PIRATES
+								owner = { has_government = gov_bandit_kingdom }					# IMPERIAL/DICTATORSHIP
+								owner = { has_government = gov_bandit_commune }					# DEMOCRATIC/OLIGARCHIC
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC
+							### NON PLAYER
+								owner = { has_government = gov_marauder_clans }					# DEMOCRATIC
+								owner = { has_government = gov_marauder_khanate }				# DEMOCRATIC
+								owner = { has_government = gov_diadochi }						# DEMOCRATIC
+								owner = { has_government = gov_successor_khanate }				# DEMOCRATIC								
+							}
+						}
+					}
+					list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01_nude_01.dds"						#NUDE :O	
+#						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01_censored_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_open_01.dds"						#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_nude_01.dds"						#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03_nude_01.dds"						#NUDE :O		
+					}
+				}
+	 
+	 ################################
+	### MILITARY: IMPERIAL/FANATIC ###
+	 ################################
+			
+		### GENERALS ###
+			random = {
+				trigger = { 
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}	
+							OR = {		
+							### ALPHA MOD ###	
+								has_job = marshall
+							### ETHIC REBUILD MOD ###
+								has_job = commandante
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = military_expert
+							}
+						}
+				}
+				list = {
+					"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_02.dds"
+				}
+			}	 
+			
+		### POLICE ###
+			random = {
+				trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}	
+							OR = {
+								has_job = enforcer
+								has_job = slave_overseer
+								has_job = fe_xeno_keeper
+							### ALPHA MOD ###
+								has_job = security_guard
+							### DPE DYNAMIC POLITICAL EVENTS MOD ###
+								has_job = dpe_guardian_of_the_peace
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = controller
+								has_job = border_controller
+							}	
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_open_01.dds"			#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_nude_01.dds"			#NUDE :O
+				}
+			}
+	 
+	 ###############################################
+	### MILITARY: GENOMEGA: CORPORATE GOVERNMENTS ###
+	 ###############################################	 			
+			
+		### GENERALS ###
+			random = {
+				trigger = { 
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }						# ALL FORMS OF CORPORATIONS BEYOND PIRATES AND CULTISTS
+							}	
+							OR = {		
+							### ALPHA MOD ###	
+								has_job = marshall
+							### ETHIC REBUILD MOD ###
+								has_job = commandante
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = military_expert
+							}
+						}
+				}
+				list = {
+					"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_general_01.dds"
+				}
+			}	 
+			
+		### POLICE ###
+			random = {
+				trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }						# ALL FORMS OF CORPORATIONS BEYOND PIRATES AND CULTISTS
+							}	
+							OR = {
+								has_job = enforcer
+								has_job = slave_overseer
+								has_job = fe_xeno_keeper
+							### ALPHA MOD ###
+								has_job = security_guard
+							### DPE DYNAMIC POLITICAL EVENTS MOD ###
+								has_job = dpe_guardian_of_the_peace
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = controller
+								has_job = border_controller
+							}	
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_open_01.dds"			#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_nude_01.dds"			#NUDE :O
+				}
+			}
+	 
+	 #############################################################
+	### MILITARY: COMMONWEALTH OF MAN: MILITARISTIC GOVERNMENTS ###
+	 #############################################################
+			
+		### GENERALS ###
+			random = {
+				trigger = { 
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {		
+							### ALPHA MOD ###	
+								has_job = marshall
+							### ETHIC REBUILD MOD ###
+								has_job = commandante
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = military_expert
+							}
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_02.dds"	
+				}
+			}	 
+			
+		### POLICE ###
+			random = {
+				trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								has_job = enforcer
+								has_job = slave_overseer
+								has_job = fe_xeno_keeper
+							### ALPHA MOD ###
+								has_job = security_guard
+							### DPE DYNAMIC POLITICAL EVENTS MOD ###
+								has_job = dpe_guardian_of_the_peace
+							### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+								has_job = controller
+								has_job = border_controller
+							}	
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_popspecialist_01_enforcer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_popspecialist_01_enforcer_02.dds"	
+				}
+			}
+	 
+	 ########################################################################################################
+	### MILITARY: UNITED NATIONS OF EARTH: DEMOCRATIC GOVERNMENTS - COVERS ANY GOVERNMENT TYPE NOT COVERED ###
+	 ########################################################################################################
+	 
+		### GENERALS ###
+			random = {
+				trigger = { 
+						OR = {		
+						### ALPHA MOD ###	
+							has_job = marshall
+						### ETHIC REBUILD MOD ###
+							has_job = commandante
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = military_expert
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02.dds"			
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02_open_01.dds"							#SOFT REMOVE
+				}
+			}
+			
+		### POLICE ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = enforcer
+							has_job = slave_overseer
+							has_job = fe_xeno_keeper
+						### ALPHA MOD ###
+							has_job = security_guard
+						### DPE DYNAMIC POLITICAL EVENTS MOD ###
+							has_job = dpe_guardian_of_the_peace
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = controller
+							has_job = border_controller
+							}	
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_open_01.dds"			#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_enforcer_03_nude_01.dds"			#NUDE :O
+				}
+			}	
+			
+		### SOLDIERS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = soldier
+						### ALPHA MOD ###
+							has_job = officer
+						### APSR Anomalies, Planetary and Space Resources MOD & DISTRICT OVERHAUL 2 ###
+							has_job = apsr7_soldier_normal
+							has_job = pilot
+						### GPM Guilli's Planet Modifiers MOD ###
+							has_job = gpm_bunker_army
+						### UNIQUE ASSENSION + UNIQUE ASSENSION PERKS ###
+							has_job = navy_pilot
+							has_job = spy
+						### Ethics and Civics Alternative MOD ###
+							has_job = mercenary	
+						}
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_soldier_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popworker_01_soldier_02.dds"	
+				}
+			}	
+		
+		### DUELISTS ###
+			random = {
+				trigger = {
+						OR = {
+							has_job = duelist
+						### Ethics and Civics Alternative MOD ###
+							has_job = gladiator
+							}	
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_popspecialist_01_dualist_01.dds"	
+				}
+			}	
+		
+##################
+### BASIC POPS ###
+##################
+
+	 ####################################
+	### OLIGARCHY/GOSPEL OF THE MASSES ###
+	 ####################################
+
+	### RULERS ###
+		random = {
+			trigger = {
+						has_job = administrator
+						OR = {
+							owner = { has_authority = auth_oligarchic }	
+							owner = { has_valid_civic = civic_gospel_of_the_masses }
+						}
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03_nude_01.dds"								#NUDE :O
+			}
+		}
+
+	 #################
+	### MILITARISTS ###
+	 #################
+
+	### RULERS ###
+		random = {
+			trigger = {
+						has_job = administrator
+						OR = {
+							owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#							owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN RULERS
+							owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+							owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+							owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+							owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+						### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+							owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+							owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+							owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+							owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+						}	
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_02.dds"	
+			}
+		}
+
+	 ##############################
+	### MATERIALISTIC GOVERNMENT ###
+	 ##############################
+
+	### RULERS ###
+		random = {
+			trigger = {
+					OR = {
+						owner = { has_valid_civic = civic_technocracy }
+						owner = { has_valid_civic = civic_cyber_dictatorship }
+						owner = { has_valid_civic = civic_cyber_demos_cratos }
+						owner = { has_valid_civic = civic_science_directorate }
+					}
+					is_pop_category = ruler
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_02.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_03.dds"										#SOFT REMOVE		
+			}
+		}		
+
+	 ##########
+	### BASE ###
+	 ##########
+
+	### RULERS ###
+		random = {
+			trigger = {
+					is_pop_category = ruler
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE	
+			}
+		}		
+
+	### SPECIALISTS ###
+		random = {
+			trigger = {
+					is_pop_category = specialist
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_01_nude_01.dds"									#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_04.dds"	
+			}
+		}		
+
+	### WORKERS ###
+		random = {
+			trigger = {
+					is_pop_category = worker
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_02_open_02.dds"								#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03_open_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_pop_03_open_02.dds"								#SOFT REMOVE
+			}
+		}		
+		
+	### UNEMPLOYED ###
+		random = {
+			trigger = {
+					has_job = unemployed
+			}
+			list = {	
+						"gfx/models/portraits/human/human_female_clothing/human_slave_female_clothes_popslave_01.dds"	
+			}
+		}
+		
+	} # END POPS
+	
+
+	
+#####################
+### ^^^POP SCOPE  ####################################################################################################################################################################################################################################################
+#####################
+#	
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+#
+#####################
+### LEADER SCOPE  ####################################################################################################################################################################################################################################################
+#####################
+
+####  ORDER  ###############
+# 1.  PRIMATIVE/PRESAPIENT
+# 2.  GESTALT
+# 3.  FALLEN EMPIRE
+# 4.  PIRATES
+# 5.  FANATIC
+# 6.  THEOLOGICAL
+# 7.  DICTATORIAL / MILITARISTIC
+# 8.  OLIGARCHY/GOSPEL OF THE MASSES
+# 9.  CORPORATE
+# 10. MATERIALISTS
+# 11. BASE GOVERNMENTS
+############################
+
+	leader = {
+	
+		default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01.dds"	
+		
+	 #################
+	### PRESAPIENTS ###
+	 #################
+
+			### ALL
+#				random = {
+#					trigger = {
+#						is_pop_category = pre_sapients
+#					}
+#					list = {
+#							"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01.dds"
+#	##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01_nude_01.dds"					#NUDE :O	
+#					}
+#				}
+		
+	 ############
+	### TRIBAL ###
+	 ############
+
+			### ALL
+				random = {
+					trigger = {
+							owner = { has_government = gov_tribal_society }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02_nude_01.dds"				#NUDE :O	
+					}
+				}
+		
+	 ############
+	### FEUDAL ###
+	 ############
+
+			### ALL
+				random = {
+					trigger = {
+							owner = { has_government = gov_feudal_realms }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_ruler_01.dds"
+					}
+				}
+		
+	 ##################
+	### NATION STATE ###
+	 ##################
+
+			### ALL
+				random = {
+					trigger = {
+						owner = { has_government = gov_fragmented_nation_states }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01_open_01.dds"			#SOFT REMOVE
+					}
+				}
+		
+	 ########################################
+	### FALLEN/AWAKENED EMPIRE GOVERNMENTS ###
+	 ########################################
+					
+				# ADMIRALS	
+				random = {
+					trigger = { 
+							OR = {
+									owner = { has_government = gov_stagnant_ascendancy }
+							}
+							OR = {
+								leader_class = admiral
+							}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_01.dds"	
+					}
+				}
+				
+				# GENERALS
+				
+				# SCIENTISTS
+				random = {
+					trigger = { 
+							OR = {
+									owner = { has_government = gov_stagnant_ascendancy }
+							}
+							OR = {
+								leader_class = scientist
+							}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_01.dds"	
+					}
+				}
+				
+				# GOVERNORS/ENVOYS			
+				random = {
+					trigger = { 
+							OR = {
+									owner = { has_government = gov_stagnant_ascendancy }
+							}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_01.dds"	
+					}
+				}
+				
+			### AWAKENED EMPIRES ###
+				# ADMIRALS
+				random = {
+					trigger = { 
+							OR = {
+									owner = { has_government = gov_awakened_ascendancy }
+							}
+							OR = {
+								leader_class = admiral
+							}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_admiral_02_nude_01.dds"						#NUDE :O	
+					}
+				}
+				# GENERALS
+				
+				# SCIENTISTS
+				random = {
+					trigger = { 
+							OR = {
+									owner = { has_government = gov_awakened_ascendancy }
+							}
+							OR = {
+								leader_class = scientist
+							}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_scientist_02_nude_01.dds"					#NUDE :O	
+					}
+				}
+				
+				# GOVERNORS/ENVOYS
+									
+				random = {
+					trigger = { 
+								or = {
+										owner = { has_government = gov_awakened_ascendancy }
+								}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_governor_02_nude_01.dds"					#NUDE :O	
+					}
+				}
+		
+	 #########################
+	### GESTALT GOVERNMENTS ###
+	 #########################		
+			
+		### PARASITE ###
+			### ADMIRAL
+			random = {
+				trigger = {
+					owner = { has_valid_civic = civic_hive_parasitic }
+					leader_class = admiral
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O CENSORED	
+				}
+			}	
+			### SCIENTIST
+			random = {
+				trigger = {
+					owner = { has_valid_civic = civic_hive_parasitic }
+					leader_class = scientist
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O CENSORED	
+				}
+			}		
+			random = {
+				trigger = {
+					owner = { has_valid_civic = civic_hive_parasitic }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O CENSORED	
+				}
+			}		
+
+		### TECHNOLOGICAL ###
+			### ADMIRAL
+			random = {
+				trigger = {
+					OR = {
+						owner = { has_valid_civic = civic_hive_natural_neural_network }
+						owner = { has_valid_civic = civic_hive_pooled_knowledge }
+						owner = { has_valid_civic = civic_hive_strong_connection }
+						owner = { has_valid_civic = civic_hive_deep_space_connection }	
+					}						
+					leader_class = admiral
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02_cyborg_01.dds"	
+				}
+			}	
+			### SCIENTIST
+			random = {
+				trigger = {
+					OR = {
+						owner = { has_valid_civic = civic_hive_natural_neural_network }
+						owner = { has_valid_civic = civic_hive_pooled_knowledge }
+						owner = { has_valid_civic = civic_hive_strong_connection }
+						owner = { has_valid_civic = civic_hive_deep_space_connection }	
+					}						
+					leader_class = scientist
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_01_cyborg_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02_cyborg_01.dds"	
+				}
+			}		
+			random = {
+				trigger = {
+					OR = {
+						owner = { has_valid_civic = civic_hive_natural_neural_network }
+						owner = { has_valid_civic = civic_hive_pooled_knowledge }
+						owner = { has_valid_civic = civic_hive_strong_connection }
+						owner = { has_valid_civic = civic_hive_deep_space_connection }	
+					}						
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_cyborg_01.dds"	
+				}
+			}
+			
+		### BASE COLLECTIVE CONSCIOUSNESS ###
+			### ADMIRAL
+			random = {
+				trigger = {
+						owner = { has_authority = auth_hive_mind }	
+						leader_class = admiral
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_admiral_02.dds"	
+				}
+			}
+			### SCIENTIST
+			random = {
+				trigger = {
+						owner = { has_authority = auth_hive_mind }
+						leader_class = scientist
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_01.dds"						#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_scientist_02.dds"	
+				}
+			}		
+			random = {
+			trigger = {
+						owner = { has_authority = auth_hive_mind }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02.dds"	
+				}
+			}	
+		
+	 ###########################################
+	### PIRATES/MARAUDERS/KHANATE GOVERNMENTS ###
+	 ###########################################
+	 
+			### ALL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							NOT = { owner = { has_valid_civic = civic_gospel_of_the_masses } }
+							OR = {
+								owner = { has_government = gov_criminal_syndicate }				# CORPORATE CRIMINAL/PIRATES
+								owner = { has_government = gov_bandit_kingdom }					# IMPERIAL/DICTATORSHIP
+								owner = { has_government = gov_bandit_commune }					# DEMOCRATIC/OLIGARCHIC
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC
+							### NON PLAYER
+								owner = { has_government = gov_marauder_clans }					# DEMOCRATIC
+								owner = { has_government = gov_marauder_khanate }				# DEMOCRATIC
+								owner = { has_government = gov_diadochi }						# DEMOCRATIC
+								owner = { has_government = gov_successor_khanate }				# DEMOCRATIC								
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_open_01.dds"						#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_02_nude_01.dds"						#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_03_nude_01.dds"						#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_03.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_03_nude_01.dds"								#NUDE :O	
+					}
+				}
+			### ALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							NOT = { owner = { has_valid_civic = civic_gospel_of_the_masses } }
+							OR = {
+								owner = { has_government = gov_criminal_syndicate }				# CORPORATE CRIMINAL/PIRATES
+								owner = { has_government = gov_bandit_kingdom }					# IMPERIAL/DICTATORSHIP
+								owner = { has_government = gov_bandit_commune }					# DEMOCRATIC/OLIGARCHIC
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC
+							### NON PLAYER
+								owner = { has_government = gov_marauder_clans }					# DEMOCRATIC
+								owner = { has_government = gov_marauder_khanate }				# DEMOCRATIC
+								owner = { has_government = gov_diadochi }						# DEMOCRATIC
+								owner = { has_government = gov_successor_khanate }				# DEMOCRATIC								
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02_open_01.dds"								#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_02_censored_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01.dds"		
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_military_01_nude_01.dds"						#NUDE :O	
+					}
+				}
+		
+	 #########################
+	### FANATIC GOVERNMENTS ###
+	 #########################
+	 
+	### ADMIRALS ###
+			### ADMIRAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = admiral
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_01.dds"		
+					}
+				}
+			### GRAND ADMIRAL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = admiral
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_02.dds"		
+					}
+				}				
+	 
+	### GENERALS ###
+			### GENERAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = general
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_01.dds"		
+					}
+				}
+			### GRAND MARSHALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = general
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_02.dds"		
+					}
+				}				
+	 
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_03.dds"		
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04_open_01.dds"		
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_03.dds"		
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_04_open_01.dds"		
+					}
+				}
+		
+	 #############################
+	### THEOLOGICAL GOVERNMENTS ###
+	 #############################
+	 
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_03.dds"		
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_02.dds"		
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_01.dds"		
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_03.dds"		
+					}
+				}
+		
+	 ##########################
+	### IMPERIAL GOVERNMENTS ###
+	 ##########################
+	 
+	### ADMIRALS ###
+			### ADMIRAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = admiral
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_01.dds"		
+					}
+				}
+			### GRAND ADMIRAL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = admiral
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_admiral_02.dds"		
+					}
+				}				
+	 
+	### GENERALS ###
+			### GENERAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = general
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_01.dds"		
+					}
+				}
+			### GRAND MARSHALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = general
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_general_02.dds"		
+					}
+				}				
+	 
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_03.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_05.dds"	
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_02.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_04.dds"		
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_01.dds"		
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_02.dds"		
+					}
+				}
+		
+	 ###################################################
+	### COMMONWEALTH OF MAN: MILITARISTIC GOVERNMENTS ###
+	 ###################################################
+	 
+	### ADMIRALS ###
+			### ADMIRAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = admiral
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_02.dds"	
+					}
+				}
+			### GRAND ADMIRAL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+								
+							}	
+							OR = {
+								leader_class = admiral
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01_jacket_01.dds"		
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_admiral_01_jacket_01_open_01.dds"					#SOFT REMOVE		
+					}
+				}
+	### GENERALS ###
+			### GENERAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = general
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_01.dds"		
+					}
+				}
+			### GRAND MARSHALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = general
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_02.dds"		
+					}
+				}
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN GOVERNORS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_01.dds"		
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN GOVERNORS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_governor_02.dds"		
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN ENVOYS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_01.dds"			
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN ENVOYS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+							}	
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_envoy_02.dds"				
+					}
+				}
+
+	 ####################################
+	### OLIGARCHY/GOSPEL OF THE MASSES ###
+	 ####################################
+	 
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02_nude_01.dds"								#NUDE :O
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03_nude_01.dds"								#NUDE :O
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01_nude_01.dds"								#NUDE :O
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02_nude_01.dds"								#NUDE :O
+					}
+				}
+		
+	 ###########################
+	### CORPORATE GOVERNMENTS ###
+	 ###########################	 
+	 
+	### ADMIRALS ###
+			### ADMIRAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							leader_class = admiral
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_admiral_01.dds"		
+					}
+				}
+			### GRAND ADMIRAL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							leader_class = admiral
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_admiral_02.dds"		
+					}
+				}
+	### GENERALS ###
+			### GENERAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							leader_class = general
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_general_01.dds"		
+					}
+				}
+			### GRAND MARSHALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							leader_class = general
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cor_female_clothes_general_02.dds"
+					}
+				}
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01_open_01.dds"				#SOFT REMOVE
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_02.dds"
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01_open_01.dds"				#SOFT REMOVE
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_02.dds"
+					}
+				}
+		
+		
+	 #############################
+	### MATERIALIST GOVERNMENTS ###
+	 #############################
+	 
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_01.dds"	
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }	
+							}
+							OR = {
+								leader_class = governor
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_02.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_03.dds"										#SOFT REMOVE
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_01.dds"	
+					}
+				}	
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }	
+							}
+							OR = {
+								leader_class = envoy
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_02.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_03.dds"										#SOFT REMOVE
+					}
+				}
+	 ##############################################################################################
+	### UNITED NATIONS OF EARTH: DEMOCRATIC GOVERNMENTS - COVERS ANY GOVERNMENT TYPE NOT COVERED ###
+	 ##############################################################################################
+	 
+	### ADMIRALS ###
+			### ADMIRAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							leader_class = admiral
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_admiral_01.dds"		
+					}
+				}
+			### GRAND ADMIRAL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							leader_class = admiral
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_admiral_02.dds"		
+					}
+				}
+	### GENERALS ###
+			### GENERAL: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							leader_class = general
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_01.dds"		
+					}
+				}
+			### GRAND MARSHALL: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							leader_class = general
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02.dds"			
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_general_02_open_01.dds"							#SOFT REMOVE
+					}
+				}
+	### GOVERNORS ###
+			### GOVERNOR: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							leader_class = governor
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE
+					}
+				}		
+			### HIGH GOVERNOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							leader_class = governor
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE
+					}
+				}
+	### ENVOYS ###
+			### ENVOY: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							leader_class = envoy
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_envoy_01.dds"		
+					}
+				}
+			### MASTER ENVOY: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							leader_class = envoy
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_envoy_01.dds"		
+					}
+				}
+	### SCIENTISTS ###
+			### SCIENTIST: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							leader_class = scientist
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_01.dds"	
+					}
+				}		
+			### DIRECTOR: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							leader_class = scientist
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_open_01.dds"								#SOFT REMOVE
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_02_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_scientist_03.dds"	
+					}
+				}
+		
+	} # END LEADERS	
+
+
+#########################
+### ^^^LEADER SCOPE  #################################################################################################################################################################################################################################################
+#########################
+#	
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################
+#
+###################
+### RULER SCOPE ######################################################################################################################################################################################################################################################
+###################
+
+####  ORDER  ###############
+# 1.  PRIMATIVE/PRESAPIENT
+# 2.  GESTALT
+# 3.  FALLEN EMPIRE
+# 4.  PIRATES
+# 5.  FANATIC
+# 6.  THEOLOGICAL
+# 7.  DICTATORIAL / MILITARISTIC
+# 8.  OLIGARCHY/GOSPEL OF THE MASSES
+# 9.  CORPORATE
+# 10. MATERIALISTS
+# 11. BASE GOVERNMENTS
+############################
+
+	ruler = { #for rulers
+	
+		default = "gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01.dds"	
+	 #################
+	### PRESAPIENTS ###
+	 #################
+
+			### ALL
+#				random = {
+#					trigger = {
+#						is_pop_category = pre_sapients
+#					}
+#					list = {
+#							"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01.dds"
+#	##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_presapients_01_nude_01.dds"					#NUDE :O	
+#					}
+#				}
+		
+	 ############
+	### TRIBAL ###
+	 ############
+
+			### ALL
+				random = {
+					trigger = {
+							owner = { has_government = gov_tribal_society }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02.dds"
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_tribal_ruler_02_nude_01.dds"				#NUDE :O	
+					}
+				}
+		
+	 ############
+	### FEUDAL ###
+	 ############
+
+			### ALL
+				random = {
+					trigger = {
+							owner = { has_government = gov_feudal_realms }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_feudal_ruler_01.dds"
+					}
+				}
+		
+	 ##################
+	### NATION STATE ###
+	 ##################
+
+			### ALL
+				random = {
+					trigger = {
+						owner = { has_government = gov_fragmented_nation_states }
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_primitive_female_clothes_nation_state_ruler_01_open_01.dds"			#SOFT REMOVE
+					}
+				}
+		
+	 ########################################
+	### FALLEN/AWAKENED EMPIRE GOVERNMENTS ###
+	 ########################################
+									
+				random = {
+					trigger = { 
+								or = {
+										owner = { has_government = gov_stagnant_ascendancy }
+								}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_01.dds"	
+					}
+				}
+						
+									
+				random = {
+					trigger = { 
+								or = {
+										owner = { has_government = gov_awakened_ascendancy }
+								}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_fe_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE
+					}
+				}
+		
+	 #########################
+	### GESTALT GOVERNMENTS ###
+	 #########################	
+			
+		### PARASITE ###
+			random = {
+				trigger = {
+					owner = { has_valid_civic = civic_hive_parasitic }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_parasite_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_01.dds"					#NUDE :O	
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_parasite_01_nude_02.dds"					#NUDE :O	
+				}
+			}		
+
+		### TECHNOLOGICAL ###
+			random = {
+				trigger = {
+					OR = {
+						owner = { has_valid_civic = civic_hive_natural_neural_network }
+						owner = { has_valid_civic = civic_hive_pooled_knowledge }
+						owner = { has_valid_civic = civic_hive_strong_connection }
+						owner = { has_valid_civic = civic_hive_deep_space_connection }	
+					}						
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01_cyborg_01.dds"							#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02_cyborg_01.dds"	
+				}
+			}
+			
+		### BASE COLLECTIVE CONSCIOUSNESS ###
+			random = {
+			trigger = {
+						owner = { has_authority = auth_hive_mind }
+				}
+				list = {
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_01.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_ges_female_clothes_ruler_02.dds"	
+				}
+			}		
+		
+	 ###########################################
+	### PIRATES/MARAUDERS/KHANATE GOVERNMENTS ###
+	 ###########################################
+	 
+			### KHAN: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							NOT = { owner = { has_valid_civic = civic_gospel_of_the_masses } }
+							OR = {
+								owner = { has_government = gov_criminal_syndicate }				# CORPORATE CRIMINAL/PIRATES
+								owner = { has_government = gov_bandit_kingdom }					# IMPERIAL/DICTATORSHIP
+								owner = { has_government = gov_bandit_commune }					# DEMOCRATIC/OLIGARCHIC
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC
+							### NON PLAYER
+								owner = { has_government = gov_marauder_clans }					# DEMOCRATIC
+								owner = { has_government = gov_marauder_khanate }				# DEMOCRATIC
+								owner = { has_government = gov_diadochi }						# DEMOCRATIC
+								owner = { has_government = gov_successor_khanate }				# DEMOCRATIC								
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_01.dds"		
+					}
+				}
+			### GREAT KHAN: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							NOT = { owner = { has_valid_civic = civic_gospel_of_the_masses } }
+							OR = {
+								owner = { has_government = gov_criminal_syndicate }				# CORPORATE CRIMINAL/PIRATES
+								owner = { has_government = gov_bandit_kingdom }					# IMPERIAL/DICTATORSHIP
+								owner = { has_government = gov_bandit_commune }					# DEMOCRATIC/OLIGARCHIC
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC
+							### NON PLAYER
+								owner = { has_government = gov_marauder_clans }					# DEMOCRATIC
+								owner = { has_government = gov_marauder_khanate }				# DEMOCRATIC
+								owner = { has_government = gov_diadochi }						# DEMOCRATIC
+								owner = { has_government = gov_successor_khanate }				# DEMOCRATIC								
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_pirate_female_clothes_01_jacket_01.dds"		
+					}
+				}
+		
+	 #########################
+	### FANATIC GOVERNMENTS ###
+	 #########################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_02.dds"		
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_fanatic_purifiers }
+								AND = { # CORPORATE SUBVERSIVE CULT
+									owner = { has_valid_civic = civic_gospel_of_the_masses }
+									owner = { has_valid_civic = civic_criminal_heritage }
+								}
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_fan_female_clothes_ruler_01.dds"		
+					}
+				}
+		
+	 #############################
+	### THEOLOGICAL GOVERNMENTS ###
+	 #############################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_03.dds"		
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							owner = { has_ethic = ethic_fanatic_spiritualist }
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_the_female_clothes_ruler_02.dds"		
+					}
+				}
+		
+	 ##########################
+	### IMPERIAL GOVERNMENTS ###
+	 ##########################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN RULERS
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_02.dds"		
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL	
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_01_royal_01.dds"		
+					}
+				}
+		
+	 ###################################################
+	### COMMONWEALTH OF MAN: MILITARISTIC GOVERNMENTS ###
+	 ###################################################
+	 
+			### GRAND MARSHALL
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN RULERS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+								
+							}	
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_03_open_01.dds"				
+					}
+				}
+			### SUPREME COMMANDER
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_dictatorial }					# ALL FORMS OF DICTATORSHIPS
+#								owner = { has_authority = auth_imperial }						# ALL FORMS OF IMPERIAL					#HAVE THEIR OWN RULERS
+								owner = { has_government = gov_assembly_of_clans }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_commissariat }			# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_republic }				# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_military_junta }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_war_council }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_citizen_stratocracy }			# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_ethic = ethic_fanatic_militarist }	# FANATIC MILITARISTS
+							### ETHIC AND CIVICS MOD GOVERNMENT TYPES
+								owner = { has_government = gov_military_corp }					# CORPORATE MILITARY GOVERNMENT
+								owner = { has_government = gov_republican_dictatorship }		# DEMOCRATIC MILITARY GOVERNMENT
+								owner = { has_government = gov_strasserism }					# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_cor_dictatorship }				# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_jingoism }						# OLIGARCHIC MILITARY GOVERNMENT
+								owner = { has_government = gov_anarchy_communism }				# OLIGARCHIC MILITARY GOVERNMENT
+								
+							}	
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_cwm_female_clothes_general_03.dds"				
+					}
+				}
+
+	 ####################################
+	### OLIGARCHY/GOSPEL OF THE MASSES ###
+	 ####################################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_01_nude_01.dds"								#NUDE :O
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_02_nude_01.dds"								#NUDE :O
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_oligarchic }	
+								owner = { has_valid_civic = civic_gospel_of_the_masses }
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03.dds"	
+##NUDE##						"gfx/models/portraits/human/human_female_clothing/human_oli_female_clothes_ruler_03_nude_01.dds"								#NUDE :O
+					}
+				}
+		
+	 ###########################
+	### CORPORATE GOVERNMENTS ###
+	 ###########################	 
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01.dds"
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_01_open_01.dds"				#SOFT REMOVE
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_authority = auth_corporate }	
+								owner = { has_government = gov_megacorporation }  #NO MEGACORPORATION DLC		
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_corporate_02.dds"
+					}
+				}
+		
+		
+	 #############################
+	### MATERIALIST GOVERNMENTS ###
+	 #############################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }
+							}
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_01.dds"	
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							OR = {
+								owner = { has_valid_civic = civic_technocracy }
+								owner = { has_valid_civic = civic_cyber_dictatorship }
+								owner = { has_valid_civic = civic_cyber_demos_cratos }
+								owner = { has_valid_civic = civic_science_directorate }	
+							}
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_02.dds"										#SOFT REMOVE
+						"gfx/models/portraits/human/human_female_clothing/human_mat_female_clothes_ruler_03.dds"										#SOFT REMOVE
+					}
+				}
+	 ##############################################################################################
+	### UNITED NATIONS OF EARTH: DEMOCRATIC GOVERNMENTS - COVERS ANY GOVERNMENT TYPE NOT COVERED ###
+	 ##############################################################################################
+	 
+			### RULER: WHEN SKILL LEVEL IS 1-3
+				random = {
+					trigger = {
+						AND = {
+							has_skill < 4
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE
+					}
+				}		
+			### HIGH RULER: WHEN SKILL LEVEL IS 4+
+				random = {
+					trigger = {
+						AND = {
+							has_skill > 3
+						}
+					}
+					list = {
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02.dds"	
+						"gfx/models/portraits/human/human_female_clothing/human_all_female_clothes_ruler_02_open_01.dds"								#SOFT REMOVE
+					}
+				}
+		
+	} # END RULERS
+	
+} # END 
+
+
+
+
+
+
+
+
+
+human_female_hair_1 = { 
+	default = "gfx/models/portraits/human/human_female_hair/human_female_hair_black_special_style_12.dds"
+	
+	ruler = {
+	default = "gfx/models/portraits/human/human_female_hair/human_female_hair_black_special_style_12.dds"
+	
+		"gfx/models/portraits/human/human_female_hair/human_female_hair_black_special_style_12.dds" = { owner = { has_militarist_government = yes } }
+	}
+}

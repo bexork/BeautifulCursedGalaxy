@@ -1,0 +1,69 @@
+##### FROZEN ####
+setup_scenario = {
+##
+###
+#####   BLESSED MAP DO NOT CHANGE WITHOUT CLONING
+#	
+	name = "*CoreWars/III"
+	priority = 3					    #priority decides in which order the scenarios are listed
+	default = yes
+	num_stars = 676
+	radius = 469					    #should be less than 500, preferably less than ~460
+	num_empires = { min = 0 max = 24 }	#limits player customization
+	num_empire_default = 9
+	fallen_empire_default = 2
+	fallen_empire_max = 4
+	marauder_empire_default = 0
+	marauder_empire_max = 6
+	advanced_empire_default = 24
+	colonizable_planet_odds = 0.25
+	primitive_odds = 0.5
+	crisis_strength = 5.0
+
+	cluster_count = {
+		method = one_every_x_empire
+#		method = constant
+		value = 3
+		max = 6
+	}
+	cluster_radius = 142
+	cluster_distance_from_core = 226
+
+	max_hyperlane_distance = 340
+
+	home_system_partitions = {
+		max_systems = 9
+		min_systems= 3
+
+		min_bridges = 2
+		max_bridges = 4
+
+		method = breadth_first
+	}
+
+	open_space_partitions = {
+		max_systems = 16
+		min_systems= 4
+
+		min_bridges = 3
+		max_bridges = 8
+
+		method = depth_first
+	}
+
+	num_nebulas	= 18
+	nebula_size = 246
+	nebula_min_dist = 200
+
+	num_wormhole_pairs = { min = 0 max = 0 }
+	num_wormhole_pairs_default = 0
+	num_gateways = { min = 0 max = 0 }
+	num_gateways_default = 0
+	num_hyperlanes = { min=0.25 max = 4 }
+	num_hyperlanes_default = 0.5
+
+	supports_shape = elliptical
+	supports_shape = spiral_2
+	supports_shape = spiral_4
+	supports_shape = ring
+}

@@ -1,0 +1,18 @@
+version="1.0.4"
+tags={
+	"Events"
+	"Spaceships"
+	"Species"
+	"Technologies"
+	"Graphics"
+	"Gameplay"
+	"Galaxy Generation"
+	"Leaders"
+	"Overhaul"
+	"Loading Screen"
+	"Sound"
+	"Fixes"
+}
+name="BeautifulCursedGalaxy (published/local)"
+supported_version="3.0.3"
+remote_file_id="2543594313"

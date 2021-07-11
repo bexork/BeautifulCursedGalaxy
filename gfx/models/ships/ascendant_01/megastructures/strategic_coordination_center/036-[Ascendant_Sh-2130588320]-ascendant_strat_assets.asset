@@ -1,0 +1,32 @@
+entity = {
+	name = "ascendant_01_strategic_coordination_center_stage_1_entity"
+	pdxmesh = "ascendant_01_strat_stage_1_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_hum" } }
+	}
+}
+
+entity = {
+	name = "ascendant_01_strategic_coordination_center_stage_2_entity"
+	pdxmesh = "ascendant_01_strat_stage_2_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_hum" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_beeps" } }
+	}
+}
+
+entity = {
+	name = "ascendant_01_strategic_coordination_center_stage_3_entity"
+	pdxmesh = "ascendant_01_strat_stage_3_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_hum" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_beeps" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "sfx_strategic_coordination_center_pulse" } }
+	}
+}

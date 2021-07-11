@@ -1,0 +1,218 @@
+# RIG sections are defined here
+ship_section_template = {
+	key = "ASC_TITAN_BOW"
+	ship_size = titan
+	fits_on_slot = bow
+	should_draw_components = no
+	entity = "ascendant_01_titan_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "extra_large_turret"
+		locatorname = "xl_gun_02"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "extra_large_turret"
+		locatorname = "xl_gun_03"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "extra_large_turret"
+		locatorname = "xl_gun_04"
+	}
+	
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 400
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ASC_TITAN_MID"
+	ship_size = titan
+	fits_on_slot = mid
+	should_draw_components = no
+	entity = "ascendant_01_RIG_titan_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "large_gun_02"
+		is_side_slot = yes
+	}	
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "large_gun_03"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+		is_side_slot = yes
+	}	
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "large_gun_02"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "large_gun_03"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_04"
+		template = "medium_turret"
+		locatorname = "medium_gun_04"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_05"
+		template = "medium_turret"
+		locatorname = "medium_gun_05"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_06"
+		template = "medium_turret"
+		locatorname = "medium_gun_06"
+		is_side_slot = yes
+	}
+	
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 380
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ASC_TITAN_STERN"
+	ship_size = titan
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = "ascendant_01_RIG_titan_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+
+	component_slot = {
+		name = "MEDIUM_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_04"
+		template = "medium_turret"
+		locatorname = "medium_gun_04"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_05"
+		template = "medium_turret"
+		locatorname = "medium_gun_05"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "MEDIUM_06"
+		template = "medium_turret"
+		locatorname = "medium_gun_06"
+		is_side_slot = yes
+	}
+	component_slot = {
+		name = "HANGAR_1"
+		template = "large_strike_craft"
+		locatorname = "hangar_01"
+	}
+	component_slot = {
+		name = "HANGAR_2"
+		template = "large_strike_craft"
+		locatorname = "hangar_02"
+	}
+	component_slot = {
+		name = "HANGAR_3"
+		template = "large_strike_craft"
+		locatorname = "hangar_03"
+	}
+	component_slot = {
+		name = "HANGAR_4"
+		template = "large_strike_craft"
+		locatorname = "hangar_04"
+	}
+	component_slot = {
+		name = "HANGAR_5"
+		template = "large_strike_craft"
+		locatorname = "hangar_05"
+	}
+	component_slot = {
+		name = "HANGAR_6"
+		template = "large_strike_craft"
+		locatorname = "hangar_06"
+	}
+	
+	large_utility_slots = 4
+	aux_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 250
+		}
+	}
+}

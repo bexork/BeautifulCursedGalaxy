@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+###############################
+ Warship_Girls:0 "战舰少女"
+ warship_girls:0 "战舰少女"
+ Warship_Girl:0 "战舰少女头像"
+ warship_girl:0 "战舰少女"
+
+ United_fleet:0 "联合舰队"
+ United_fleet_White:"联合舰队"
+ ShenHai:0 "深海舰娘"
+
+
+ CORE_JUGGERNAUT_HEAVY_SECTION:"主宰超重型核心"
+ MISSILE_JUGGERNAUT_SECTION:"主宰导弹型核心"
+ ARTILLERY_JUGGERNAUT_SECTION:"主宰火炮型核心"
+ STRIKECRAFT_JUGGERNAUT_SECTION:"主宰机库型核心"
+ WSG_TITAN_MID:"泰坦舰首"
+ WSG_TITAN_MID_9L:"泰坦重炮核心"
+ WSG_TITAN_STERN:"泰坦舰尾"

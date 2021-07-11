@@ -1,0 +1,18 @@
+ASCENDANT = {
+	archetype = BIOLOGICAL
+	randomized = yes
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	custom_portraits = {
+		randomized = { host_has_dlc = "Anniversary Portraits" }
+		playable = { local_has_dlc = "Anniversary Portraits" }
+		portraits = {
+			"asc1"
+		}
+	}
+
+	graphical_culture = ascendant_01
+	move_pop_sound_effect = "reptilian_pops_move"
+
+	resources = {}
+}

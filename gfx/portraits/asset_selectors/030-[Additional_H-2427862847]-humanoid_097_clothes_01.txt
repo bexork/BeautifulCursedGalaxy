@@ -1,0 +1,82 @@
+# This is a template which multiple species can use. 
+
+humanoid_097_clothes_01 = {
+	default = "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+
+        "gfx/models/portraits/new_humanoid/humanoid_097_outfit_scientist_2.dds"    	= { is_pop_category = ruler has_job = head_researcher }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_royal.dds" 	    = { is_pop_category = ruler has_job = noble }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler.dds"   	= { is_pop_category = ruler has_job = high_priest }
+        "gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler_2.dds"	    = { is_pop_category = ruler }
+
+		random = {
+			list = {
+		        "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"				
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_scientist.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_scientist_2.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler.dds"
+			}
+		}
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_admiral.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_admiral_2.dds"
+			}
+		}
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_scientist.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_scientist_2.dds"
+			}
+		}
+		
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_general.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_general_2.dds"
+			}
+		}
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler_2.dds"
+			}
+		}
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds"
+		
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds" = { owner = { has_generic_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds" = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler_2.dds" = { owner = { has_spiritualist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler_2.dds" = { owner = { has_pacifist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_ruler_2.dds" = { owner = { has_primitive_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_governor.dds" = { owner = { has_materialist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_097_outfit_royal.dds" = { owner = { has_authority = auth_imperial } }
+		
+	}
+}

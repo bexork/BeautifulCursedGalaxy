@@ -1,0 +1,16 @@
+wg_invisible_large_turret = {
+	size = large
+	component = weapon
+}
+extra_large_super_turret = {
+	size = extra_large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "turret_xls_entity"
+		weapon_type_energy = "turret_xls_entity"
+	}
+}
+invisible_large_turret = {
+	size = large
+	component = weapon
+}

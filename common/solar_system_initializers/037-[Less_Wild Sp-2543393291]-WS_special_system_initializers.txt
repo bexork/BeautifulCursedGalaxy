@@ -1,0 +1,77 @@
+
+#### Wild Space ####
+ws_special_init_1 = {
+	class = "sc_dn"
+	flags = { wild_space_system }
+	
+	usage = misc_system_init
+	usage_odds = {
+    base = 0
+    modifier = {
+            is_inside_nebula = yes
+			add = 1000
+    }
+	modifier = {
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+	}
+	init_effect = {
+		random_list = { 
+			1 = { add_modifier = { modifier = turbulent_nebula } }
+			2 = { }
+		}
+	}
+	
+	planet = {
+		class = "pc_dn_star"
+		orbit_distance = 0
+		size = { min = @standard_min max = @standard_max }	
+		init_effect = {
+				create_wild_space_effect_A = yes
+				# prevent_anomaly = yes 
+				# clear_planet_modifiers = yes				
+			}		
+		}
+	
+	change_orbit = 30
+
+}
+
+#### Wild Space fills core
+
+ws_special_init_2 = {
+	class = "sc_dn" 
+	flags = { 
+			wild_space_system 
+			wild_space_core_system
+		}
+			
+	usage = misc_system_init
+	usage_odds = {
+    base = 0
+    modifier = {						##CWTools Errors this. Ignore. 
+		distance_to_core_percent < 0.22 ##0.3 ##### WS default core size = 0.15 
+		distance_to_core_percent > 0.05
+		add = 9999
+	}
+	modifier = {
+		factor = 0
+		has_star_flag = empire_cluster
+		}	
+	}
+		
+	planet = {
+		class = "pc_dn_star"
+		orbit_distance = 0
+		size = { min = @standard_min max = @standard_max }	
+		init_effect = {
+				create_wild_space_effect_1 = yes 
+				# prevent_anomaly = yes 
+				# clear_planet_modifiers = yes				
+				}		
+		}
+	
+	change_orbit = 30
+	
+}

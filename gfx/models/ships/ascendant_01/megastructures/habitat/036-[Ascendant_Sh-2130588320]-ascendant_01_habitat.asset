@@ -1,0 +1,83 @@
+entity = {
+	name = "ascendant_01_habitat_core"
+	pdxmesh = "ascendant_01_habitat_phase_01_mesh"
+}
+
+entity = {
+	name = "ascendant_01_habitat_ring_01"
+	pdxmesh = "ascendant_01_habitat_phase_02_mesh"
+}
+
+entity = {
+	name = "ascendant_01_habitat_ring_02"
+	pdxmesh = "ascendant_01_habitat_phase_03_mesh"
+}
+
+entity = {
+	name = "ascendant_01_habitat_phase_01_entity"
+	pdxmesh = "ascendant_01_habitat_frame_mesh"
+	
+	attach = { "habitat_main" = "ascendant_01_habitat_core" }
+			
+	scale = 1
+	
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" looping = yes }
+	state = { name = "construction" looping = yes }
+	
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	
+	meshsettings = {
+		shader = "PdxMeshShip"
+	}
+}
+
+entity = {
+	name = "ascendant_01_habitat_phase_02_entity"
+	pdxmesh = "ascendant_01_habitat_frame_mesh"
+	
+	attach = { "habitat_main" = "ascendant_01_habitat_core" }
+	attach = { "habitat_main" = "ascendant_01_habitat_ring_01" }
+			
+	scale = 1
+	
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" looping = yes }
+	state = { name = "construction" looping = yes }
+	
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	
+	meshsettings = {
+		shader = "PdxMeshShip"
+	}
+}
+
+entity = {
+	name = "ascendant_01_habitat_phase_03_entity"
+	pdxmesh = "ascendant_01_habitat_frame_mesh"
+	
+	attach = { "habitat_main" = "ascendant_01_habitat_core" }
+	attach = { "habitat_main" = "ascendant_01_habitat_ring_01" }
+	attach = { "habitat_main" = "ascendant_01_habitat_ring_02" }
+			
+	scale = 1
+	
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" looping = yes }
+	state = { name = "construction" looping = yes }
+	
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	
+	meshsettings = {
+		shader = "PdxMeshShip"
+	}
+}

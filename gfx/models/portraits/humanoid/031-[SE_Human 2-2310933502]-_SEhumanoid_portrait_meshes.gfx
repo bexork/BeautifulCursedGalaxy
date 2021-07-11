@@ -1,0 +1,85 @@
+objectTypes = {
+
+	#########################################################
+	#														#
+	#						Humanoid						#
+	#														#
+	#########################################################	
+
+#FEMALE	
+	pdxmesh = {
+		name = "portrait_humanoid_female_SE01_mesh"
+		file = "gfx/models/portraits/human/human_female_portrait_SE01_v61_cyborg.mesh"
+		
+		animation = { id = "idle"		type = "humanoid_female_portrait_SE01_happy_1_animation" }
+		animation = { id = "idle2"		type = "humanoid_female_portrait_SE01_happy_2_animation" }
+		animation = { id = "mischeif"	type = "humanoid_female_portrait_SE01_mischeif_1_animation" }
+		
+		animation = { id = "unhappy"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "angry"		type = "humanoid_female_portrait_SE01_angry_1_animation" }		
+
+		animation = { id = "sad"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "sad2"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		
+		animation = { id = "synth_idle"		type = "human_synthetic_female_portrait_SE01_happy_1_animation" }
+		animation = { id = "synth_idle2"	type = "human_synthetic_female_portrait_SE01_happy_2_animation" }
+		scale = 0.85
+	}	
+	
+#MALE
+	pdxmesh = {
+		name = "portrait_humanoid_male_SE01_mesh"
+		file = "gfx/models/portraits/human/human_female_portrait_SE01_v61_cyborg.mesh"
+		
+		animation = { id = "idle"		type = "humanoid_male_portrait_SE01_happy_1_animation" }
+		animation = { id = "idle2"		type = "humanoid_male_portrait_SE01_happy_2_animation" }
+		
+		animation = { id = "unhappy"	type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		
+		animation = { id = "sad"		type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "sad2"		type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		scale = 0.87
+	}	
+
+
+	#########################################################
+	#														#
+	#					Humanoid 03 & 05					#			SLIGHTLY SMALLER THAN HUMAN BASE
+	#														#
+	#########################################################	
+
+#FEMALE	
+	pdxmesh = {
+		name = "portrait_humanoid_small_female_SE01_mesh"
+		file = "gfx/models/portraits/human/human_female_portrait_SE01_v61_cyborg.mesh"
+		
+		animation = { id = "idle"		type = "humanoid_female_portrait_SE01_happy_1_animation" }
+		animation = { id = "idle2"		type = "humanoid_female_portrait_SE01_happy_2_animation" }
+		animation = { id = "mischeif"	type = "humanoid_female_portrait_SE01_mischeif_1_animation" }
+		animation = { id = "mischeif2"	type = "humanoid_female_portrait_SE01_mischeif_2_animation" }
+		
+		animation = { id = "unhappy"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "angry"		type = "humanoid_female_portrait_SE01_angry_1_animation" }		
+
+		animation = { id = "sad"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "sad2"	type = "humanoid_female_portrait_SE01_unhappy_1_animation" }
+		scale = 0.85
+	}	
+	
+#MALE
+	pdxmesh = {
+		name = "portrait_humanoid_small_male_SE01_mesh"
+		file = "gfx/models/portraits/human/human_female_portrait_SE01_v61_cyborg.mesh"
+		
+		animation = { id = "idle"		type = "humanoid_male_portrait_SE01_happy_1_animation" }
+		animation = { id = "idle2"		type = "humanoid_male_portrait_SE01_happy_2_animation" }
+		
+		animation = { id = "unhappy"	type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		
+		animation = { id = "sad"		type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		animation = { id = "sad2"		type = "humanoid_male_portrait_SE01_unhappy_1_animation" }
+		scale = 0.87
+	}	
+	
+	
+}

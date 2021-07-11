@@ -1,0 +1,19 @@
+	animation = {
+		name = "reptilian_17_idle_animation"
+		file = "reptilian_17_portrait_idle.anim"
+	}
+	
+	animation = {
+		name = "reptilian_17_idle_2_animation"
+		file = "reptilian_17_portrait_idle_2.anim"
+	}
+	
+	animation = {
+		name = "reptilian_17_idle_3_animation"
+		file = "reptilian_17_portrait_idle_3.anim"
+	}
+	
+	animation = {
+		name = "reptilian_17_idle_4_animation"
+		file = "reptilian_17_portrait_idle_4.anim"
+	}

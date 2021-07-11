@@ -1,0 +1,2637 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+# Human
+	 ###########################
+	### Tomboy SCALED FEMALES ###
+	 ###########################
+			human_female_tb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 #######################
+	### SE SCALED FEMALES ###
+	 #######################
+			human_female_01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_female_02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_female_03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_synth_female_04 = {	entity = "portrait_human_synthetic_female_SE01_blue_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_synthetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_green.dds"
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_blue.dds"
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_pink.dds"
+				} 
+			}
+			human_synth_female_04b = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_synthetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_green.dds"
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_blue.dds"
+					"gfx/models/portraits/human/human_cyborg_synthetic_female_body_bb_04_pink.dds"
+				} 
+			}
+			human_female_04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_04_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_pale.dds"
+				} 
+			}
+			human_female_05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_female_06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_female_07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_female_08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_female_09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_female_10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 ############################
+	### VANILLA SCALED FEMALES ###
+	 ############################
+			human_female_sb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_01_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_ibtc_01_pale.dds"
+				} 
+			}
+			human_female_sb02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_female_sb03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_female_sb04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_female_sb05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_female_sb06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_female_sb07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_female_sb08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_female_sb09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_female_sb10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_chocolate.dds"
+				} 
+			}		
+	 ###########
+	### MALES ###
+	 ###########
+			human_male_01 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_01_pale.dds"
+				} 
+			}
+			human_male_02 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_male_body_02_pale.dds"
+				} 
+			}
+			human_male_03 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_male_body_03_tanned.dds"
+				} 
+			}
+			human_male_04 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_male_body_04_tanned.dds"
+				} 
+			}
+			human_male_05 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_male_body_05_dark.dds"
+				} 
+			}
+			human_male_06 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_male_body_06_tanned.dds"
+				} 
+			}
+			human_male_07 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_male_body_07_pale.dds"
+				} 
+			}
+			human_male_08 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_male_body_08_tanned.dds"
+				} 
+			}
+			human_male_09 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_male_body_09_tanned.dds"
+				} 
+			}
+			human_male_10 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_male_body_10_mulatto.dds"
+				} 
+			}
+ ###############
+### HAPPINESS ####################################################################################################################
+ ###############			
+	 ################################
+	### SE SCALED FEMALES: UNHAPPY ###	
+	 ################################
+			human_female_unhappy_01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_female_unhappy_02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_female_unhappy_03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_female_unhappy_04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_04_tanned.dds"
+				} 
+			}
+			human_female_unhappy_05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_female_unhappy_06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_female_unhappy_07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_female_unhappy_08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_female_unhappy_09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_female_unhappy_10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 ####################################
+	### Tonboy SCALED FEMALES: UNHAPPY ###
+	 ####################################
+			human_female_unhappy_tb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 #####################################
+	### VANILLA SCALED FEMALES: UNHAPPY ###
+	 #####################################
+			human_female_unhappy_sb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_01_pale.dds"
+				} 
+			}
+			human_female_unhappy_sb02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_female_unhappy_sb06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_female_unhappy_sb10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_female_body_sb_10_chocolate.dds"
+				} 
+			}		
+	 ####################
+	### MALES: UNHAPPY ###
+	 ####################
+			human_male_unhappy_01 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_01_pale.dds"
+				} 
+			}
+			human_male_unhappy_02 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_male_body_02_pale.dds"
+				} 
+			}
+			human_male_unhappy_03 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_male_body_03_tanned.dds"
+				} 
+			}
+			human_male_unhappy_04 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_male_body_04_tanned.dds"
+				} 
+			}
+			human_male_unhappy_05 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_male_body_05_dark.dds"
+				} 
+			}
+			human_male_unhappy_06 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_male_body_06_tanned.dds"
+				} 
+			}
+			human_male_unhappy_07 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_male_body_07_pale.dds"
+				} 
+			}
+			human_male_unhappy_08 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_male_body_08_tanned.dds"
+				} 
+			}
+			human_male_unhappy_09 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_male_body_09_tanned.dds"
+				} 
+			}	
+			human_male_unhappy_10 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_male_body_10_mulatto.dds"
+				} 
+			}
+			
+ #################
+### CYBERNETICS ###############################################################################################
+ #################
+	 ######################################
+	### tomboy SCALED CYBERNETIC FEMALES ###
+	 ######################################
+			human_cyborg_female_tb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 ##################################
+	### SE SCALED CYBERNETIC FEMALES ###
+	 ##################################
+			human_cyborg_female_01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_cyborg_female_02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_cyborg_female_03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_cyborg_female_04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_tanned.dds"
+				} 
+			}
+			human_cyborg_female_05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_cyborg_female_06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_cyborg_female_07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_cyborg_female_08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_cyborg_female_09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_cyborg_female_10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 #######################################
+	### VANILLA SCALED CYBERNETIC FEMALES ###
+	 #######################################
+			human_cyborg_female_sb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_pale.dds"
+				} 
+			}
+			human_cyborg_female_sb02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_cyborg_female_sb06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_cyborg_female_sb10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_chocolate.dds"
+				} 
+			}		
+	 ######################
+	### CYBERNETIC MALES ###
+	 ######################
+			human_cyborg_male_01 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_01_pale.dds"
+				} 
+			}
+			human_cyborg_male_02 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_02_pale.dds"
+				} 
+			}
+			human_cyborg_male_03 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_03_tanned.dds"
+				} 
+			}
+			human_cyborg_male_04 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_04_tanned.dds"
+				} 
+			}
+			human_cyborg_male_05 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_05_dark.dds"
+				} 
+			}
+			human_cyborg_male_06 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_06_tanned.dds"
+				} 
+			}
+			human_cyborg_male_07 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_07_pale.dds"
+				} 
+			}
+			human_cyborg_male_08 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_08_tanned.dds"
+				} 
+			}
+			human_cyborg_male_09 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_09_tanned.dds"
+				} 
+			}	
+			human_cyborg_male_10 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_10_mulatto.dds"
+				} 
+			}
+			
+ ##########################
+### CYBERNETICS: UNHAPPY ###############################################################################################
+ ##########################	
+	 ###############################################
+	### tomboy SCALED CYBERNETIC FEMALES: UNHAPPY ###
+	 ###############################################
+			human_cyborg_female_unhappy_tb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 ###########################################
+	### SE SCALED CYBERNETIC FEMALES: UNHAPPY ###	
+	 ###########################################
+			human_cyborg_female_unhappy_01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_04_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 ################################################
+	### VANILLA SCALED CYBERNETIC FEMALES: UNHAPPY ###
+	 ################################################
+			human_cyborg_female_unhappy_sb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_01_pale.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_cyborg_female_unhappy_sb10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_cyborg_female_body_sb_10_chocolate.dds"
+				} 
+			}			
+	 ###############################
+	### CYBERNETIC MALES: UNHAPPY ###
+	 ###############################
+			human_cyborg_male_unhappy_01 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_01_pale.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_02 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_02_pale.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_03 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_03_tanned.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_04 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_04_tanned.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_05 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_05_dark.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_06 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_06_tanned.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_07 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_07_pale.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_08 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_08_tanned.dds"
+				} 
+			}
+			human_cyborg_male_unhappy_09 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_09_tanned.dds"
+				} 
+			}	
+			human_cyborg_male_unhappy_10 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_cyborg_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_cyborg_male_body_10_mulatto.dds"
+				} 
+			}
+ #################
+### CYBERNETICS ###############################################################################################
+ #################
+	 ###################################
+	### tomboy SCALED PSIONIC FEMALES ###
+	 ###################################
+			human_psionic_female_tb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 ###############################
+	### SE SCALED PSIONIC FEMALES ###
+	 ###############################
+			human_psionic_female_01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_psionic_female_02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_psionic_female_03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_psionic_female_04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_tanned.dds"
+				} 
+			}
+			human_psionic_female_05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_psionic_female_06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_psionic_female_07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_psionic_female_08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_psionic_female_09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_psionic_female_10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 ####################################
+	### VANILLA SCALED PSIONIC FEMALES ###
+	 ####################################
+			human_psionic_female_sb01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_pale.dds"
+				} 
+			}
+			human_psionic_female_sb02 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb03 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb04 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb05 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_psionic_female_sb06 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb07 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb08 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb09 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_psionic_female_sb10 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_chocolate.dds"
+				} 
+			}			
+	 ###################
+	### PSIONIC MALES ###
+	 ###################
+			human_psionic_male_01 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_01_pale.dds"
+				} 
+			}
+			human_psionic_male_02 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_02_pale.dds"
+				} 
+			}
+			human_psionic_male_03 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_03_tanned.dds"
+				} 
+			}
+			human_psionic_male_04 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_04_tanned.dds"
+				} 
+			}
+			human_psionic_male_05 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_05_dark.dds"
+				} 
+			}
+			human_psionic_male_06 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_06_tanned.dds"
+				} 
+			}
+			human_psionic_male_07 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_07_pale.dds"
+				} 
+			}
+			human_psionic_male_08 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_08_tanned.dds"
+				} 
+			}
+			human_psionic_male_09 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_09_tanned.dds"
+				} 
+			}	
+			human_psionic_male_10 = {	entity = "portrait_human_male_SE01_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_10_mulatto.dds"
+				} 
+			}
+			
+ #######################
+### PSIONICS: UNHAPPY ###############################################################################################
+ #######################
+	 ############################################
+	### tomboy SCALED PSIONIC FEMALES: UNHAPPY ###
+	 ############################################
+			human_psionic_female_unhappy_tb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_tb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_01_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_ibtc_07_pale.dds"
+				} 
+			}
+	 ########################################
+	### SE SCALED PSIONIC FEMALES: UNHAPPY ###	
+	 ########################################
+			human_psionic_female_unhappy_01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_01_pale.dds"
+				} 
+			}
+			human_psionic_female_unhappy_02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_02_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_03_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_04_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_05_chocolate.dds"
+				} 
+			}
+			human_psionic_female_unhappy_06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_06_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_07_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_08_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01"	hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_09_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_bb_10_chocolate.dds"
+				} 
+			}	
+	 #############################################
+	### VANILLA SCALED PSIONIC FEMALES: UNHAPPY ###
+	 #############################################
+			human_psionic_female_unhappy_sb01 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_01_pale.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb02 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_02_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb03 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_03_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb04 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_04_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb05 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_05_chocolate.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb06 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_06_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb07 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_07_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb08 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_08_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb09 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_09_tanned.dds"
+				} 
+			}
+			human_psionic_female_unhappy_sb10 = {	entity = "portrait_human_female_SE01_unhappy_entity"	clothes_selector = "humanoid_01_sb_human_female_clothes_01" hair_selector = "humanoid_01_human_female_hair_cybernetic_SE01"	greeting_sound = "human_female_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_black.dds"
+					"gfx/models/portraits/human/human_psionic_female_body_sb_10_chocolate.dds"
+				} 
+			}			
+	 ############################
+	### PSIONIC MALES: UNHAPPY ###
+	 ############################
+			human_psionic_male_unhappy_01 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_01_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_01_pale.dds"
+				} 
+			}
+			human_psionic_male_unhappy_02 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_02_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_02_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_02_pale.dds"
+				} 
+			}
+			human_psionic_male_unhappy_03 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_03_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_03_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_03_tanned.dds"
+				} 
+			}
+			human_psionic_male_unhappy_04 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_04_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_04_tanned.dds"
+				} 
+			}
+			human_psionic_male_unhappy_05 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_05_red.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_05_mulatto.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_05_dark.dds"
+				} 
+			}
+			human_psionic_male_unhappy_06 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_06_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_06_tanned.dds"
+				} 
+			}
+			human_psionic_male_unhappy_07 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_07_tanned.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_07_yellow.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_07_pale.dds"
+				} 
+			}
+			human_psionic_male_unhappy_08 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_08_bronze_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_08_bronze.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_08_tanned.dds"
+				} 
+			}
+			human_psionic_male_unhappy_09 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_01"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_09_pale.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_09_tanned.dds"
+				} 
+			}	
+			human_psionic_male_unhappy_10 = {	entity = "portrait_human_male_SE01_unhappy_entity"	clothes_selector = "humanoid_01_human_male_clothes_01" hair_selector = "humanoid_01_human_male_hair_cybernetic_SE01"	greeting_sound = "human_male_greetings_02"
+				character_textures = { 
+					"gfx/models/portraits/human/human_psionic_male_body_10_dark.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_10_red.dds"
+					"gfx/models/portraits/human/human_psionic_male_body_10_mulatto.dds"
+				} 
+			}
+	
+} #END PORTRAITS
+
+ #####################
+### PORTRAIT GROUPS ##################################################################################################################################################################################################################################################
+ #####################
+ 
+portrait_groups = {
+	human = {
+		default = human_female_sb09
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+				# MALES
+					human_male_01
+					human_male_04
+					human_male_06
+					human_male_09
+					human_male_05
+					human_male_10
+					human_male_02
+					human_male_07
+					human_male_03
+					human_male_08
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_female_sb01
+					human_female_sb04
+					human_female_sb06
+					human_female_sb09
+					human_female_sb05
+					human_female_sb10
+					human_female_sb02
+					human_female_sb07
+					human_female_sb03
+					human_female_sb08
+				# SE SCALED FEMALES
+					human_female_01
+					human_female_04
+					human_female_06
+					human_female_09
+					human_female_05
+					human_female_10
+					human_female_02
+					human_female_07
+					human_female_03
+					human_female_08
+				# TOMBOY SCALED FEMALES
+#					human_female_tb01
+				}
+			}
+		} #END GAME SETUP
+	 ###################
+	### species scope #################################################################################################################################
+	 ###################
+					
+		species = { #generic portrait for a species
+					
+			add = {
+				trigger = { NOT = { has_trait = trait_cybernetic } }
+				portraits = {
+			 #####################
+			# BASE GAME PORTRAITS #
+			 #####################
+				# VANILLA SCALED FEMALES
+					human_female_sb01
+					human_female_sb04
+					human_female_sb06
+					human_female_sb09
+					human_female_sb05
+					human_female_sb10
+					human_female_sb02
+					human_female_sb07
+					human_female_sb03
+					human_female_sb08
+				# SE SCALED FEMALES
+					human_female_01
+					human_female_04
+					human_female_06
+					human_female_09
+					human_female_05
+					human_female_10
+					human_female_02
+					human_female_07
+					human_female_03
+					human_female_08
+				# TOMBOY SCALED FEMALES
+#					human_female_tb01
+				# MALES
+					human_male_01
+					human_male_04
+					human_male_06
+					human_male_09
+					human_male_05
+					human_male_10
+					human_male_02
+					human_male_07
+					human_male_03
+					human_male_08
+			 ###################
+			# UNHAPPY PORTRAITS #
+			 ###################
+				# UNHAPPY VANILLA SCALED FEMALES
+					human_female_unhappy_sb01
+					human_female_unhappy_sb04
+					human_female_unhappy_sb06
+					human_female_unhappy_sb09
+					human_female_unhappy_sb05
+					human_female_unhappy_sb10
+					human_female_unhappy_sb02
+					human_female_unhappy_sb07
+					human_female_unhappy_sb03
+					human_female_unhappy_sb08
+				# UNHAPPY SE SCALED FEMALES
+					human_female_unhappy_01
+					human_female_unhappy_04
+					human_female_unhappy_06
+					human_female_unhappy_09
+					human_female_unhappy_05
+					human_female_unhappy_10
+					human_female_unhappy_02
+					human_female_unhappy_07
+					human_female_unhappy_03
+					human_female_unhappy_08
+				# UNHAPPY TOMBOY SCALED FEMALES
+#					human_female_unhappy_tb01
+				# UNHAPPY MALES
+					human_male_unhappy_01
+					human_male_unhappy_04
+					human_male_unhappy_06
+					human_male_unhappy_09
+					human_male_unhappy_05
+					human_male_unhappy_10
+					human_male_unhappy_02
+					human_male_unhappy_07
+					human_male_unhappy_03
+					human_male_unhappy_08
+				}
+			}
+			 ##################
+			# CYBORG PORTRAITS #
+			 ##################		
+			set = {
+				trigger = { has_trait = trait_cybernetic }
+				portraits = {
+				# CYBORG VANILLA SCALED FEMALES
+					human_cyborg_female_sb01
+					human_cyborg_female_sb04
+					human_cyborg_female_sb06
+					human_cyborg_female_sb09
+					human_cyborg_female_sb05
+					human_cyborg_female_sb10
+					human_cyborg_female_sb02
+					human_cyborg_female_sb07
+					human_cyborg_female_sb03
+					human_cyborg_female_sb08
+				# CYBORG SE SCALED FEMALES
+					human_cyborg_female_01
+					human_cyborg_female_04
+					human_cyborg_female_06
+					human_cyborg_female_09
+					human_cyborg_female_05
+					human_cyborg_female_10
+					human_cyborg_female_02
+					human_cyborg_female_07
+					human_cyborg_female_03
+					human_cyborg_female_08
+				# CYBORG TOMBOY SCALED FEMALES
+#					human_cyborg_female_tb01
+				# CYBORG MALES
+					human_cyborg_male_01
+					human_cyborg_male_04
+					human_cyborg_male_06
+					human_cyborg_male_09
+					human_cyborg_male_05
+					human_cyborg_male_10
+					human_cyborg_male_02
+					human_cyborg_male_07
+					human_cyborg_male_03
+					human_cyborg_male_08
+			 ##########################
+			# UNHAPPY CYBORG PORTRAITS #
+			 ##########################
+				# UNHAPPY CYBORG VANILLA SCALED FEMALES
+					human_cyborg_female_unhappy_sb01
+					human_cyborg_female_unhappy_sb04
+					human_cyborg_female_unhappy_sb06
+					human_cyborg_female_unhappy_sb09
+					human_cyborg_female_unhappy_sb05
+					human_cyborg_female_unhappy_sb10
+					human_cyborg_female_unhappy_sb02
+					human_cyborg_female_unhappy_sb07
+					human_cyborg_female_unhappy_sb03
+					human_cyborg_female_unhappy_sb08
+				# UNHAPPY CYBORG SE SCALED FEMALES
+					human_cyborg_female_unhappy_01
+					human_cyborg_female_unhappy_04
+					human_cyborg_female_unhappy_06
+					human_cyborg_female_unhappy_09
+					human_cyborg_female_unhappy_05
+					human_cyborg_female_unhappy_10
+					human_cyborg_female_unhappy_02
+					human_cyborg_female_unhappy_07
+					human_cyborg_female_unhappy_03
+					human_cyborg_female_unhappy_08
+				# UNHAPPY CYBORG TOMBOY SCALED FEMALES
+#					human_cyborg_female_unhappy_tb01
+				# UNHAPPY CYBORG MALES
+					human_cyborg_male_unhappy_01
+					human_cyborg_male_unhappy_04
+					human_cyborg_male_unhappy_06
+					human_cyborg_male_unhappy_09
+					human_cyborg_male_unhappy_05
+					human_cyborg_male_unhappy_10
+					human_cyborg_male_unhappy_02
+					human_cyborg_male_unhappy_07
+					human_cyborg_male_unhappy_03
+					human_cyborg_male_unhappy_08
+				}
+			}					
+			 ###################
+			# PSIONIC PORTRAITS #
+			 ###################
+			set = {
+				trigger = {
+					OR = {
+						has_trait = trait_psionic
+						has_trait = trait_latent_psionic
+					}
+				}
+				portraits = {
+				# PSIONIC VANILLA SCALED FEMALES
+					human_psionic_female_sb01
+					human_psionic_female_sb04
+					human_psionic_female_sb06
+					human_psionic_female_sb09
+					human_psionic_female_sb05
+					human_psionic_female_sb10
+					human_psionic_female_sb02
+					human_psionic_female_sb07
+					human_psionic_female_sb03
+					human_psionic_female_sb08
+				# PSIONIC SE SCALED FEMALES
+					human_psionic_female_01
+					human_psionic_female_04
+					human_psionic_female_06
+					human_psionic_female_09
+					human_psionic_female_05
+					human_psionic_female_10
+					human_psionic_female_02
+					human_psionic_female_07
+					human_psionic_female_03
+					human_psionic_female_08
+				# PSIONIC TOMBOY SCALED FEMALES
+#					human_psionic_female_tb01
+				# PSIONIC MALES
+					human_psionic_male_01
+					human_psionic_male_04
+					human_psionic_male_06
+					human_psionic_male_09
+					human_psionic_male_05
+					human_psionic_male_10
+					human_psionic_male_02
+					human_psionic_male_07
+					human_psionic_male_03
+					human_psionic_male_08
+			 ##########################
+			# UNHAPPY PSIONIC PORTRAITS #
+			 ##########################
+				# UNHAPPY PSIONIC VANILLA SCALED FEMALES
+					human_psionic_female_unhappy_sb01
+					human_psionic_female_unhappy_sb04
+					human_psionic_female_unhappy_sb06
+					human_psionic_female_unhappy_sb09
+					human_psionic_female_unhappy_sb05
+					human_psionic_female_unhappy_sb10
+					human_psionic_female_unhappy_sb02
+					human_psionic_female_unhappy_sb07
+					human_psionic_female_unhappy_sb03
+					human_psionic_female_unhappy_sb08
+				# UNHAPPY PSIONIC SE SCALED FEMALES
+					human_psionic_female_unhappy_01
+					human_psionic_female_unhappy_04
+					human_psionic_female_unhappy_06
+					human_psionic_female_unhappy_09
+					human_psionic_female_unhappy_05
+					human_psionic_female_unhappy_10
+					human_psionic_female_unhappy_02
+					human_psionic_female_unhappy_07
+					human_psionic_female_unhappy_03
+					human_psionic_female_unhappy_08
+				# UNHAPPY PSIONIC TOMBOY SCALED FEMALES
+#					human_psionic_female_unhappy_tb01
+				# UNHAPPY PSIONIC MALES
+					human_psionic_male_unhappy_01
+					human_psionic_male_unhappy_04
+					human_psionic_male_unhappy_06
+					human_psionic_male_unhappy_09
+					human_psionic_male_unhappy_05
+					human_psionic_male_unhappy_10
+					human_psionic_male_unhappy_02
+					human_psionic_male_unhappy_07
+					human_psionic_male_unhappy_03
+					human_psionic_male_unhappy_08
+				}
+			}
+		} #END SPECIES SCOPE
+					
+	 ################
+	### pop scope #####################################################################################################################################
+	 ################
+	 
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							pop_has_trait = trait_cybernetic
+							has_trait = trait_psionic
+							has_trait = trait_latent_psionic					
+						}					
+					}					
+					NOT = {
+						OR = {
+							happiness < 0.40
+							is_enslaved = yes
+							is_being_purged = yes
+							has_job = slave_toiler
+							has_job = organic_battery
+							has_job = livestock
+							has_job = crisis_purge
+							has_job = event_purge
+							is_pop_category = slave
+						}
+					}
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_female_sb01
+					human_female_sb04
+					human_female_sb06
+					human_female_sb09
+					human_female_sb05
+					human_female_sb10
+					human_female_sb02
+					human_female_sb07
+					human_female_sb03
+					human_female_sb08
+				# SE SCALED FEMALES
+					human_female_01
+					human_female_04
+					human_female_06
+					human_female_09
+					human_female_05
+					human_female_10
+					human_female_02
+					human_female_07
+					human_female_03
+					human_female_08
+				# TOMBOY SCALED FEMALES
+#					human_female_tb01
+				# MALES
+					human_male_01
+					human_male_03
+					human_male_04
+					human_male_05
+					human_male_06
+					human_male_08
+					human_male_02
+					human_male_07
+					human_male_09
+					human_male_10
+				}
+			}
+		 #########################
+		### UPSET POP BEHAVIOUR ###
+		 #########################
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							pop_has_trait = trait_cybernetic
+							has_trait = trait_psionic
+							has_trait = trait_latent_psionic				
+						}					
+					}					
+					OR = {
+						happiness < 0.40
+						is_enslaved = yes
+						is_being_purged = yes
+						has_job = slave_toiler
+						has_job = organic_battery
+						has_job = livestock
+						has_job = crisis_purge
+						has_job = event_purge
+						is_pop_category = slave
+					}
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_female_unhappy_sb01
+					human_female_unhappy_sb04
+					human_female_unhappy_sb06
+					human_female_unhappy_sb09
+					human_female_unhappy_sb05
+					human_female_unhappy_sb10
+					human_female_unhappy_sb02
+					human_female_unhappy_sb07
+					human_female_unhappy_sb03
+					human_female_unhappy_sb08
+				# SE SCALED FEMALES
+					human_female_unhappy_01
+					human_female_unhappy_04
+					human_female_unhappy_06
+					human_female_unhappy_09
+					human_female_unhappy_05
+					human_female_unhappy_10
+					human_female_unhappy_02
+					human_female_unhappy_07
+					human_female_unhappy_03
+					human_female_unhappy_08
+				# TOMBOY SCALED FEMALES
+#					human_female_unhappy_tb01
+				# MALES
+					human_male_unhappy_01
+					human_male_unhappy_04
+					human_male_unhappy_05
+					human_male_unhappy_06
+					human_male_unhappy_08
+					human_male_unhappy_02
+					human_male_unhappy_07
+					human_male_unhappy_09
+					human_male_unhappy_10
+				}
+				#using "set =" instead of "add" will first clear any portraits already added
+			}
+		 #################
+		### CYBORG POPS ###
+		 #################
+			add = {
+				trigger = {
+					pop_has_trait = trait_cybernetic
+					NOT = {
+						OR = {
+							happiness < 0.40
+							is_enslaved = yes
+							is_being_purged = yes
+							has_job = slave_toiler
+							has_job = organic_battery
+							has_job = livestock
+							has_job = crisis_purge
+							has_job = event_purge
+							is_pop_category = slave
+						}
+					}
+				}
+				portraits = {
+				# CYBORG VANILLA SCALED FEMALES
+					human_cyborg_female_sb01
+					human_cyborg_female_sb04
+					human_cyborg_female_sb06
+					human_cyborg_female_sb09
+					human_cyborg_female_sb05
+					human_cyborg_female_sb10
+					human_cyborg_female_sb02
+					human_cyborg_female_sb07
+					human_cyborg_female_sb03
+					human_cyborg_female_sb08
+				# CYBORG SE SCALED FEMALES
+					human_cyborg_female_01
+					human_cyborg_female_04
+					human_cyborg_female_06
+					human_cyborg_female_09
+					human_cyborg_female_05
+					human_cyborg_female_10
+					human_cyborg_female_02
+					human_cyborg_female_07
+					human_cyborg_female_03
+					human_cyborg_female_08
+				# TOMBOY SCALED FEMALES
+#					human_cyborg_female_tb01
+				# CYBORG MALES
+					human_cyborg_male_01
+					human_cyborg_male_03
+					human_cyborg_male_04
+					human_cyborg_male_05
+					human_cyborg_male_06
+					human_cyborg_male_08
+					human_cyborg_male_02
+					human_cyborg_male_07
+					human_cyborg_male_09
+					human_cyborg_male_10
+				}
+			}
+		 
+		 ################################
+		### UPSET CYBORG POP BEHAVIOUR ###
+		 ################################
+			add = {
+				trigger = {
+					pop_has_trait = trait_cybernetic
+					OR = {
+						happiness < 0.40
+						is_enslaved = yes
+						is_being_purged = yes
+						has_job = slave_toiler
+						has_job = organic_battery
+						has_job = livestock
+						has_job = crisis_purge
+						has_job = event_purge
+						is_pop_category = slave
+					}
+				}
+				portraits = {
+				# UNHAPPY CYBORG VANILLA SCALED FEMALES
+					human_cyborg_female_unhappy_sb01
+					human_cyborg_female_unhappy_sb04
+					human_cyborg_female_unhappy_sb06
+					human_cyborg_female_unhappy_sb09
+					human_cyborg_female_unhappy_sb05
+					human_cyborg_female_unhappy_sb10
+					human_cyborg_female_unhappy_sb02
+					human_cyborg_female_unhappy_sb07
+					human_cyborg_female_unhappy_sb03
+					human_cyborg_female_unhappy_sb08
+				# UNHAPPY CYBORG SE SCALED FEMALES
+					human_cyborg_female_unhappy_01
+					human_cyborg_female_unhappy_04
+					human_cyborg_female_unhappy_06
+					human_cyborg_female_unhappy_09
+					human_cyborg_female_unhappy_05
+					human_cyborg_female_unhappy_10
+					human_cyborg_female_unhappy_02
+					human_cyborg_female_unhappy_07
+					human_cyborg_female_unhappy_03
+					human_cyborg_female_unhappy_08
+				# UNHAPPY CYBORG TOMBOY SCALED FEMALES
+#					human_cyborg_female_unhappy_tb01
+				# UNHAPPY CYBORG MALES
+					human_cyborg_male_unhappy_01
+					human_cyborg_male_unhappy_03
+					human_cyborg_male_unhappy_04
+					human_cyborg_male_unhappy_05
+					human_cyborg_male_unhappy_06
+					human_cyborg_male_unhappy_08
+					human_cyborg_male_unhappy_02
+					human_cyborg_male_unhappy_07
+					human_cyborg_male_unhappy_09
+					human_cyborg_male_unhappy_10
+				}
+			}		 
+		 ##################
+		### PSIONIC POPS ###
+		 ##################
+			add = {
+				trigger = {
+					OR = {
+						pop_has_trait = trait_psionic
+						pop_has_trait = trait_latent_psionic
+					}
+					NOT = {
+						OR = {
+							happiness < 0.40
+							is_enslaved = yes
+							is_being_purged = yes
+							has_job = slave_toiler
+							has_job = organic_battery
+							has_job = livestock
+							has_job = crisis_purge
+							has_job = event_purge
+							is_pop_category = slave
+						}
+					}
+				}
+				portraits = {
+				# PSIONIC VANILLA SCALED FEMALES
+					human_psionic_female_sb01
+					human_psionic_female_sb04
+					human_psionic_female_sb06
+					human_psionic_female_sb09
+					human_psionic_female_sb05
+					human_psionic_female_sb10
+					human_psionic_female_sb02
+					human_psionic_female_sb07
+					human_psionic_female_sb03
+					human_psionic_female_sb08
+				# PSIONIC SE SCALED FEMALES
+					human_psionic_female_01
+					human_psionic_female_04
+					human_psionic_female_06
+					human_psionic_female_09
+					human_psionic_female_05
+					human_psionic_female_10
+					human_psionic_female_02
+					human_psionic_female_07
+					human_psionic_female_03
+					human_psionic_female_08
+				# TOMBOY SCALED FEMALES
+#					human_psionic_female_tb01
+				# PSIONIC MALES
+					human_psionic_male_01
+					human_psionic_male_03
+					human_psionic_male_04
+					human_psionic_male_05
+					human_psionic_male_06
+					human_psionic_male_08
+					human_psionic_male_02
+					human_psionic_male_07
+					human_psionic_male_09
+					human_psionic_male_10
+				}
+			}
+		 
+		 #################################
+		### UPSET PSIONIC POP BEHAVIOUR ###
+		 #################################
+			add = {
+				trigger = {
+					OR = {
+						pop_has_trait = trait_psionic
+						pop_has_trait = trait_latent_psionic
+					}
+					OR = {
+						happiness < 0.40
+						is_enslaved = yes
+						is_being_purged = yes
+						has_job = slave_toiler
+						has_job = organic_battery
+						has_job = livestock
+						has_job = crisis_purge
+						has_job = event_purge
+						is_pop_category = slave
+					}
+				}
+				portraits = {
+				# UNHAPPY PSIONIC VANILLA SCALED FEMALES
+					human_psionic_female_unhappy_sb01
+					human_psionic_female_unhappy_sb04
+					human_psionic_female_unhappy_sb06
+					human_psionic_female_unhappy_sb09
+					human_psionic_female_unhappy_sb05
+					human_psionic_female_unhappy_sb10
+					human_psionic_female_unhappy_sb02
+					human_psionic_female_unhappy_sb07
+					human_psionic_female_unhappy_sb03
+					human_psionic_female_unhappy_sb08
+				# UNHAPPY PSIONIC SE SCALED FEMALES
+					human_psionic_female_unhappy_01
+					human_psionic_female_unhappy_04
+					human_psionic_female_unhappy_06
+					human_psionic_female_unhappy_09
+					human_psionic_female_unhappy_05
+					human_psionic_female_unhappy_10
+					human_psionic_female_unhappy_02
+					human_psionic_female_unhappy_07
+					human_psionic_female_unhappy_03
+					human_psionic_female_unhappy_08
+				# UNHAPPY PSIONIC TOMBOY SCALED FEMALES
+#					human_psionic_female_unhappy_tb01
+				# UNHAPPY PSIONIC MALES
+					human_psionic_male_unhappy_01
+					human_psionic_male_unhappy_03
+					human_psionic_male_unhappy_04
+					human_psionic_male_unhappy_05
+					human_psionic_male_unhappy_06
+					human_psionic_male_unhappy_08
+					human_psionic_male_unhappy_02
+					human_psionic_male_unhappy_07
+					human_psionic_male_unhappy_09
+					human_psionic_male_unhappy_10
+				}
+			}		 
+		} #END POP SCOPE
+					
+	 ##################			
+	### leader scope #####################################################################################################################################
+	 ##################
+					
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_cyborg
+							has_trait = leader_trait_general_cyborg
+							has_trait = leader_trait_governor_cyborg
+							has_trait = leader_trait_scientist_cyborg
+							has_trait = leader_trait_ruler_cyborg
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+							has_trait = leader_trait_admiral_psionic
+							has_trait = leader_trait_general_psionic
+							has_trait = leader_trait_governor_psionic
+							has_trait = leader_trait_scientist_psionic
+							has_trait = leader_trait_ruler_psionic
+						}
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_female_sb01
+					human_female_sb04
+					human_female_sb06
+					human_female_sb09
+					human_female_sb05
+					human_female_sb10
+					human_female_sb02
+					human_female_sb07
+					human_female_sb03
+					human_female_sb08
+				# SE SCALED FEMALES
+					human_female_01
+					human_female_04
+					human_female_06
+					human_female_09
+					human_female_05
+					human_female_10
+					human_female_02
+					human_female_07
+					human_female_03
+					human_female_08
+				# TOMBOY SCALED FEMALES
+#					human_female_tb01
+				}
+			}
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_cyborg
+							has_trait = leader_trait_general_cyborg
+							has_trait = leader_trait_governor_cyborg
+							has_trait = leader_trait_scientist_cyborg
+							has_trait = leader_trait_ruler_cyborg
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+							has_trait = leader_trait_admiral_psionic
+							has_trait = leader_trait_general_psionic
+							has_trait = leader_trait_governor_psionic
+							has_trait = leader_trait_scientist_psionic
+							has_trait = leader_trait_ruler_psionic
+						}
+					}
+					gender = male
+				}
+				portraits = {
+					human_male_01
+					human_male_04
+					human_male_06
+					human_male_09
+					human_male_05
+					human_male_10
+					human_male_02
+					human_male_07
+					human_male_03
+					human_male_08
+				}
+			}
+		 ####################
+		### CYBORG LEADERS ###
+		 ####################
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_cyborg
+						has_trait = leader_trait_general_cyborg
+						has_trait = leader_trait_governor_cyborg
+						has_trait = leader_trait_scientist_cyborg
+						has_trait = leader_trait_ruler_cyborg
+					}
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+						}
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_cyborg_female_sb01
+					human_cyborg_female_sb04
+					human_cyborg_female_sb06
+					human_cyborg_female_sb09
+					human_cyborg_female_sb05
+					human_cyborg_female_sb10
+					human_cyborg_female_sb02
+					human_cyborg_female_sb07
+					human_cyborg_female_sb03
+					human_cyborg_female_sb08
+				# SE SCALED FEMALES
+					human_cyborg_female_01
+					human_cyborg_female_04
+					human_cyborg_female_06
+					human_cyborg_female_09
+					human_cyborg_female_05
+					human_cyborg_female_10
+					human_cyborg_female_02
+					human_cyborg_female_07
+					human_cyborg_female_03
+					human_cyborg_female_08
+				# TOMBOY SCALED FEMALES
+#					human_cyborg_female_tb01
+				}
+			}
+				#using "set =" instead of "add" will first clear any portraits already added
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_cyborg
+						has_trait = leader_trait_general_cyborg
+						has_trait = leader_trait_governor_cyborg
+						has_trait = leader_trait_scientist_cyborg
+						has_trait = leader_trait_ruler_cyborg
+					}
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+						}
+					}
+					gender = male
+				}
+				portraits = {
+					human_cyborg_male_01
+					human_cyborg_male_04
+					human_cyborg_male_06
+					human_cyborg_male_09
+					human_cyborg_male_05
+					human_cyborg_male_10
+					human_cyborg_male_02
+					human_cyborg_male_07
+					human_cyborg_male_03
+					human_cyborg_male_08
+				}
+			}	
+		 #####################
+		### PSIONIC LEADERS ###
+		 #####################
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_psionic
+						has_trait = leader_trait_general_psionic
+						has_trait = leader_trait_governor_psionic
+						has_trait = leader_trait_scientist_psionic
+						has_trait = leader_trait_ruler_psionic
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_psionic_female_sb01
+					human_psionic_female_sb04
+					human_psionic_female_sb06
+					human_psionic_female_sb09
+					human_psionic_female_sb05
+					human_psionic_female_sb10
+					human_psionic_female_sb02
+					human_psionic_female_sb07
+					human_psionic_female_sb03
+					human_psionic_female_sb08
+				# SE SCALED FEMALES
+					human_psionic_female_01
+					human_psionic_female_04
+					human_psionic_female_06
+					human_psionic_female_09
+					human_psionic_female_05
+					human_psionic_female_10
+					human_psionic_female_02
+					human_psionic_female_07
+					human_psionic_female_03
+					human_psionic_female_08
+				# TOMBOY SCALED FEMALES
+#					human_psionic_female_tb01
+				}
+			}
+				#using "set =" instead of "add" will first clear any portraits already added
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_psionic
+						has_trait = leader_trait_general_psionic
+						has_trait = leader_trait_governor_psionic
+						has_trait = leader_trait_scientist_psionic
+						has_trait = leader_trait_ruler_psionic
+					}
+					gender = male
+				}
+				portraits = {
+					human_psionic_male_01
+					human_psionic_male_04
+					human_psionic_male_06
+					human_psionic_male_09
+					human_psionic_male_05
+					human_psionic_male_10
+					human_psionic_male_02
+					human_psionic_male_07
+					human_psionic_male_03
+					human_psionic_male_08
+				}
+			}	
+		} #END LEADER SCOPE
+		
+	 #################	
+	### ruler scope #####################################################################################################################################
+	 #################
+
+		ruler = {
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_cyborg
+							has_trait = leader_trait_general_cyborg
+							has_trait = leader_trait_governor_cyborg
+							has_trait = leader_trait_scientist_cyborg
+							has_trait = leader_trait_ruler_cyborg
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+							has_trait = leader_trait_admiral_psionic
+							has_trait = leader_trait_general_psionic
+							has_trait = leader_trait_governor_psionic
+							has_trait = leader_trait_scientist_psionic
+							has_trait = leader_trait_ruler_psionic
+						}
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_female_sb01
+					human_female_sb04
+					human_female_sb06
+					human_female_sb09
+					human_female_sb05
+					human_female_sb10
+					human_female_sb02
+					human_female_sb07
+					human_female_sb03
+					human_female_sb08
+				# SE SCALED FEMALES
+					human_female_01
+					human_female_04
+					human_female_06
+					human_female_09
+					human_female_05
+					human_female_10
+					human_female_02
+					human_female_07
+					human_female_03
+					human_female_08
+				# TOMBOY SCALED FEMALES
+#					human_female_tb01
+				}
+			}
+			add = {
+				trigger = {
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_cyborg
+							has_trait = leader_trait_general_cyborg
+							has_trait = leader_trait_governor_cyborg
+							has_trait = leader_trait_scientist_cyborg
+							has_trait = leader_trait_ruler_cyborg
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+							has_trait = leader_trait_admiral_psionic
+							has_trait = leader_trait_general_psionic
+							has_trait = leader_trait_governor_psionic
+							has_trait = leader_trait_scientist_psionic
+							has_trait = leader_trait_ruler_psionic
+						}
+					}
+					gender = male
+				}
+				portraits = {
+					human_male_01
+					human_male_04
+					human_male_06
+					human_male_09
+					human_male_05
+					human_male_10
+					human_male_02
+					human_male_07
+					human_male_03
+					human_male_08
+				}
+			}
+		 ##################
+		### CYBORG RUERS ###
+		 ##################
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_cyborg
+						has_trait = leader_trait_general_cyborg
+						has_trait = leader_trait_governor_cyborg
+						has_trait = leader_trait_scientist_cyborg
+						has_trait = leader_trait_ruler_cyborg
+					}
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+						}
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_cyborg_female_sb01
+					human_cyborg_female_sb04
+					human_cyborg_female_sb06
+					human_cyborg_female_sb09
+					human_cyborg_female_sb05
+					human_cyborg_female_sb10
+					human_cyborg_female_sb02
+					human_cyborg_female_sb07
+					human_cyborg_female_sb03
+					human_cyborg_female_sb08
+				# SE SCALED FEMALES
+					human_cyborg_female_01
+					human_cyborg_female_04
+					human_cyborg_female_06
+					human_cyborg_female_09
+					human_cyborg_female_05
+					human_cyborg_female_10
+					human_cyborg_female_02
+					human_cyborg_female_07
+					human_cyborg_female_03
+					human_cyborg_female_08
+				# TOMBOY SCALED FEMALES
+#					human_cyborg_female_tb01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_cyborg
+						has_trait = leader_trait_general_cyborg
+						has_trait = leader_trait_governor_cyborg
+						has_trait = leader_trait_scientist_cyborg
+						has_trait = leader_trait_ruler_cyborg
+					}
+					NOT = {
+						OR = {
+							has_trait = leader_trait_admiral_synthetic
+							has_trait = leader_trait_ruler_synthetic
+							has_trait = leader_trait_general_synthetic
+							has_trait = leader_trait_governor_synthetic
+							has_trait = leader_trait_scientist_synthetic
+						}
+					}
+					gender = male
+				}
+				portraits = {
+					human_cyborg_male_01
+					human_cyborg_male_04
+					human_cyborg_male_06
+					human_cyborg_male_09
+					human_cyborg_male_05
+					human_cyborg_male_10
+					human_cyborg_male_02
+					human_cyborg_male_07
+					human_cyborg_male_03
+					human_cyborg_male_08
+				}
+			}			
+		 ###################
+		### PSIONIC RUERS ###
+		 ##################3
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_psionic
+						has_trait = leader_trait_general_psionic
+						has_trait = leader_trait_governor_psionic
+						has_trait = leader_trait_scientist_psionic
+						has_trait = leader_trait_ruler_psionic
+					}
+					gender = female
+				}
+				portraits = {
+				# VANILLA SCALED FEMALES
+					human_psionic_female_sb01
+					human_psionic_female_sb04
+					human_psionic_female_sb06
+					human_psionic_female_sb09
+					human_psionic_female_sb05
+					human_psionic_female_sb10
+					human_psionic_female_sb02
+					human_psionic_female_sb07
+					human_psionic_female_sb03
+					human_psionic_female_sb08
+				# SE SCALED FEMALES
+					human_psionic_female_01
+					human_psionic_female_04
+					human_psionic_female_06
+					human_psionic_female_09
+					human_psionic_female_05
+					human_psionic_female_10
+					human_psionic_female_02
+					human_psionic_female_07
+					human_psionic_female_03
+					human_psionic_female_08
+				# TOMBOY SCALED FEMALES
+#					human_psionic_female_tb01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						has_trait = leader_trait_admiral_psionic
+						has_trait = leader_trait_general_psionic
+						has_trait = leader_trait_governor_psionic
+						has_trait = leader_trait_scientist_psionic
+						has_trait = leader_trait_ruler_psionic
+					}
+					gender = male
+				}
+				portraits = {
+					human_psionic_male_01
+					human_psionic_male_04
+					human_psionic_male_06
+					human_psionic_male_09
+					human_psionic_male_05
+					human_psionic_male_10
+					human_psionic_male_02
+					human_psionic_male_07
+					human_psionic_male_03
+					human_psionic_male_08
+				}
+			}			
+		} #END RULER SCOPE
+	} #END HUMAN
+} #END HUMAN PORTRAIT GROUPS

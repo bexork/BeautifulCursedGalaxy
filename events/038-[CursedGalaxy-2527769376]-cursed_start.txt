@@ -1,0 +1,232 @@
+namespace = cursed_start
+
+
+# called during empire initialization when starting a new game
+# scope: country
+# -- empire_init_add_technologies
+country_event = {
+	id = cursed_start.8
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = cursed_start
+
+		give_technology = {
+			tech = tech_planetary_unification
+			message = no
+		}
+		give_technology = {
+			tech = tech_society_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_engineering_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_physics_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_doctrine_navy_size_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_doctrine_fleet_size_1
+			message = no
+		}
+		give_technology = {
+			tech = tech_mass_drivers_2
+			message = no
+		}
+		give_technology = {
+			tech = tech_lasers_2
+			message = no
+		}
+		give_technology = {
+			tech = tech_sapient_ai
+			message = no
+		}
+
+		give_technology = {
+			tech = tech_automated_exploration
+			message = no
+		}
+
+		add_resource = {
+			minerals = 800
+		}
+
+		add_resource = {
+			energy = 800
+		}
+
+		add_resource = {
+			food = 800
+		}
+
+		add_resource = {
+			influence = 600
+		}
+
+		add_resource = {
+			alloys = 800
+		}
+
+		add_resource = {
+			consumer_goods = 600
+		}
+
+		every_planet_within_border = {
+			limit = {
+				has_deposit_for = shipclass_mining_station
+				has_mining_station = no
+			}
+			create_mining_station = {
+				owner = ROOT
+			}
+		}
+		every_planet_within_border = {
+			limit = {
+				has_deposit_for = shipclass_research_station
+				has_research_station = no
+			}
+			create_research_station = {
+				owner = ROOT
+			}
+		}
+	}
+}
+
+# called during empire initialization when starting a new game
+# scope: country
+# -- empire_init_create_ships
+country_event = {
+	id = cursed_start.9			# create_fleet
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = cursed_start
+
+		random_galaxy_species = {
+			limit = {
+				NOT = {
+					is_same_species = FROM
+				}
+			}
+			save_global_event_target_as = space_corp_species
+		}
+
+		while = {
+			count = 3
+			create_fleet = {
+				effect = {
+					set_owner = prev
+					create_ship = {
+						name = random
+						random_existing_design = science
+					}
+					set_fleet_stance = evasive
+					set_location = prev.capital_scope.star
+					owner = {
+						create_leader = {
+							class = scientist
+							sub_type = survey
+							skill = 3
+							species = event_target:space_corp_species
+							leader_age_min = 8			# Ender
+							leader_age_max = 22
+							traits = {
+								trait = leader_trait_sapient_AI_assistant
+								trait = leader_trait_substance_abuser
+								trait = leader_trait_scientist_psionic
+							}
+						}
+					}
+					set_leader = last_created_leader
+				}
+			}
+
+			# brave constructor
+			create_fleet = {
+				effect = {
+					set_owner = prev
+					create_ship = {
+						random_existing_design = constructor
+					}
+					set_fleet_stance = evasive
+					set_location = prev.capital_star
+				}
+			}
+		}
+
+		create_fleet = {
+			set_take_point = yes
+			effect = {
+				set_owner = prev
+				owner = {
+					create_leader = {
+						class = admiral
+						name = random
+						species = event_target:space_corp_species
+						skill = 4
+						leader_age_min = 32
+						leader_age_max = 42
+						traits = {
+							trait = leader_trait_mercenary_warrior
+							trait = leader_trait_substance_abuser
+							trait = leader_trait_aggressive
+							trait = leader_trait_fleet_logistician
+						}
+					}
+					last_created_leader = { set_leader_flag = cursed_captain }
+				}
+				set_fleet_flag = cursed_fleet
+				while = {
+					count = 16
+					create_ship = {
+						name = random
+						random_existing_design = corvette
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						random_existing_design = destroyer
+					}
+				}
+				set_leader = last_created_leader
+				set_location = prev.capital_star
+			}
+			settings = {
+				can_change_leader = no
+				can_disband = no
+				uses_naval_capacity = yes
+				can_upgrade = yes
+				can_change_composition = yes
+			}
+		}
+	}
+}
+
+
+# Called during empire initialization when starting a new game if has_secondary_species game rule is true.
+# Called before empire_init_create_capital_pops.
+# scope: planet
+# from: founder species
+# fromfrom: secondary species (if exists)
+# -- empire_init_capital_planet
+planet_event = {
+	id = cursed_start.12
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# it looks like this is called for everybody?
+		log = "Clearing Blockers"
+		clear_blockers = yes
+	}
+}

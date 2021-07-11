@@ -1,0 +1,48 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_destroyer_L1_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_L1_bow.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_destroyer_M1S2_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_M1S2_bow.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_destroyer_S3_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_S3_bow.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ascendant_01_destroyer_M1S4_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_bow.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_destroyer_stern_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_stern.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_destroyer_stern_vanilla_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_destroyer_stern_vanilla.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_escort_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_escort.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_escort_weapons_mesh"
+		file = "gfx/models/ships/ascendant_01/destroyer/ascendant_escort_weapons.mesh"
+		scale = 1.0
+	}
+}

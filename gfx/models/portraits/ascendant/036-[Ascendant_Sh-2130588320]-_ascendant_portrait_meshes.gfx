@@ -1,0 +1,16 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "portrait_ascendant_01_mesh"
+		file = "gfx/models/portraits/reptilian/reptilian_17_portrait.mesh"
+		animation = { id = "idle"	type = "reptilian_17_idle_animation" }
+		animation = { id = "idle2"	type = "reptilian_17_idle_2_animation" }
+		animation = { id = "idle3"	type = "reptilian_17_idle_3_animation" }
+		animation = { id = "idle4"	type = "reptilian_17_idle_4_animation" }
+		scale = 0.85
+	}
+		
+		
+		
+	
+}

@@ -1,0 +1,20 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_corvette_S3_mesh"
+		file = "gfx/models/ships/ascendant_01/corvette/ascendant_corvette_S3.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/ascendant_01/corvette/ascendant_corvette_M1S1.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_fighter_mesh"
+		file = "gfx/models/ships/ascendant_01/corvette/ascendant_fighter.mesh"
+		scale = 1.0
+	}
+}

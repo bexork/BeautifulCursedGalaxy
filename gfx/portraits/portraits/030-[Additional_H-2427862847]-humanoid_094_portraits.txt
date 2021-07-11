@@ -1,0 +1,116 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	humanoid_094_male 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "humanoid_094_clothes_01" hair_selector = "no_texture" 	greeting_sound = "humanoid_male_greeting_c"	
+		character_textures = {
+			"gfx/models/portraits/new_humanoid/humanoid_094_male_1.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_male_2.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_male_3.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_male_4.dds"
+		}
+	}
+
+	humanoid_094_female = {	entity = "humanoid_04_male_01_entity"	clothes_selector = "humanoid_094_clothes_01" hair_selector = "no_texture" 	greeting_sound = "humanoid_female_greeting_c"	
+		character_textures = {
+			"gfx/models/portraits/new_humanoid/humanoid_094_female_1.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_female_2.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_female_3.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_094_female_4.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	humanoid_094 = {
+		default = humanoid_094_female
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					humanoid_094_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					humanoid_094_female
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					humanoid_094_female
+					humanoid_094_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					humanoid_094_female
+					humanoid_094_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					humanoid_094_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					humanoid_094_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					humanoid_094_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					humanoid_094_male
+				}
+			}
+		}
+	}
+}

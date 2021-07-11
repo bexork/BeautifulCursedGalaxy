@@ -1,0 +1,23 @@
+@cursed_scale = 1.0
+
+@cursed_radius_0 = 0.04
+@cursed_radius_1 = 0.08
+@cursed_radius_2 = 0.12
+@cursed_radius_3 = 0.16
+@cursed_radius_4 = 0.18
+@cursed_radius_5 = 0.20
+@cursed_radius_6 = 0.22
+
+@cursed_active = 0
+
+@cursed_ring_0_days = 100
+@cursed_ring_1_days = 200
+@cursed_ring_2_days = 300
+@cursed_ring_3_days = 400
+@cursed_ring_4_days = 500
+@cursed_ring_6_days = 600
+@cursed_ring_7_days = 700
+
+@core_radius_perc =  0.12		# Core radius is 5% of the galaxy radius
+@num_stars_core_perc =  0.07	# Number of stars in core
+@stars_min_dist = 6.0			# Min distance between stars

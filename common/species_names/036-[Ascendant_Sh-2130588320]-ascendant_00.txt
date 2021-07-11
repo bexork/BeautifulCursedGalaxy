@@ -1,0 +1,441 @@
+ASCENDANT = {
+	raxthalak = {
+		name = Rax'Thalak
+		plural = Rax'Thalaki
+		home_planet = Rax'Thalaki
+		home_system = Thalakin
+		name_list = "REP1"
+	}
+
+	thekqlak = {
+		name = Thek'Qlak
+		plural = Thek'Qlaki
+		home_planet = Qlak
+		home_system = Qlakidoq
+		name_list = "REP2"
+	}
+
+	bospachtux = {
+		name = Bos'Pachtux
+		plural = Bos'Pachtuxi
+		home_planet = Tuxica
+		home_system = Bos'Tuxica
+		name_list = "REP3"
+	}
+
+	mectpux = {
+		name = Mect-Pux
+		plural = Mect-Puxi
+		home_planet = Mectapux
+		home_system = Mectlor
+		name_list = "REP4"
+	}
+
+	othethi = {
+		name = Othethi
+		plural = Othethi
+		home_planet = Matal
+		home_system = Matalill
+		name_list = "REP1"
+	}
+
+	oxbraxi = {
+		name = Ox'Braxi
+		plural = Ox'Braxi
+		home_planet = Oxinac
+		home_system = Oxinac'Vela
+		name_list = "REP2"
+	}
+
+	zaydran = {
+		name = Zaydran
+		plural = Zaydrans
+		home_planet = Yadra
+		home_system = Yadruk
+		name_list = "REP3"
+	}
+
+	nharr = {
+		name = Nharr
+		plural = Narrians
+		home_planet = Nharr
+		home_system = Nharrbo
+		name_list = "REP4"
+	}
+
+	zukakkan = {
+		name = Zukakkan
+		plural = Zukakkans
+		home_planet = Zukai
+		home_system = Zukai'Mondor
+		name_list = "REP1"
+	}
+
+	seklokkar = {
+		name = Sek-Lokkar
+		plural = Sek-Lokkarian
+		home_planet = Lokken
+		home_system = "Lokken Jak"
+		name_list = "REP2"
+	}
+
+	netraxi = {
+		name = Netraxi
+		plural = Netraxi
+		home_planet = Netraxia
+		home_system = Netraxia'Asaka
+		name_list = "REP3"
+	}
+
+	dimaxanian = {
+		name = Dima'Xanian
+		plural = Dima'Xanians
+		home_planet = Xania
+		home_system = "Xani Nadih"
+		name_list = "REP4"
+	}
+
+	vagoross = {
+		name = Vag-Oross
+		plural = Vag-Orossi
+		home_planet = Orossi
+		home_system = Orossi-Huivac
+		name_list = "REP1"
+	}
+
+	Kalaxenan = {
+		name = Kalaxenan
+		plural = Kalaxenans
+		home_planet = Ipa'Go
+		home_system = "Ipa'Go Tryll"
+		name_list = "REP2"
+	}
+
+	fexklanga = {
+		name = Fex'Klanga
+		plural = Fex'Klangan
+		home_planet = Fexkla
+		home_system = Fexklansiga
+		name_list = "REP3"
+	}
+
+	tuxkan = {
+		name = Tuxkan
+		plural = Tuxkans
+		home_planet = Tuxka
+		home_system = Tuxkalli
+		name_list = "REP4"
+	}
+
+	gox = {
+		name = Gox
+		plural = Goxi
+		home_planet = Vak-Raxxa
+		home_system = Du-Raxxa-Nax
+		name_list = "REP1"
+	}
+
+	rakthalaknak = {
+		name = Rak'Thalak'Nak
+		plural = Rak'Thalak'Naki
+		home_planet = Rak'Thalak'Nak
+		home_system = "Rak'Nak'Thax"
+		name_list = "REP2"
+	}
+
+	bokasheran = {
+		name = Bokasheran
+		plural = Bokasherans
+		home_planet = Sheraka
+		home_system = Acir'Raka
+		name_list = "REP3"
+	}
+
+	adeex = {
+		name = Adeex
+		plural = Adeexi
+		home_planet = Deex
+		home_system = Xandraee
+		name_list = "REP4"
+	}
+
+	rothak = {
+		name = Rothak
+		plural = Rothaki
+		home_planet = Rothak
+		home_system = Vsem-Klack
+		name_list = "REP1"
+	}
+
+	steccashi = {
+		name = Steccashi
+		plural = Steccashi
+		home_planet = Ushu
+		home_system = "Uskal Opeshal"
+		name_list = "REP2"
+	}
+
+	xulokako = {
+		name = Xu'Lokako
+		plural = Xu'Kokakoi
+		home_planet = Xu'Koka
+		home_system = Xu'Kokallij
+		name_list = "REP3"
+	}
+
+	gargaxton = {
+		name = Gargaxton
+		plural = Gargaxtons
+		home_planet = Lestrall
+		home_system = Qol'Lest
+		name_list = "REP4"
+	}
+
+	loxungrakva = {
+		name = Lox'Ungrak-Va
+		plural = Lox'Ungrak-Vani
+		home_planet = Lox'Ungrak
+		home_system = Lox'Ungrak'O
+		name_list = "REP1"
+	}
+	
+	rethellian = {
+		name = Rethellian
+		plural = Rethellians
+		home_planet = Rethellia
+		home_system = Rethell
+		name_list = "REP1"
+	}
+	
+	kammarian = {
+		name = Kammarian
+		plural = Kammarians
+		home_planet = Kamdor
+		home_system = Kamdakkor
+		name_list = "REP2"
+	}
+	
+	anathurian = {
+		name = Anathurian
+		plural = Anathurians
+		home_planet = Anathuria
+		home_system = Anathor
+		name_list = "REP3"
+	}
+
+	zuifvan = {
+		name = Zuifvan
+		plural = Zuifvans
+		home_planet = Zuif
+		home_system = Zuffur
+		name_list = "REP4"
+	}
+	
+	reshethi = {
+		name = Reshethi
+		plural = Reshethi
+		home_planet = Resh
+		home_system = Reshlur
+		name_list = "REP1"
+	}
+
+	dethakkan = {
+		name = Dethakkan
+		plural = Dethakkans
+		home_planet = Dethak
+		home_system = Dethlar
+		name_list = "REP2"
+	}
+
+	ikarzuri = {
+		name = Ikarzuri
+		plural = Ikarzuri
+		home_planet = Ikara
+		home_system = Karzu
+		name_list = "REP3"
+	}
+
+	vhemm = {
+		name = Vhemm
+		plural = Vhemmians
+		home_planet = Vhemm
+		home_system = Vhemmbor
+		name_list = "REP4"
+	}
+	
+	tendrakkian = {
+		name = Tendrakkian
+		plural = Tendrakkians
+		home_planet = Tendrakkia
+		home_system = Tendor
+		name_list = "REP1"
+	}
+	
+	baanthurian = {
+		name = Baanthurian
+		plural = Baanthurians
+		home_planet = Baanthur
+		home_system = "Baanth Vir"
+		name_list = "REP2"
+	}
+	
+	cormathani = {
+		name = Cormathani
+		plural = Cormathani
+		home_planet = Cormath
+		home_system = Cormassa
+		name_list = "REP3"
+	}
+	
+	kirillian = {
+		name = Kirillian
+		plural = Kirillians
+		home_planet = Kirill
+		home_system = "Koltras Nadh"
+		name_list = "REP4"
+	}
+	
+	beldross = {
+		name = Beldross
+		plural = Beldross
+		home_planet = Fenn'Halor
+		home_system = Binor
+		name_list = "REP1"
+	}
+	
+	jurinn = {
+		name = Jurinn
+		plural = Jurinn
+		home_planet = Jurandar
+		home_system = "Jurik Than"
+		name_list = "REP2"
+	}
+	
+	ziiran = {
+		name = Ziiran
+		plural = Ziirans
+		home_planet = Ne'Ziira
+		home_system = Ziira
+		name_list = "REP3"
+	}
+	
+	athanebian = {
+		name = Athanebian
+		plural = Athanebians
+		home_planet = Athanebia
+		home_system = Athas
+		name_list = "REP4"
+	}
+	
+	diri = {
+		name = Diri
+		plural = Diri
+		home_planet = Dir-Vanus
+		home_system = Dir
+		name_list = "REP1"
+	}
+	
+	hydari = {
+		name = Hydari
+		plural = Hydari
+		home_planet = Hydax
+		home_system = Hydor
+		name_list = "REP2"
+	}
+	
+	cirrulan = {
+		name = Cirrulan
+		plural = Cirrulans
+		home_planet = Cirra
+		home_system = Cir'Darus
+		name_list = "REP3"
+	}
+	
+	yaanari = {
+		name = Yaanari
+		plural = Yaanari
+		home_planet = Yaan
+		home_system = Yaanus
+		name_list = "REP4"
+	}
+	
+	ubaric = {
+		name = Ubaric
+		plural = Ubarics
+		home_planet = Ubaria
+		home_system = Vuza'baru
+		name_list = "REP1"
+	}
+	
+	kedeshi = {
+		name = Kedeshi
+		plural = Kedeshi
+		home_planet = Kesho
+		home_system = "Kesh-Suras"
+		name_list = "REP2"
+	}
+	
+	tebadoran = {
+		name = Tebadoran
+		plural = Tebadorans
+		home_planet = Tebador
+		home_system = Tabat
+		name_list = "REP3"
+	}
+	
+	bessadon = {
+		name = Bessadon
+		plural = Bessadons
+		home_planet = Bessqa
+		home_system = Bess'Qoro
+		name_list = "REP4"
+	}
+	
+	lyrite = {
+		name = Lyrite
+		plural = Lyrites
+		home_planet = Lyrass
+		home_system = Karuss
+		name_list = "REP1"
+	}
+
+	sathori = {
+		name = Sathori
+		plural = Sathori
+		home_planet = Sathoria
+		home_system = Sath
+		name_list = "REP2"
+	}
+
+	suramo = {
+		name = Suramo
+		plural = Suramos
+		home_planet = "Suramo Prime"
+		home_system = Suramo
+		name_list = "REP3"
+	}
+
+	knatza = {
+		name = Knatza
+		plural = Knatzi
+		home_planet = Knatz
+		home_system = Ibnatz
+		name_list = "REP4"
+	}
+
+	bryll = {
+		name = Bryll
+		plural = Brylls
+		home_planet = Bryllthana
+		home_system = Brethlu
+		name_list = "REP1"
+	}
+
+	raxar = {
+		name = Raxar
+		plural = Raxari
+		home_planet = Rax'Kana
+		home_system = Rax
+		name_list = "REP2"
+	}
+}

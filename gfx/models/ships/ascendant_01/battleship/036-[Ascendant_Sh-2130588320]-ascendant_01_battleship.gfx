@@ -1,0 +1,49 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_battleship_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_bow.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_xl_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_xl_bow.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_mid_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_mid.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_stern_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_stern.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_bow_vanilla_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_bow_vanilla.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_battleship_L1M1S2_bow_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_L1M1S2_bow.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_mid_vanilla_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_mid_vanilla.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_battleship_stern_vanilla_mesh"
+		file = "gfx/models/ships/ascendant_01/battleship/ascendant_battleship_stern_vanilla.mesh"
+		scale = 1.0
+	}
+}

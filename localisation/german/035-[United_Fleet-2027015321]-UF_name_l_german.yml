@@ -1,0 +1,34 @@
+﻿l_german:
+#################################
+ Warship_Girls:0 "Shipgirl"
+ warship_girls:0 "Warship Girls"
+ Warship_Girl:0 "Warship Girl Avatar"
+ warship_girl:0 "Warship Girl"
+ FLAG_CATEGORY_warshipgirls:0 "Warship Girls R Flagge"
+ wsg_trait_warshipgirls:0 "Warship Girls"
+ wsg_trait_warshipgirls_desc:0 "Warship Girls werden von Illumoe Inc. durch Reverse Engineering der Technologie von Abyssal Fleet entworfen. Ihr Ziel ist es, der Invasion der Abyssischen Flotte zu widerstehen und die menschliche Zivilisation zu retten."
+
+ MACHINE_Warship_Girls:0 "Mechanisches Warship Girl"
+ MACHINE_Shenhai:0 "Mechanisches Abyssal Shipgirl"
+ United_fleet:0 "Vereinigte Flotte"
+ United_fleet_White:"Vereinigte Flotte"
+ ShenHai:0 "Shipgirl"
+ 
+ START_SCREEN_WSG:0 "Nachdem wir die letzte Verteidigungslinie der Abyssal-Flotte besiegt haben, verschwinden die restlichen Abyssal-Schiffsmädchen plötzlich aus unserer Heimatwelt. Aus den entschlüsselten Daten in der Basis des Abyssal hatten wir gewusst, dass die Reste von ihnen mit Hyperraum-Engines in den Weltraum flüchteten. Jetzt haben wir diese Technologien schließlich entwickelt und es ist Zeit, unserem alten Feind ein Ende zu setzen."
+ 
+
+ 
+ 
+ 
+ 
+ building_warshipgirl_assembly_plant:0 "Minato Baumeister"
+ building_warshipgirl_assembly_plant_desc:0 "Unter der Transformation von Dr. Yubari kann der Minato Baumeister weiterhin verwendet werden."
+
+ CORE_JUGGERNAUT_HEAVY_SECTION:"SCHWERER KERN"
+ WSG_TITAN_MID:"Titan BOGEN"
+ WSG_TITAN_MID_9L:"Titan schwere MID"
+ WSG_TITAN_STERN:"Titan schwerer stern"
+
+ MISSILE_JUGGERNAUT_SECTION:"Missile KERN"
+ ARTILLERY_JUGGERNAUT_SECTION:"Artillerie KERN"
+ STRIKECRAFT_JUGGERNAUT_SECTION:"Hangar KERN"

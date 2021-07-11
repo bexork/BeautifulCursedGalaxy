@@ -1,0 +1,7 @@
+# SPIRAL WITH 2 ARMS
+arms = {
+	tightness_winding = 1.1			# Tightness of winding
+	width = 60.0					# Arm width in degrees
+	fuzz = 13.0						# Maximum outliers distance from arms
+	seperation = 260.0				# Separation (in degrees) between each arm	
+}

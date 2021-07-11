@@ -1,0 +1,1670 @@
+# Ascendant weapons for RIG
+
+##########
+# Tier 1 #
+##########
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	key = "SMALL_ASCENDANT_WEAPON_1"
+	size = small
+	
+	icon = "RIG_autocannon_small_1"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_1"
+	projectile_gfx = "red_pulse_laser_s"
+	tags = { weapon_type_energy ammo_type_energy_pulse size_type_energy_pulse_small }
+	ai_tags = { weapon_role_anti_hull }
+	class_restriction = { shipclass_military }
+	upgrades_to = "SMALL_ASCENDANT_WEAPON_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t1_cost
+		}		
+		upkeep = {
+			energy = @s_t1_upkeep_energy
+			alloys = @s_t1_upkeep_alloys
+		}
+	}
+	#Stats
+	
+	damage = { min = 1 max = 3 }
+	windup = { min = 2 max = 8 }
+	total_fire_time = 0.75
+	power = -4
+	range = 30	
+	accuracy = 0.95
+	tracking = 0.75
+
+	shield_damage = 1.15
+	armor_penetration = 0.15
+	
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "MEDIUM_ASCENDANT_WEAPON_1"
+	size = medium
+	
+	icon = "RIG_ship_part_plasma_medium_1"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_1"
+	projectile_gfx = "plasma_thrower_m"
+	tags = { weapon_type_plasma ammo_type_plasma_cannon size_type_plasma_cannon_medium }
+	ai_tags = { weapon_role_anti_armor }
+	class_restriction = { shipclass_military }
+	upgrades_to = "MEDIUM_ASCENDANT_WEAPON_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t1_cost
+		}		
+		upkeep = {
+			energy = @m_t1_upkeep_energy
+			alloys = @m_t1_upkeep_alloys
+		}
+	}
+	#Stats
+	
+	damage = { min = 38 max = 72 }
+	windup = { min = 2 max = 20 }
+	power = -20
+	total_fire_time = 40.00
+	range = 60.00
+	accuracy = 0.8
+	tracking = 0.35
+	
+	shield_damage = 1.15
+	armor_penetration = 0.15
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "LARGE_ASCENDANT_WEAPON_1"
+	size = large
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_1"
+	projectile_gfx = "kinetic_artillery"
+	tags = { weapon_type_kinetic ammo_type_kinetic_arty size_type_kinetic_arty_large }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "LARGE_ASCENDANT_WEAPON_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t1_cost
+		}		
+		upkeep = {
+			energy = @l_t1_upkeep_energy
+			alloys = @l_t1_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -35.00
+	damage = { min = 165 max = 265 }
+	windup = { min = 10.0 max = 20.0 }
+	total_fire_time = 150
+	range = 100.00
+	accuracy = 0.75
+	tracking = 	0.05
+	
+	shield_damage = 1.15
+	armor_penetration = 0.15
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+##########
+# Tier 2 #
+##########
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "SMALL_ASCENDANT_WEAPON_2"
+	size = small
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_2"
+	projectile_gfx = "blue_pulse_laser_s"
+	tags = { weapon_type_energy ammo_type_energy_pulse size_type_energy_pulse_small }
+	ai_tags = { weapon_role_anti_hull }
+	upgrades_to = "SMALL_ASCENDANT_WEAPON_3"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t2_cost
+		}		
+		upkeep = {
+			energy = @s_t2_upkeep_energy
+			alloys = @s_t2_upkeep_alloys
+		}
+	}
+	#Stats
+	
+	damage = { min = 2 max = 5 }
+	windup = { min = 2 max = 8 }
+	total_fire_time = 0.75
+	power = -4
+	range = 30	
+	accuracy = 0.95
+	tracking = 0.75
+	
+	shield_damage = 1.30
+	armor_penetration = 0.30
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "MEDIUM_ASCENDANT_WEAPON_2"
+	size = medium
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_2"
+	projectile_gfx = "plasma_accelerator_m"
+	tags = { weapon_type_plasma ammo_type_plasma_cannon size_type_plasma_cannon_medium }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_ASCENDANT_WEAPON_3"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t2_cost
+		}		
+		upkeep = {
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
+		}
+	}
+	#Stats
+	
+	damage = { min = 46 max = 92 }
+	windup = { min = 2 max = 20 }
+	power = -25
+	total_fire_time = 40.00
+	range = 60.00
+	accuracy = 0.8
+	tracking = 0.35
+	
+	shield_damage = 1.30
+	armor_penetration = 0.30
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "LARGE_ASCENDANT_WEAPON_2"
+	size = large
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_2"
+	projectile_gfx = "kinetic_artillery"
+	tags = { weapon_type_kinetic ammo_type_kinetic_arty size_type_kinetic_arty_large }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "LARGE_ASCENDANT_WEAPON_3"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+		}		
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -45.00
+	damage = { min = 215 max = 345 }
+	windup = { min = 10.0 max = 20.0 }
+	total_fire_time = 150
+	range = 100.00
+	accuracy = 0.75
+	tracking = 	0.05
+	
+	shield_damage = 1.30
+	armor_penetration = 0.30
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+##########
+# Tier 3 #
+##########
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "SMALL_ASCENDANT_WEAPON_3"
+	size = small
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_3"
+	projectile_gfx = "uv_pulse_laser_s"
+	tags = { weapon_type_energy ammo_type_energy_pulse size_type_energy_pulse_small }
+	ai_tags = { weapon_role_anti_hull }
+	upgrades_to = "SMALL_ASCENDANT_WEAPON_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t3_cost
+		}		
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 4 max = 7 }
+	windup = { min = 2 max = 8 }
+	power = -6
+	total_fire_time = 0.5
+	range = 35	
+	accuracy = 0.95
+	tracking = 0.75
+	
+	shield_damage = 1.45
+	armor_penetration = 0.45
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "MEDIUM_ASCENDANT_WEAPON_3"
+	size = medium
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_3"
+	projectile_gfx = "plasma_cannon_m"
+	tags = { weapon_type_plasma ammo_type_plasma_cannon size_type_plasma_cannon_medium }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_ASCENDANT_WEAPON_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 58 max = 121 }
+	windup = { min = 2 max = 20 }
+	power = -30
+	total_fire_time = 40
+	range = 75.00
+	accuracy = 0.8
+	tracking = 0.35
+
+	shield_damage = 1.45
+	armor_penetration = 0.45
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "LARGE_ASCENDANT_WEAPON_3"
+	size = large
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_3"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic ammo_type_kinetic_arty size_type_kinetic_arty_large }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "LARGE_ASCENDANT_WEAPON_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -48.00
+	damage = { min = 302 max = 452 }
+	windup = { min = 10.0 max = 20.0 }
+	total_fire_time = 150
+	range = 115.00
+	accuracy = 0.75
+	tracking = 	0.05
+
+	shield_damage = 1.45
+	armor_penetration = 0.45
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+##########
+# Tier 4 #
+##########
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "SMALL_ASCENDANT_WEAPON_4"
+	size = small
+	
+	icon = "GFX_ship_part_mass_driver_4"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_4"
+	projectile_gfx = "xray_pulse_laser_s"
+	tags = { weapon_type_energy ammo_type_energy_pulse size_type_energy_pulse_small }
+	ai_tags = { weapon_role_anti_hull }
+	upgrades_to = "SMALL_ASCENDANT_WEAPON"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+			rare_crystals = @s_t4_rare
+		}		
+		upkeep = {
+			energy = @s_t4_upkeep_energy
+			alloys = @s_t4_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 6 max = 9 }
+	windup = { min = 2 max = 8 }
+	total_fire_time = 0.5	
+	power = -8
+	range = 35
+	accuracy = 0.95
+	tracking = 0.75
+	
+	shield_damage = 1.60
+	armor_penetration = 0.60
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "MEDIUM_ASCENDANT_WEAPON_4"
+	size = medium
+	
+	icon = "GFX_ship_part_mass_driver_4"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_4"
+	projectile_gfx = "MG_plasma_cannon_m_purple"
+	tags = { weapon_type_plasma ammo_type_plasma_cannon size_type_plasma_cannon_medium }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_ASCENDANT_WEAPON"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+			exotic_gas = @m_t4_rare
+		}		
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 64 max = 138 }
+	windup = { min = 2 max = 20 }
+	power = -38
+	total_fire_time = 40
+	range = 75.00
+	accuracy = 0.8
+	tracking = 0.35
+
+	shield_damage = 1.60
+	armor_penetration = 0.60
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "LARGE_ASCENDANT_WEAPON_4"
+	size = large
+	
+	icon = "GFX_ship_part_mass_driver_4"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_4"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic ammo_type_kinetic_arty size_type_kinetic_arty_large }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "LARGE_ASCENDANT_WEAPON"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
+		}		
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 356 max = 482 }
+	windup = { min = 10.0 max = 20.0 }
+	total_fire_time = 150
+	power = -65
+	range = 115.00
+	accuracy = 0.75
+	tracking = 	0.05
+
+	shield_damage = 1.60
+	armor_penetration = 0.60
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	prio_projectile = yes
+	hidden = yes
+	
+	key = "EXTRA_LARGE_ASCENDANT_WEAPON_1"
+	size = extra_large
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_4"
+	projectile_gfx = "technosphere_weapon"
+	tags = { weapon_type_exotic size_type_exotic_dark_matter_extra_large ammo_type_exotic_dark_matter }
+	ai_tags = { weapon_role_anti_hull }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t5_cost
+			sr_dark_matter = @xl_t5_rare
+		}		
+		upkeep = {
+			energy = @xl_t5_upkeep_energy
+			alloys = @xl_t5_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -250.00
+	damage = { min = 850.00 max = 2500.00 }
+	windup = { min = 1.00 max = 18.00 }
+	total_fire_time = 75.00
+	range = 150.00
+	accuracy = 0.85
+	tracking = 	0.00
+
+	shield_damage = 1.60
+	armor_penetration = 0.60
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+##########
+# Tier 5 #
+##########
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "SMALL_ASCENDANT_WEAPON_5"
+	size = small
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_5"
+	projectile_gfx = "gamma_laser_s"
+	tags = { weapon_type_energy ammo_type_energy_pulse size_type_energy_pulse_small }
+	ai_tags = { weapon_role_anti_hull }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t5_cost
+			sr_dark_matter = @s_t5_rare
+		}		
+		upkeep = {
+			energy = @s_t5_upkeep_energy
+			alloys = @s_t5_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 8 max = 12 }
+	windup = { min = 2 max = 8 }
+	total_fire_time = 0.5	
+	power = -10
+	range = 35
+	accuracy = 0.95
+	tracking = 0.75
+	
+	shield_damage = 1.75
+	armor_penetration = 0.75
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "MEDIUM_ASCENDANT_WEAPON_5"
+	size = medium
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_5"
+	projectile_gfx = "dragon_wing_weapon"
+	tags = { weapon_type_plasma ammo_type_plasma_cannon size_type_plasma_cannon_medium }
+	ai_tags = { weapon_role_anti_armor }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+			sr_dark_matter = @m_t5_rare
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -23.00
+	damage = { min = 28.00 max = 88.00 }
+	windup = { min = 1.00 max = 18.00 }
+	total_fire_time = 25.00
+	range = 75.00
+	accuracy = 0.75
+	tracking = 	0.30
+
+	shield_damage = 1.75
+	armor_penetration = 0.75
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	hidden = yes
+	
+	key = "LARGE_ASCENDANT_WEAPON_5"
+	size = large
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_5"
+	projectile_gfx = "stellarite_plasma"
+	tags = { weapon_type_kinetic ammo_type_kinetic_arty size_type_kinetic_arty_large }
+	ai_tags = { weapon_role_anti_shield }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			sr_dark_matter = @l_t5_rare
+		}		
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+	#Stats
+	damage = { min = 402 max = 503 }
+	windup = { min = 10.0 max = 20.0 }
+	total_fire_time = 150
+	power = -75
+	range = 115.00
+	accuracy = 0.80
+	tracking = 	0.05
+
+	shield_damage = 1.75
+	armor_penetration = 0.75
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	prio_projectile = yes
+	hidden = yes
+	
+	key = "EXTRA_LARGE_ASCENDANT_WEAPON_2"
+	size = extra_large
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_5"
+	projectile_gfx = "stellarite_titan_laser"
+	tags = { weapon_type_exotic size_type_exotic_dark_matter_extra_large ammo_type_exotic_dark_matter }
+	ai_tags = { weapon_role_anti_shield }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @xl_t6_cost
+			sr_dark_matter = @xl_t6_rare
+		}		
+		upkeep = {
+			energy = @xl_t6_upkeep_energy
+			alloys = @xl_t6_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -300.00
+	damage = { min = 1000.00 max = 4000.00 }
+	windup = { min = 1.00 max = 18.00 }
+	total_fire_time = 75.00
+	range = 150.00
+	accuracy = 0.85
+	tracking = 	0.00
+
+	shield_damage = 1.75
+	armor_penetration = 0.75
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}
+
+weapon_component_template = {
+	type = instant
+	prio_projectile = yes
+	hidden = yes
+	
+	key = "TITANIC_ASCENDANT_WEAPON"
+	size = titanic
+	
+	icon = "GFX_ship_part_mass_driver_5"
+	icon_frame = 1
+	
+	#prerequisites = { "tech_RIG_ascendant_engineering_corvette" }
+	component_set = "ASC_WEAPON_5"
+	projectile_gfx = "dimensional_titan_laser"
+	tags = { weapon_type_exotic size_type_exotic_dark_matter_extra_large ammo_type_exotic_dark_matter }
+	ai_tags = { weapon_role_anti_shield }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			sr_dark_matter = @titanic_t6_rare
+		}		
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+	#Stats
+	power = -500.00
+	damage = { min = 6000.00 max = 13000.00 }
+	windup = { min = 30.00 max = 45.00 }
+	total_fire_time = 190.00
+	range = 250.00
+	accuracy = 0.85
+	tracking = 	0.00
+
+	shield_damage = 1.75
+	armor_penetration = 0.75
+	#AI
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_arthropoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0
+			has_technology = tech_RIG_avian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0	
+			has_technology = tech_RIG_fungoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_humanoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_mammalian_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_molluscoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_plantoid_engineering_corvette
+		}	
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_reptilian_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_lithoid_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_artifical_engineering_corvette
+		}
+		modifier = {
+			factor = 0.0			
+			has_technology = tech_RIG_necroid_engineering_corvette
+		}
+		modifier = {
+			factor = 3.0			
+			has_technology = tech_RIG_ascendant_engineering_corvette
+		}			
+	}
+}

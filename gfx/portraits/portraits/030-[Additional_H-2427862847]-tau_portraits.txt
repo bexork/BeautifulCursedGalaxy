@@ -1,0 +1,140 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	tau_male_A 	= {	entity = "portrait_human_male_01_entity"	clothes_selector = "tau_clothes_01" hair_selector = "tau_male_hair"	greeting_sound = "humanoid_portrait_c_male"	
+		character_textures = {
+			"gfx/models/portraits/tau/tau_male_A_01.dds"
+			"gfx/models/portraits/tau/tau_male_A_02.dds"
+			"gfx/models/portraits/tau/tau_male_A_03.dds"
+		}
+	}
+	
+	tau_male_B 	= {	entity = "portrait_human_male_01_entity"	clothes_selector = "tau_clothes_01" hair_selector = "tau_male_hair"	greeting_sound = "humanoid_portrait_c_male"	
+		character_textures = {
+			"gfx/models/portraits/tau/tau_male_B_01.dds"
+			"gfx/models/portraits/tau/tau_male_B_02.dds"
+			"gfx/models/portraits/tau/tau_male_B_03.dds"
+		}
+	}
+
+	tau_female_A 	= {	entity = "portrait_human_female_03_entity"	clothes_selector = "tau_female_clothes_01" hair_selector = "tau_female_hair"	greeting_sound = "humanoid_portrait_c_female"	
+		character_textures = {
+			"gfx/models/portraits/tau/tau_female_A_01.dds"
+			"gfx/models/portraits/tau/tau_female_A_02.dds"
+			"gfx/models/portraits/tau/tau_female_A_03.dds"
+		}
+	}
+	
+	#tau_female_B 	= {	entity = "portrait_human_female_03_entity"	clothes_selector = "tau_female_clothes_01" hair_selector = "tau_female_hair"	greeting_sound = "humanoid_portrait_c_female"	
+	#	character_textures = {
+	#		"gfx/models/portraits/tau/tau_female_B_01.dds"
+	#		"gfx/models/portraits/tau/tau_female_B_02.dds"
+	#		"gfx/models/portraits/tau/tau_female_B_03.dds"
+	#	}
+	#}
+}
+
+portrait_groups = {
+	tau = {
+		default = tau_male_A
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					tau_male_A
+					tau_male_B
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					tau_female_A
+					#tau_female_B
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					tau_male_A
+					tau_male_B
+					tau_female_A
+					#tau_female_B
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					tau_male_A
+					tau_male_B
+					tau_female_A
+					#tau_female_B
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tau_female_A
+					#tau_female_B
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tau_male_A
+					tau_male_B
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tau_female_A
+					#tau_female_B
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tau_male_A
+					tau_male_B
+				}
+			}
+		}
+	}
+}

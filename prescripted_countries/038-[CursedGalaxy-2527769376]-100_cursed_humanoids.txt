@@ -1,0 +1,869 @@
+AssemblyOfOol = {
+	key = "AssemblyOfOol"
+	ship_prefix = "Ool"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_hp_13"
+		name = "Oolman"
+		plural = "Oolums"
+		adjective = "Ool!"
+		name_list = "HUMAN2"
+		trait = "trait_slow_breeders"
+		trait = "trait_nonadaptive"
+		trait = "trait_industrious"
+		trait = "trait_intelligent"
+		trait = "trait_charismatic"
+	}
+	name = "Assembly of Ool"
+	adjective = "Oolehn"
+	authority = "auth_imperial"
+	government = "gov_theocratic_monarchy"
+	advisor_voice_type = "l_pacifist"
+	planet_name = "Oolk"
+	planet_class = "pc_arctic"
+	system_name = "Ool"
+	initializer = ""
+	graphical_culture = "nemesis_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_5.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"hsv_8-100-80"
+			"hsv_88-84-80"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Oet"
+		portrait = "humanoid_hp_13_female"
+		texture = 2
+		hair = 0
+		clothes = 6
+		ruler_title = "High Dark Priest"
+		heir_title = "Adept Initiate"
+		ruler_title_female = "First Witness"
+		heir_title_female = "Acolyte Child"
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_ruthless_capitalists_room"
+	spawn_enabled = always
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_mining_guilds"
+		"civic_efficient_bureaucracy"
+	}
+	origin = "origin_default"
+}
+
+LightofManReborn = {
+	key = "LightofManReborn"
+	ship_prefix = "LMR"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_03"
+		name = "Elevated Human"
+		plural = "Elevated Humans"
+		adjective = "Elevated Human"
+		name_list = "HUMAN2"
+		trait = "trait_survivor"
+		trait = "trait_slow_breeders"
+		trait = "trait_natural_sociologists"
+		trait = "trait_intelligent"
+		trait = "trait_agrarian"
+		trait = "trait_fleeting"
+	}
+	name = "Light of Man, Reborn"
+	adjective = "Human"
+	authority = "auth_oligarchic"
+	flags = {
+		"human_2"
+		"custom_start_screen"
+	}
+	government = "gov_purification_committee"
+	planet_name = "Oracle"
+	planet_class = "pc_continental"
+	system_name = "Deneb"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_9.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors = {
+			"hsv_56-100-80"
+			"hsv_88-68-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sidney Beauclair"
+		portrait = "humanoid_03_female_01"
+		texture = 3
+		hair = 0
+		clothes = 3
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_evangelizing_zealots_room"
+	spawn_enabled = always
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_fanatic_purifiers"
+		"civic_exalted_priesthood"
+	}
+	origin = "origin_post_apocalyptic"
+}
+
+CursedChildrenofEarth = {
+	key = "CursedChildrenofEarth"
+	ship_prefix = "Cce"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_hp_01"
+		name = "Earth Demon"
+		plural = "Earth Demons"
+		adjective = "Earth Demon"
+		species_bio = "The product of Human genetic engineering, this species seeks to eat blah bl;ah lblahs"
+		name_list = "HUMAN1"
+		trait = "trait_unruly"
+		trait = "trait_ingenious"
+		trait = "trait_industrious"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+	name = "Cursed Children of Earth"
+	adjective = "Devlish"
+	authority = "auth_imperial"
+	government = "gov_star_empire"
+	advisor_voice_type = "l_spiritualist"
+	planet_name = "Cursed Earth"
+	planet_class = "pc_continental"
+	system_name = "Cursed Sol"
+	initializer = ""
+	graphical_culture = "machine_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "legion"
+			file = "flag_mp_beta_01.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"hsv_40-100-80"
+			"hsv_88-52-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sorcana"
+		portrait = "humanoid_hp_01_female"
+		texture = 2
+		hair = 0
+		clothes = 5
+		ruler_title_female = "Elevated One"
+		heir_title_female = "Darkness In Waiting"
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "default_room"
+	spawn_enabled = always
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_mining_guilds"
+		"civic_corvee_system"
+	}
+	origin = "origin_default"
+}
+
+ChurchofLunarLight = {
+	key = "ChurchofLunarLight"
+	ship_prefix = "CLL"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_05"
+		name = "Spaceling"
+		plural = "Spacelings"
+		adjective = "Space Hippies"
+		species_bio = "Space Hippy Warior Monks  These humans have adapted themselves to live in space after surviving the desctruction of their home colony on the moon. They are peaceful Monks who offer sanctuary to all beings since they know what it's like to lose a home."
+		name_list = "HUMAN1"
+		trait = "trait_weak"
+		trait = "trait_natural_physicists"
+		trait = "trait_solitary"
+		trait = "trait_conservational"
+		trait = "trait_charismatic"
+	}
+	name = "Church of Lunar Light"
+	adjective = "Loonies"
+	authority = "auth_democratic"
+	flags = {
+		"human_1"
+		"custom_start_screen"
+	}
+	government = "gov_theocratic_republic"
+	planet_name = "Earth"
+	planet_class = "pc_continental"
+	system_name = "Sol"
+	initializer = ""
+	graphical_culture = "addhum_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "flag_human_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"hsv_64-84-80"
+			"hsv_64-100-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Amanda Spock"
+		portrait = "humanoid_05_female_01"
+		texture = 0
+		hair = 6
+		clothes = 1
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_federation_builders_room"
+	spawn_enabled = always
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_free_haven"
+		"civic_memorialist"
+	}
+	origin = "origin_default"
+}
+
+LightofManRebornAgain = {
+	key = "LightofManRebornAgain"
+	ship_prefix = "LRA"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_03"
+		name = "Elevated Human"
+		plural = "Elevated Humans"
+		adjective = "Elevated Human"
+		name_list = "HUMAN2"
+		trait = "trait_survivor"
+		trait = "trait_slow_breeders"
+		trait = "trait_natural_sociologists"
+		trait = "trait_intelligent"
+		trait = "trait_agrarian"
+		trait = "trait_fleeting"
+	}
+	name = "Light of Man, Reborn Again"
+	adjective = "Human"
+	authority = "auth_oligarchic"
+	flags = {
+		"human_2"
+		"custom_start_screen"
+	}
+	government = "gov_holy_tribunal"
+	planet_name = "Oracle"
+	planet_class = "pc_continental"
+	system_name = "Deneb"
+	initializer = ""
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_9.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors = {
+			"hsv_56-68-80"
+			"hsv_88-52-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sidney Beauclair"
+		portrait = "humanoid_03_female_01"
+		texture = 3
+		hair = 0
+		clothes = 3
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_evangelizing_zealots_room"
+	spawn_enabled = always
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_exalted_priesthood"
+		"civic_memorialist"
+	}
+	origin = "origin_post_apocalyptic"
+}
+
+SlaveTradersoftheOuterRim = {
+	key = "SlaveTradersoftheOuterRim"
+	ship_prefix = "SLV1"
+	species = {
+		class = "REP"
+		portrait = "rep9"
+		name = "Tzrlix"
+		plural = "Tzrlix"
+		adjective = "Tzrlix"
+		name_list = "REP3"
+		trait = "trait_quarrelsome"
+		trait = "trait_decadent"
+		trait = "trait_deviants"
+		trait = "trait_venerable"
+		trait = "trait_strong"
+	}
+	name = "Slave Traders of the Outer Rim"
+	adjective = "Rim Slavers"
+	authority = "auth_imperial"
+	government = "gov_bandit_kingdom"
+	planet_name = "Tzynnia"
+	planet_class = "pc_ocean"
+	system_name = "Sal'Tzynn"
+	initializer = ""
+	graphical_culture = "necroid_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_24.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"light_orange"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = male
+		name = "Sazzeeja"
+		portrait = "rep9"
+		texture = 1
+		hair = 0
+		clothes = 4
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_slaving_despots_room"
+	spawn_enabled = always
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+	civics = {
+		"civic_slaver_guilds"
+		"civic_barbaric_despoilers"
+	}
+	origin = "origin_default"
+}
+
+BadlifeExterminators00100111 = {
+	key = "BadlifeExterminators00100111"
+	ship_prefix = "BZK"
+	species = {
+		class = "MACHINE"
+		portrait = "lith_machine"
+		name = "Berserker"
+		plural = "Berserkers"
+		adjective = "Berserker"
+		species_bio = "Unleashed during the final cataclysims of Man.... Blahg"
+		name_list = "MACHINE2"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_high_bandwidth"
+		trait = "trait_robot_superconductive"
+		trait = "trait_robot_durable"
+	}
+	name = "Badlife Exterminators 00100111"
+	adjective = "Badlife Exterminators"
+	authority = "auth_machine_intelligence"
+	government = "gov_machine_terminator"
+	advisor_voice_type = "l_machine"
+	planet_name = "Orbital Factory 73"
+	planet_class = "pc_continental"
+	system_name = "Skism"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "legion"
+			file = "flag_mp_beta_06.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"purple"
+			"null"
+			"null"
+			"null"
+		}
+		ruler = {
+			gender = female
+			name = "Director"
+			portrait = "lith_machine"
+			texture = 2
+			hair = 0
+			clothes = 0
+			ruler_title = "Inner Loop"
+			leader_class = "ruler"
+		}
+		spawn_as_fallen = no
+		ignore_portrait_duplication = yes
+		room = "personality_federation_builders_room"
+		spawn_enabled = yes
+		ethic = "ethic_gestalt_consciousness"
+		civics = {
+			"civic_machine_builder"
+			"civic_machine_terminator"
+		}
+		origin = "origin_machine"
+	}
+}
+
+FirstChurchofNewMan = {
+	key = "FirstChurchofNewMan"
+	ship_prefix = "FCN"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_04"
+		name = "Centauri Demon"
+		plural = "Centauri Demons"
+		adjective = "Centauri Demon"
+		species_bio = "Originally created by humans as genetically engineered slaves to work deep under the mantle of mining colonies they have freed themselves and colonized a Tombworld Earth."
+		name_list = "HUM1"
+		trait = "trait_unruly"
+		trait = "trait_ingenious"
+		trait = "trait_industrious"
+		trait = "trait_nonadaptive"
+		trait = "trait_intelligent"
+	}
+	name = "First Church of New Man"
+	adjective = "Devils"
+	authority = "auth_oligarchic"
+	government = "gov_grim_council"
+	planet_name = "Earth"
+	planet_class = "pc_continental"
+	system_name = "Sol"
+	initializer = "sol_system_initializer"
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "pirate"
+			file = "flag_pirate_3.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"hsv_24-100-80"
+			"hsv_72-36-50"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sorcana"
+		portrait = "humanoid_04"
+		texture = 2
+		hair = 0
+		clothes = 5
+		ruler_title_female = "Elevated One"
+		heir_title_female = "Darkness In Waiting"
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "default_room"
+	spawn_enabled = always
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_exalted_priesthood"
+		"civic_death_cult"
+	}
+	origin = "origin_life_seeded"
+}
+
+GlkraCovenant = {
+	key = "GlkraCovenant"
+	ship_prefix = "Glkr"
+	species = {
+		class = "ADDHUM"
+		portrait = "humanoid_097"
+		name = "Glrkr"
+		plural = "Glkr"
+		adjective = "Glkr"
+		name_list = "HUM3"
+		trait = "trait_just-more-traits_fractious"
+		trait = "trait_just-more-traits_curious"
+		trait = "trait_just-more-traits_hardworking"
+		trait = "trait_just-more-traits_gardeners"
+		trait = "trait_talented"
+	}
+	name = "Glkra Covenant"
+	adjective = "Glkra Covenant"
+	authority = "auth_democratic"
+	government = "gov_direct_democracy"
+	planet_name = "Glrkado"
+	planet_class = "pc_continental"
+	system_name = "Glkrka Lirk"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "fungoid_01"
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"dark_brown"
+			"hsv_64-84-80"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Qkllxix"
+		portrait = "humanoid_097_female"
+		texture = 1
+		hair = 0
+		clothes = 2
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "hfe_discovery_room"
+	spawn_enabled = always
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	civics = {
+		"civic_energy_supremacy"
+		"civic_alien_influence"
+	}
+	origin = "origin_default"
+}
+
+RisenCommenwealthofMan = {
+	key = "RisenCommenwealthofMan"
+	ship_prefix = "CNS"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "Human"
+		plural = "Humans"
+		adjective = "Human"
+		name_list = "HUMAN2"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
+	}
+	name = "Risen Commenwealth of Man"
+	adjective = "Human"
+	authority = "auth_dictatorial"
+	flags = {
+		"human_2"
+		"custom_start_screen"
+	}
+	government = "gov_military_dictatorship"
+	planet_name = "Unity"
+	planet_class = "pc_continental"
+	system_name = "Deneb"
+	initializer = "deneb_system"
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "flag_human_4.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors = {
+			"hsv_8-100-50"
+			"hsv_56-36-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sidney Beauclair"
+		portrait = "human_female_04"
+		texture = 0
+		hair = 6
+		clothes = 4
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "personality_hegemonic_imperialists_room"
+	spawn_enabled = always
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	civics = {
+		"civic_nationalistic_zeal"
+		"civic_distinguished_admiralty"
+	}
+	origin = "origin_lost_colony"
+}
+
+RecomibnantDemonHumanoidEaters = {
+	key = "RecomibnantDemonHumanoidEaters"
+	ship_prefix = "DHS"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_hp_01"
+		name = "Demon"
+		plural = "Demons"
+		adjective = "Demon"
+		species_bio = "The product of Human genetic engineering, this species seeks to eat blah bl;ah lblahs"
+		name_list = "HUMAN3"
+		trait = "trait_survivor"
+		trait = "trait_ingenious"
+		trait = "trait_industrious"
+		trait = "trait_agrarian"
+		trait = "trait_slow_breeders"
+		trait = "trait_unruly"
+	}
+	name = "Recomibnant Demon Humanoid Eaters"
+	adjective = "Recomibnant Demon Humanoid Eaters"
+	authority = "auth_dictatorial"
+	government = "gov_purity_order"
+	planet_name = "Earth"
+	planet_class = "pc_continental"
+	system_name = "Sol"
+	initializer = "sol_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "redrising-6364"
+			file = "red-rising-color-blue1.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"hsv_8-100-80"
+			"hsv_88-84-50"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Sorcana"
+		portrait = "humanoid_hp_01_female"
+		texture = 0
+		hair = 0
+		clothes = 4
+		ruler_title_female = "Elevated One"
+		heir_title_female = "Darkness In Waiting"
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "default_room"
+	spawn_enabled = always
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_spiritualist"
+	civics = {
+		"civic_fanatic_purifiers"
+		"civic_subterranean_origins"
+	}
+	origin = "origin_post_apocalyptic"
+}
+
+DaedalusRaiders = {
+	key = "DaedalusRaiders"
+	ship_prefix = "DRX"
+	species = {
+		class = "ADDHUM"
+		portrait = "humanoid_091"
+		name = "Human"
+		plural = "Humans"
+		adjective = "Human"
+		name_list = "HUM2"
+		trait = "trait_ingenious"
+		trait = "trait_unruly"
+		trait = "trait_decadence_lust"
+		trait = "trait_just-more-traits_gardeners"
+		trait = "trait_just-more-traits_ritualists"
+	}
+	name = "Daedalus Raiders"
+	adjective = "Daedalus Raiders"
+	authority = "auth_dictatorial"
+	government = "gov_bandit_kingdom"
+	planet_name = "Second Earth"
+	planet_class = "pc_continental"
+	system_name = "Solstice"
+	initializer = "mhs_daedalus_system"
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "domination"
+			file = "domination_11.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors = {
+			"hsv_72-68-80"
+			"hsv_16-100-80"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		gender = female
+		name = "Rysin Va"
+		portrait = "humanoid_091_female_01"
+		texture = 0
+		hair = 0
+		clothes = 6
+		leader_class = "ruler"
+	}
+	spawn_as_fallen = no
+	ignore_portrait_duplication = yes
+	room = "cityscape18_room"
+	spawn_enabled = always
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	civics = {
+		"civic_energy_supremacy"
+		"civic_barbaric_despoilers"
+	}
+	origin = "origin_default"
+}
+
+LegionOfBloof={
+	key="LegionOfBloof"
+	ship_prefix="LOB"
+	species={
+		class="ADDHUM"
+		portrait="humanoid_093"
+		name="Boo Face"
+		plural="Boo Faces"
+		adjective="Boo Faced"
+		name_list="HUM1"
+		trait="trait_decadence_beauty"
+		trait="trait_decadence_drugs"
+		trait="trait_decadence_lust"
+		trait="trait_f_behind"
+		trait="trait_f_pandemic"
+	}
+	name="Legion of Bloof"
+	adjective="Bloofers"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_xenophile"
+	planet_name="Asharev"
+	planet_class="pc_continental"
+	system_name="Rayzer"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="scpuniverse"
+			file="scpuniverse_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"hsv_88-100-80"
+			"hsv_32-20-80"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Golhada"
+		portrait="humanoid_093_female"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title_female="First Bloofist"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_f_crystalharvester"
+		"civic_f_gasharvester"
+	}
+	origin="origin_doomsday"
+}

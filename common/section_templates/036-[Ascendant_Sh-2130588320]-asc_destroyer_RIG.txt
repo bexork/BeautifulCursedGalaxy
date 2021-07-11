@@ -1,0 +1,304 @@
+# RIG sections are defined here
+
+# Bow
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_BOW_1L"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = no
+	entity = ascendant_01_destroyer_bow_L1_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "LARGE_1"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 1
+	medium_utility_slots = 1
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_BOW_1G"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = no
+	entity = ascendant_01_destroyer_bow_L1_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "MISSILE_1"
+		template = "medium_missile_turret"
+		locatorname = "large_gun_01"
+	}
+	
+	large_utility_slots = 1
+	medium_utility_slots = 1
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_BOW_1M4S"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = no
+	entity = ascendant_01_destroyer_bow_M1S4_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "MEDIUM_1"
+		template = "medium_turret"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_1"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_2"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_3"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_4"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	medium_utility_slots = 1
+	small_utility_slots = 2
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_STERN_4A"
+	ship_size = destroyer
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = ascendant_01_destroyer_stern_RIG_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	medium_utility_slots = 2
+	small_utility_slots = 2
+	aux_utility_slots = 4
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_STERN_4S"
+	ship_size = destroyer
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = ascendant_01_destroyer_stern_RIG_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "SMALL_1"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_2"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_3"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_4"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	medium_utility_slots = 1
+	small_utility_slots = 2
+	aux_utility_slots = 2
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_DESTROYER_STERN_4P"
+	ship_size = destroyer
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = ascendant_01_destroyer_stern_RIG_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "PD_1"
+		template = "point_defence_turret"
+		locatorname = "pd_01"
+	}
+	component_slot = {
+		name = "PD_2"
+		template = "point_defence_turret"
+		locatorname = "pd_02"
+	}
+	component_slot = {
+		name = "PD_3"
+		template = "point_defence_turret"
+		locatorname = "pd_03"
+	}
+	component_slot = {
+		name = "PD_4"
+		template = "point_defence_turret"
+		locatorname = "pd_04"
+	}
+	
+	medium_utility_slots = 2
+	aux_utility_slots = 3
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 55
+		}
+	}
+}
+
+# Escort
+
+ship_section_template = {
+	key = "RIG_ASC_ESCORT_BOW"
+	ship_size = destroyer
+	fits_on_slot = bow
+	should_draw_components = no
+	entity = ascendant_01_escort_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "LARGE_1"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_1"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_2"
+		template = "small_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_3"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_4"
+		template = "small_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 70
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_ESCORT_STERN"
+	ship_size = destroyer
+	fits_on_slot = stern
+	should_draw_components = no
+	entity = ascendant_01_escort_weapons_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = {
+		name = "PD_1"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "PD_2"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "PD_3"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "PD_4"
+		template = "point_defence_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	medium_utility_slots = 3
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 55
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+		}
+	}
+}

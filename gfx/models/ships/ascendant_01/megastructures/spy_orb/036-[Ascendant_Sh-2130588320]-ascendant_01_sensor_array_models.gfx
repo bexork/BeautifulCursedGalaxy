@@ -1,0 +1,22 @@
+objectTypes = {
+	pdxmesh = {
+		name = "ascendant_01_sensor_array_1_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/spy_orb/ascendant_01_sensor_array_stage_1.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_sensor_array_2_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/spy_orb/ascendant_01_sensor_array_stage_2.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_sensor_array_3_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/spy_orb/ascendant_01_sensor_array_stage_3.mesh"
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "ascendant_01_sensor_array_4_mesh"
+		file = "gfx/models/ships/ascendant_01/megastructures/spy_orb/ascendant_01_sensor_array_stage_4.mesh"
+		scale = 1.0
+	}
+}

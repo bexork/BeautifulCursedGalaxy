@@ -1,0 +1,115 @@
+# RIG sections are defined here
+
+ship_section_template = {
+	key = "RIG_ASC_CORVETTE_1M2S"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = no
+	entity = ascendant_01_corvette_M1S2_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = { 
+		name = "MEDIUM_1" 
+		template = "medium_turret" 
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = { 
+		name = "SMALL_1" 
+		template = "small_turret" 
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = { 
+		name = "SMALL_02" 
+		template = "small_turret" 
+		locatorname = "small_gun_02"
+	}
+	
+	medium_utility_slots = 2
+	aux_utility_slots = 1
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 45
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_CORVETTE_1M2P"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = no
+	entity = ascendant_01_corvette_M1S2_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = { 
+		name = "MEDIUM_1" 
+		template = "medium_turret" 
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = { 
+		name = "PD_1" 
+		template = "point_defence_turret" 
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = { 
+		name = "PD_02" 
+		template = "point_defence_turret" 
+		locatorname = "small_gun_02"
+	}
+	
+	medium_utility_slots = 2
+	aux_utility_slots = 2
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 50
+		}
+	}
+}
+
+ship_section_template = {
+	key = "RIG_ASC_CORVETTE_1G2P"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = no
+	entity = ascendant_01_corvette_M1S2_entity
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_RIG_ascendant_engineering_corvette }
+	
+	component_slot = { 
+		name = "MISSILE_1" 
+		template = "medium_missile_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = { 
+		name = "PD_1" 
+		template = "point_defence_turret" 
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = { 
+		name = "PD_02" 
+		template = "point_defence_turret" 
+		locatorname = "small_gun_02"
+	}
+	
+	medium_utility_slots = 2
+	aux_utility_slots = 2
+	
+	resources = {
+		category = ship_sections 
+		cost = { 
+		alloys = 60
+		}
+	}
+}

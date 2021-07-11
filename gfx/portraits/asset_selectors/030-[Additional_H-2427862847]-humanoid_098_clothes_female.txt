@@ -1,0 +1,50 @@
+# This is a template which multiple species can use. 
+
+humanoid_098_clothes_female = {
+	default = "gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		random = {
+			trigger = { always = yes }
+			list = {
+				"gfx/models/portraits/new_humanoid/humanoid_098_female_governor.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_098_female_clothes.dds"
+				"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler.dds"
+			}
+		}
+	
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_clothes.dds" 	= { OR = { is_pop_category = worker is_pop_category = slave is_pop_category = simple_drone }  }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_clothes.dds" 	= { OR = { is_pop_category = specialist is_pop_category = complex_drone } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler.dds" 	= { is_pop_category = ruler }
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_clothes.dds" = { leader_class = scientist }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_general.dds" = { leader_class = general }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_governor.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds"
+
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_generic_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_spiritualist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_pacifist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_primitive_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler.dds" = { owner = { has_materialist_government = yes NOT = { has_authority = auth_imperial } } }
+		"gfx/models/portraits/new_humanoid/humanoid_098_female_ruler1.dds" = { owner = { has_authority = auth_imperial } }
+	}
+}

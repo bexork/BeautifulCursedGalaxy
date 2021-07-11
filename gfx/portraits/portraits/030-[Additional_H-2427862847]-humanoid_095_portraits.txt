@@ -1,0 +1,101 @@
+portraits = {
+    humanoid_095_male 	= {	entity = "humanoid_05_male_01_entity"	clothes_selector = "humanoid_095_male_clothes_01" hair_selector = "humanoid_095_male_hair"	greeting_sound = "humanoid_male_greeting_b"	
+		character_textures = {
+			"gfx/models/portraits/new_humanoid/humanoid_095_male_1.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_095_male_2.dds"
+		}
+	}
+
+	humanoid_095_female 	= {	entity = "humanoid_05_female_01_entity"	clothes_selector = "humanoid_095_female_clothes_01" hair_selector = "humanoid_095_female_hair"	greeting_sound = "humanoid_female_greeting_b"	
+		character_textures = {
+			"gfx/models/portraits/new_humanoid/humanoid_095_female_1.dds"
+			"gfx/models/portraits/new_humanoid/humanoid_095_female_2.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	humanoid_095 = {
+		default = humanoid_095_female
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					humanoid_095_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					humanoid_095_female
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					humanoid_095_female
+					humanoid_095_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					humanoid_095_female
+					humanoid_095_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					humanoid_095_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					humanoid_095_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					humanoid_095_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					humanoid_095_male
+				}
+			}
+		}
+	}
+}

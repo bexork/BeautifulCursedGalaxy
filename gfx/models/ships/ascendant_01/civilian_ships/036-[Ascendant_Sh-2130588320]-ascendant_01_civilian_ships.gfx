@@ -1,0 +1,26 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_colony_ship_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_ships/ascendant_colony_ship.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_science_ship_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_ships/ascendant_science.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_civilian_ship_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_ships/ascendant_civilian.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_transport_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_ships/ascendant_transport.mesh"
+		scale = 1.0
+	}
+}

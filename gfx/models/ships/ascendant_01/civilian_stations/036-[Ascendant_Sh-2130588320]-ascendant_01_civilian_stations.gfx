@@ -1,0 +1,40 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "ascendant_01_observation_station_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_stations/ascendant_observation_station.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_research_station_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_stations/ascendant_research_station.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_mining_station_mesh"
+		file = "gfx/models/ships/ascendant_01/civilian_stations/ascendant_station_small.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "MeshShape"
+			index = 0
+			texture_diffuse = "ascendant_01_stations_diffuse.dds"
+			texture_normal = "ascendant_empire_stations_normal.dds"
+			texture_specular = "ascendant_empire_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_mining_station_frame_mesh"
+		file = "gfx/models/ships/nemesis_01/nemesis_01_mining_station_frame.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "ascendant_01_science_station_frame_mesh"
+		file = "gfx/models/ships/nemesis_01/nemesis_01_research_station_frame.mesh"
+	}
+}

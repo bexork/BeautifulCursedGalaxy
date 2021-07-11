@@ -1,0 +1,10 @@
+﻿l_german:
+ trait_decadence_beauty:0 "Dekadent: Schönheit"
+ trait_decadence_beauty_desc:0 "§LSchönheit um jeden Preis ist einer der wichtigsten Leitgedanken dieser Spezies. Ein Grossteil der persönlichen Ressourcen wird für äusserliche Ästhetik verschwendet.§!\n"
+ trait_decadence_drugs:0 "Dekandent: Drogenmissbrauch"
+ trait_decadence_drugs_desc:0 "§LMitglieder dieser Spezies konsumieren so exzessiv Betäubungsmittel, dass die Abhängigkeit von denselben bereits zum allgemein gültigen Grundzustand wurde.§!\n"
+ trait_decadence_lust:0 "Dekadent: Wollust"
+ trait_decadence_lust_desc:0 "§LDiese Spezies ist völlig ihrem Sexualtrieb verfallen und zieht dessen sofortige Befriedigung jeder Arbeit vor. Ausserdem gilt dieses Verhalten in den meisten Kulturen als unmoralisch.§!\n"
+ opinion_lust_species:0 "Unmoralische Primitive"
+ TRAIT_LUST_EFFECT:0 "Wachstumsgeschwindigkeit: §G+10%§!\nBewohnernutzung (Gebäude): §G-5%§!\n$mod_planet_jobs_produces_mult$: §R-5%§!\nMeinung über uns: §R-50§!"
+ 

@@ -1,0 +1,959 @@
+music = {
+	name = "falling"
+	file = "falling.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "acrossthevoid"
+	file = "acrossthevoid.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "galaxyschild"
+	file = "galaxyschild.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "gargantua"
+	file = "gargantua.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "flourish"
+	file = "flourish.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "tranquility"
+	file = "tranquility.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "waitforme"
+	file = "waitforme.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "visionformation"
+	file = "visionformation.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theedgeofforever"
+	file = "theedgeofforever.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "tothegreatbeyond"
+	file = "tothegreatbeyond.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "rendezvouswithrama"
+	file = "rendezvouswithrama.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "derelict"
+	file = "derelict.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "calmriver"
+	file = "calmriver.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "lostinandromeda"
+	file = "lostinandromeda.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theodyssey"
+	file = "theodyssey.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "vacuumredux"
+	file = "vacuumredux.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "lookingatthesky"
+	file = "lookingatthesky.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "cosmicsunrise"
+	file = "cosmicsunrise.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "stardomeremix"
+	file = "stardomeremix.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "thebeltoforion"
+	file = "thebeltoforion.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "gribmig"
+	file = "gribmig.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "objectsinspace"
+	file = "objectsinspace.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "darkcorners"
+	file = "darkcorners.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "remains"
+	file = "remains.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "distantworlds"
+	file = "distantworlds.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "etherealflight"
+	file = "etherealflight.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "crystalfleshmachinesoul"
+	file = "crystalfleshmachinesoul.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "nordlys"
+	file = "nordlys.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "reality"
+	file = "reality.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "discovering"
+	file = "discovering.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "qualia"
+	file = "qualia.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "nebula"
+	file = "nebula.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "catarina"
+	file = "catarina.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "afewlightyearsaway"
+	file = "afewlightyearsaway.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "drift"
+	file = "drift.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "poolsofcreationalien"
+	file = "poolsofcreationalien.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "polyrytmi"
+	file = "polyrytmi.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "supersede"
+	file = "supersede.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "signals"
+	file = "signals.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "eventide"
+	file = "eventide.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "nightsky"
+	file = "nightsky.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "saygoodbyetoeveryone"
+	file = "saygoodbyetoeveryone.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "sol"
+	file = "sol.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "concept1"
+	file = "concept1.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "concept10"
+	file = "concept10.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "concept16"
+	file = "concept16.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "orangeoceanremix"
+	file = "orangeoceanremix.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "septembersunremix"
+	file = "septembersunremix.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "dybet"
+	file = "dybet.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "verdensstoerstesatellit"
+	file = "verdensstoerstesatellit.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "constellation"
+	file = "constellation.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "staringintothenothingness"
+	file = "staringintothenothingness.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theroadtonothingness"
+	file = "theroadtonothingness.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "bellsofresurrection"
+	file = "bellsofresurrection.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "lemuria"
+	file = "lemuria.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "anoceanofgalaxies"
+	file = "anoceanofgalaxies.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "billionsandbillions"
+	file = "billionsandbillions.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "comethailey"
+	file = "comethailey.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "eternity"
+	file = "eternity.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "milliways"
+	file = "milliways.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "reflex"
+	file = "reflex.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theabysshungers"
+	file = "theabysshungers.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "brokenwings"
+	file = "brokenwings.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "astropath"
+	file = "astropath.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "starsaroundme"
+	file = "starsaroundme.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "troposphere"
+	file = "troposphere.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "orbiter"
+	file = "orbiter.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "paraselene"
+	file = "paraselene.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "starshipeden"
+	file = "starshipeden.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "belowtheasteroids"
+	file = "belowtheasteroids.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "allwhichwaslost"
+	file = "allwhichwaslost.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "dancingconstellations"
+	file = "dancingconstellations.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "proxy"
+	file = "proxy.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "myriadsofstars"
+	file = "myriadsofstars.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "betweentheworlds"
+	file = "betweentheworlds.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "lighttrails"
+	file = "lighttrails.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "cobalt"
+	file = "cobalt.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "solaractivity"
+	file = "solaractivity.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "endeavour"
+	file = "endeavour.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "beckoninguniverse"
+	file = "beckoninguniverse.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "seagulls"
+	file = "seagulls.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "cosmicblessing"
+	file = "cosmicblessing.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "chrononautica"
+	file = "chrononautica.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theearthisblue"
+	file = "theearthisblue.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "interstellartravel"
+	file = "interstellartravel.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "aeonii"
+	file = "aeonii.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "horizonintro"
+	file = "horizonintro.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "aeternumi"
+	file = "aeternumi.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "borninthemilkyway"
+	file = "borninthemilkyway.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "codeoflife"
+	file = "codeoflife.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "endlessexploration"
+	file = "endlessexploration.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "existence"
+	file = "existence.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "helium3"
+	file = "helium3.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "pathfinder"
+	file = "pathfinder.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "intheclouds"
+	file = "intheclouds.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "celestialcelebration"
+	file = "celestialcelebration.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "stoneinfocus"
+	file = "stoneinfocus.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "seekingnowhere"
+	file = "seekingnowhere.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "bringthestillnesshome"
+	file = "bringthestillnesshome.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "desolation"
+	file = "desolation.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "interlopers"
+	file = "interlopers.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "excursion"
+	file = "excursion.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "alphaoceans"
+	file = "alphaoceans.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "goneandbeyond"
+	file = "goneandbeyond.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "crystallinemultiverse"
+	file = "crystallinemultiverse.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "earthbound"
+	file = "earthbound.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "phasetransition"
+	file = "phasetransition.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "seaoftranquility"
+	file = "seaoftranquility.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "starseedtransmissions"
+	file = "starseedtransmissions.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "thelastoutpost"
+	file = "thelastoutpost.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "return"
+	file = "return.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "nardimmansveperin"
+	file = "nardimmansveperin.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "towardthelight"
+	file = "towardthelight.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "stellarwind"
+	file = "stellarwind.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "belowzero"
+	file = "belowzero.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "capsule"
+	file = "capsule.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "deadzone"
+	file = "deadzone.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "wanderingoff"
+	file = "wanderingoff.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "wasteland"
+	file = "wasteland.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "entredeuxetoiles"
+	file = "entredeuxetoiles.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "bountyhunter"
+	file = "bountyhunter.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "atmostrobe"
+	file = "atmostrobe.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "myhomeisfaraway"
+	file = "myhomeisfaraway.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "anoceanofstars"
+	file = "anoceanofstars.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "orbitalstrigs"
+	file = "orbitalstrigs.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theworldagainstme"
+	file = "theworldagainstme.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "planetmkjb"
+	file = "planetmkjb.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "meteors"
+	file = "meteors.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "betweentherings"
+	file = "betweentherings.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "crepuscularrays"
+	file = "crepuscularrays.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "northernlights"
+	file = "northernlights.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "angstvordemunbekannten"
+	file = "angstvordemunbekannten.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "snoslib"
+	file = "snoslib.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "chiaroscuro"
+	file = "chiaroscuro.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "dna"
+	file = "dna.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "starshipssonicallycharged"
+	file = "starshipssonicallycharged.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "coldbluewatersbeyond"
+	file = "coldbluewatersbeyond.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theworldsinyoureyes"
+	file = "theworldsinyoureyes.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "becomingone"
+	file = "becomingone.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "crystalforest"
+	file = "crystalforest.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "enterthevoid1"
+	file = "enterthevoid1.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "burn"
+	file = "burn.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "seductionofdrpasteur"
+	file = "seductionofdrpasteur.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "driftingthroughspace"
+	file = "driftingthroughspace.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "arecibo"
+	file = "arecibo.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "tachyondirective"
+	file = "tachyondirective.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "eightdirectionperception"
+	file = "eightdirectionperception.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "sacrosanctremix"
+	file = "sacrosanctremix.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "leviathan"
+	file = "leviathan.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "versus"
+	file = "versus.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "theoldwayofme"
+	file = "theoldwayofme.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "wistfulness"
+	file = "wistfulness.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "beyondtheveil"
+	file = "beyondtheveil.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "starsoaked"
+	file = "starsoaked.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "silentuniverse"
+	file = "silentuniverse.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "aeternumii"
+	file = "aeternumii.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "sateloid"
+	file = "sateloid.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "edgeofeternity"
+	file = "edgeofeternity.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "codeofexistence"
+	file = "codeofexistence.ogg"
+	volume = 0.99
+}
+
+music = {
+	name = "dropsens"
+	file = "dropsens.ogg"
+	volume = 0.99
+}

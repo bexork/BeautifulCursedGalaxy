@@ -1,0 +1,9 @@
+﻿l_english:
+ trait_decadence_beauty:0 "Decadent: Beauty"
+ trait_decadence_beauty_desc:0 "§L'Beauty at any cost' is one of the most important principles of this species. A large portion of personal resources are wasted for outward appearance.§!\n"
+ trait_decadence_drugs:0 "Decadent: Drug Abuse"
+ trait_decadence_drugs_desc:0 "§LMembers of this species consume drugs so excessively that their addiction to them has already become an accepted standard.§!\n"
+ trait_decadence_lust:0 "Decadent: Lust"
+ trait_decadence_lust_desc:0 "§LHormones forces this species to satisfy its sex drive all the time - immediately. Even when it may feel good, it is not in the least productive. And it's considered immoral by most foreigners.§!\n"
+ opinion_lust_species:0 "Immoral Primitives"
+ TRAIT_LUST_EFFECT:0 "Growth Speed: §G+10%§!\nPop Housing Usage: §G-5%§!\n$mod_planet_jobs_produces_mult$: §R-5%§!\nOpinion about us: §R-50§!"

@@ -1,0 +1,50 @@
+
+objectTypes = {
+	pdxparticle = {
+		name = "se_psionic_head_effect"
+		type = "se_psionic_head_effect"
+		
+		scale = 1.0
+	}
+}
+
+objectTypes = {
+	pdxparticle = {
+		name = "se_synthetic_eyes_effect_white"
+		type = "se_synthetic_eyes_effect_white"
+		
+		scale = 0.35
+	}
+}
+objectTypes = {
+	pdxparticle = {
+		name = "se_synthetic_eyes_effect_blue"
+		type = "se_synthetic_eyes_effect_blue"
+		
+		scale = 0.35
+	}
+}
+objectTypes = {
+	pdxparticle = {
+		name = "se_synthetic_eyes_effect_yellow"
+		type = "se_synthetic_eyes_effect_yellow"
+		
+		scale = 0.35
+	}
+}
+objectTypes = {
+	pdxparticle = {
+		name = "se_synthetic_eyes_effect_pink"
+		type = "se_synthetic_eyes_effect_pink"
+		
+		scale = 0.35
+	}
+}
+objectTypes = {
+	pdxparticle = {
+		name = "se_synthetic_eyes_effect_red"
+		type = "se_synthetic_eyes_effect_red"
+		
+		scale = 0.35
+	}
+}

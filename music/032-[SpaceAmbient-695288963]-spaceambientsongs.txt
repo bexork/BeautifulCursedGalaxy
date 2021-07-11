@@ -1,0 +1,639 @@
+song = {
+	name = "falling"
+}
+
+song = {
+	name = "acrossthevoid"
+}
+
+song = {
+	name = "galaxyschild"
+}
+
+song = {
+	name = "gargantua"
+}
+
+song = {
+	name = "flourish"
+}
+
+song = {
+	name = "tranquility"
+}
+
+song = {
+	name = "waitforme"
+}
+
+song = {
+	name = "visionformation"
+}
+
+song = {
+	name = "theedgeofforever"
+}
+
+song = {
+	name = "tothegreatbeyond"
+}
+
+song = {
+	name = "rendezvouswithrama"
+}
+
+song = {
+	name = "derelict"
+}
+
+song = {
+	name = "calmriver"
+}
+
+song = {
+	name = "lostinandromeda"
+}
+
+song = {
+	name = "theodyssey"
+}
+
+song = {
+	name = "vacuumredux"
+}
+
+song = {
+	name = "lookingatthesky"
+}
+
+song = {
+	name = "cosmicsunrise"
+}
+
+song = {
+	name = "stardomeremix"
+}
+
+song = {
+	name = "thebeltoforion"
+}
+
+song = {
+	name = "gribmig"
+}
+
+song = {
+	name = "objectsinspace"
+}
+
+song = {
+	name = "darkcorners"
+}
+
+song = {
+	name = "remains"
+}
+
+song = {
+	name = "distantworlds"
+}
+
+song = {
+	name = "etherealflight"
+}
+
+song = {
+	name = "crystalfleshmachinesoul"
+}
+
+song = {
+	name = "nordlys"
+}
+
+song = {
+	name = "reality"
+}
+
+song = {
+	name = "discovering"
+}
+
+song = {
+	name = "qualia"
+}
+
+song = {
+	name = "nebula"
+}
+
+song = {
+	name = "catarina"
+}
+
+song = {
+	name = "afewlightyearsaway"
+}
+
+song = {
+	name = "drift"
+}
+
+song = {
+	name = "poolsofcreationalien"
+}
+
+song = {
+	name = "polyrytmi"
+}
+
+song = {
+	name = "supersede"
+}
+
+song = {
+	name = "signals"
+}
+
+song = {
+	name = "eventide"
+}
+
+song = {
+	name = "nightsky"
+}
+
+song = {
+	name = "saygoodbyetoeveryone"
+}
+
+song = {
+	name = "sol"
+}
+
+song = {
+	name = "concept1"
+}
+
+song = {
+	name = "concept10"
+}
+
+song = {
+	name = "concept16"
+}
+
+song = {
+	name = "orangeoceanremix"
+}
+
+song = {
+	name = "septembersunremix"
+}
+
+song = {
+	name = "dybet"
+}
+
+song = {
+	name = "verdensstoerstesatellit"
+}
+
+song = {
+	name = "constellation"
+}
+
+song = {
+	name = "staringintothenothingness"
+}
+
+song = {
+	name = "theroadtonothingness"
+}
+
+song = {
+	name = "bellsofresurrection"
+}
+
+song = {
+	name = "lemuria"
+}
+
+song = {
+	name = "anoceanofgalaxies"
+}
+
+song = {
+	name = "billionsandbillions"
+}
+
+song = {
+	name = "comethailey"
+}
+
+song = {
+	name = "eternity"
+}
+
+song = {
+	name = "milliways"
+}
+
+song = {
+	name = "reflex"
+}
+
+song = {
+	name = "theabysshungers"
+}
+
+song = {
+	name = "brokenwings"
+}
+
+song = {
+	name = "astropath"
+}
+
+song = {
+	name = "starsaroundme"
+}
+
+song = {
+	name = "troposphere"
+}
+
+song = {
+	name = "orbiter"
+}
+
+song = {
+	name = "paraselene"
+}
+
+song = {
+	name = "starshipeden"
+}
+
+song = {
+	name = "proxy"
+}
+
+song = {
+	name = "dancingconstellations"
+}
+
+song = {
+	name = "belowtheasteroids"
+}
+
+song = {
+	name = "allwhichwaslost"
+}
+
+song = {
+	name = "myriadsofstars"
+}
+
+song = {
+	name = "lighttrails"
+}
+
+song = {
+	name = "betweentheworlds"
+}
+
+song = {
+	name = "cobalt"
+}
+
+song = {
+	name = "endeavour"
+}
+
+song = {
+	name = "solaractivity"
+}
+
+song = {
+	name = "seagulls"
+}
+
+song = {
+	name = "beckoninguniverse"
+}
+
+song = {
+	name = "cosmicblessing"
+}
+
+song = {
+	name = "chrononautica"
+}
+
+song = {
+	name = "theearthisblue"
+}
+
+song = {
+	name = "interstellartravel"
+}
+
+song = {
+	name = "aeonii"
+}
+
+song = {
+	name = "horizonintro"
+}
+
+song = {
+	name = "aeternumi"
+}
+
+song = {
+	name = "borninthemilkyway"
+}
+
+song = {
+	name = "codeoflife"
+}
+
+song = {
+	name = "endlessexploration"
+}
+
+song = {
+	name = "existence"
+}
+
+song = {
+	name = "helium3"
+}
+
+song = {
+	name = "pathfinder"
+}
+
+song = {
+	name = "intheclouds"
+}
+
+song = {
+	name = "celestialcelebration"
+}
+
+song = {
+	name = "stoneinfocus"
+}
+
+song = {
+	name = "seekingnowhere"
+}
+
+song = {
+	name = "bringthestillnesshome"
+}
+
+song = {
+	name = "desolation"
+}
+
+song = {
+	name = "interlopers"
+}
+
+song = {
+	name = "excursion"
+}
+
+song = {
+	name = "alphaoceans"
+}
+
+song = {
+	name = "goneandbeyond"
+}
+
+song = {
+	name = "crystallinemultiverse"
+}
+
+song = {
+	name = "earthbound"
+}
+
+song = {
+	name = "phasetransition"
+}
+
+song = {
+	name = "seaoftranquility"
+}
+
+song = {
+	name = "starseedtransmissions"
+}
+
+song = {
+	name = "thelastoutpost"
+}
+
+song = {
+	name = "return"
+}
+
+song = {
+	name = "nardimmansveperin"
+}
+
+song = {
+	name = "towardthelight"
+}
+
+song = {
+	name = "stellarwind"
+}
+
+song = {
+	name = "belowzero"
+}
+
+song = {
+	name = "capsule"
+}
+
+song = {
+	name = "deadzone"
+}
+
+song = {
+	name = "wanderingoff"
+}
+
+song = {
+	name = "wasteland"
+}
+
+song = {
+	name = "entredeuxetoiles"
+}
+
+song = {
+	name = "bountyhunter"
+}
+
+song = {
+	name = "atmostrobe"
+}
+
+song = {
+	name = "myhomeisfaraway"
+}
+
+song = {
+	name = "anoceanofstars"
+}
+
+song = {
+	name = "orbitalstrigs"
+}
+
+song = {
+	name = "theworldagainstme"
+}
+
+song = {
+	name = "planetmkjb"
+}
+
+song = {
+	name = "meteors"
+}
+
+song = {
+	name = "betweentherings"
+}
+
+song = {
+	name = "crepuscularrays"
+}
+
+song = {
+	name = "northernlights"
+}
+
+song = {
+	name = "angstvordemunbekannten"
+}
+
+song = {
+	name = "snoslib"
+}
+
+song = {
+	name = "chiaroscuro"
+}
+
+song = {
+	name = "dna"
+}
+
+song = {
+	name = "starshipssonicallycharged"
+}
+
+song = {
+	name = "coldbluewatersbeyond"
+}
+
+song = {
+	name = "theworldsinyoureyes"
+}
+
+song = {
+	name = "becomingone"
+}
+
+song = {
+	name = "crystalforest"
+}
+
+song = {
+	name = "enterthevoid1"
+}
+
+song = {
+	name = "burn"
+}
+
+song = {
+	name = "seductionofdrpasteur"
+}
+
+song = {
+	name = "driftingthroughspace"
+}
+
+song = {
+	name = "arecibo"
+}
+
+song = {
+	name = "tachyondirective"
+}
+
+song = {
+	name = "eightdirectionperception"
+}
+
+song = {
+	name = "sacrosanctremix"
+}
+
+song = {
+	name = "leviathan"
+}
+
+song = {
+	name = "versus"
+}
+
+song = {
+	name = "theoldwayofme"
+}
+
+song = {
+	name = "wistfulness"
+}
+
+song = {
+	name = "beyondtheveil"
+}
+
+song = {
+	name = "starsoaked"
+}
+
+song = {
+	name = "silentuniverse"
+}
+
+song = {
+	name = "aeternumii"
+}
+
+song = {
+	name = "sateloid"
+}
+
+song = {
+	name = "edgeofeternity"
+}
+
+song = {
+	name = "codeofexistence"
+}
+
+song = {
+	name = "dropsens"
+}

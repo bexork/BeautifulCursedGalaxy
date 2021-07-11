@@ -1,0 +1,6 @@
+# RING
+
+ring = {
+	width 	= 0.90					# Percentage of radius to use as the width of the ring
+	offset 	= 0.05					# Percentage of radius to use as the offset from center for the ring
+}

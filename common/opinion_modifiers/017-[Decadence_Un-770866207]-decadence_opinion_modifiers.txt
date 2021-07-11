@@ -1,0 +1,42 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+#trait opinion
+opinion_lust_species = {
+	trigger = {
+		FROM = {
+			OR = {
+				is_country_type = default
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+			exists = ruler
+			ruler = {
+				species = {
+					has_trait = "trait_decadence_lust"
+				}
+				#NOT = { is_same_species = root }
+			}	
+		}
+		OR = {
+			is_country_type = default
+			is_country_type = fallen_empire
+			is_country_type = awakened_fallen_empire
+		}
+		NOT = {
+			AND = {
+				exists = ruler
+				ruler = {
+					species = {
+						has_trait = "trait_decadence_lust"
+					}
+					#NOT = { is_same_species = root }
+				}
+			}
+		}
+	}
+	opinion = {
+		base = -50
+	}
+}

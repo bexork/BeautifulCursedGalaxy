@@ -1,0 +1,62 @@
+	
+	#FEMALE
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+	animation = {
+		name = "humanoid_female_portrait_SE01_happy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v19.anim" ###v19 working
+	}
+	animation = {
+		name = "humanoid_female_portrait_SE01_happy_2_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_2_v19.anim" ###v19 working
+	}	
+	
+	animation = {
+		name = "humanoid_female_portrait_SE01_happy_arm_1_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v19arm.anim" ###v19 working
+	}
+	
+	
+	animation = {
+		name = "humanoid_female_portrait_SE01_mischeif_1_animation"
+		file = "human_cyborg_female_portrait_SE01_mischeif_1_v19.anim"
+	}	
+	
+	animation = {
+		name = "humanoid_female_portrait_SE01_unhappy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_unhappy_1_v19.anim"
+	}	
+	
+	animation = {
+		name = "humanoid_female_portrait_SE01_angry_1_animation"
+		file = "human_cyborg_female_portrait_SE01_angry_1_v19.anim"
+	}
+	
+	
+	
+	
+	
+	#MALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+	animation = {
+		name = "humanoid_male_portrait_SE01_happy_1_animation"
+		file = "human_male_portrait_SE01_happy_1.anim"
+	}
+	animation = {
+		name = "humanoid_male_portrait_SE01_happy_2_animation"
+		file = "human_male_portrait_SE01_happy_2.anim"
+	}	
+	
+	animation = {
+		name = "humanoid_male_portrait_SE01_unhappy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v19arm.anim" ###v19 working
+	}
+	
+	
+	
+	
+	

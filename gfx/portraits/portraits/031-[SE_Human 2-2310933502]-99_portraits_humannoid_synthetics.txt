@@ -1,0 +1,126 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+# Human
+	
+	### SE SYNTHETICS
+	
+		### SE FEMALE SYNTHETICS
+			human_synthetic_01 = {	entity = "portrait_human_female_SE01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+				character_textures = { 
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_blue.dds"
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_cyan.dds"
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_green.dds"
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_pink.dds"
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_red.dds"
+					"gfx/models/portraits/human/humanoid_05_synthetic_female_body_bb_01_yellow.dds"
+				} 
+			}
+			
+			
+	
+	
+} #END PORTRAITS
+
+ #####################
+### PORTRAIT GROUPS ##################################################################################################################################################################################################################################################
+ #####################
+ 
+ 
+
+portrait_groups = {
+	sd_hum_robot = {
+		default = human_synthetic_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					human_synthetic_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					human_synthetic_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					human_synthetic_01
+				}
+			}
+		}
+	}
+}

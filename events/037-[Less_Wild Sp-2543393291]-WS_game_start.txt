@@ -1,0 +1,202 @@
+namespace = wild_space
+
+### sets global flag has_wild_space_mod
+event = {
+	id = wild_space.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = has_wild_space_mod
+		# set_global_flag = c
+		# # set_global_flag = WS_gigastructures_core_default 
+		}
+}
+
+##############################################################
+#### adds Wild Space system ambient effects (No Real Space) ####
+event = {
+	id = wild_space.04
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_system = {
+			limit = { is_star_class = sc_dn }
+
+			if = { limit = { has_modifier = turbulent_nebula  }
+			#save_global_event_target_as = turbulent_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_2 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_3 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_2 = yes								
+								}
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_3 = yes
+								}	
+							}	
+					}
+				}
+
+			else_if = { limit = { has_star_flag = has_wormhole}
+			#save_global_event_target_as = turbulent_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_2 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_3 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_2 = yes								
+								}
+							20 = { 
+								create_wild_space_effect_1 = yes
+								create_wild_space_effect_3 = yes
+								}	
+							}	
+					}
+				}
+
+			else_if = { limit = { any_neighbor_system = { is_star_class = sc_black_hole } }  
+			#save_global_event_target_as = blackhole_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+						20 = { 
+							create_wild_space_effect_1 = yes
+							create_wild_space_effect_2 = yes
+						}	
+						20 = { 
+							create_wild_space_effect_1 = yes
+							create_wild_space_effect_2 = yes
+						}	
+						20 = { 
+							create_wild_space_effect_1 = yes
+							create_wild_space_effect_2 = yes
+							}
+						20 = { 
+							create_wild_space_effect_1 = yes
+							create_wild_space_effect_2 = yes
+							}	
+					}
+				}
+			}
+
+			else_if = { limit = { has_star_flag = wild_space_core_system }  
+			#save_global_event_target_as = core_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}	
+					}
+				}
+			}
+
+			else_if = { limit = { any_neighbor_system = { Not = { has_star_flag = wild_space_system } } } 
+			#save_global_event_target_as = border_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}							
+					}
+				}	
+			}	
+			
+			else_if = { limit = { has_star_flag = wild_space_system } 
+			#save_global_event_target_as = border_wild_space_effects }
+			every_system_planet = { 
+				limit = { is_planet_class = pc_dn_star }
+					random_list = {
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}	
+							20 = { 
+								create_wild_space_effect_1 = yes
+								#create_wild_space_effect_2 = yes
+							}							
+					}
+				}	
+			}	
+		}
+	}
+}	
+
+
+#
+#
+event = {
+	id = wild_space.03
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = { 
+			limit = { has_global_flag = has_real_space_mod }
+			create_wild_space_effect_2 = yes
+			create_wild_space_effect_4 = yes
+		}
+		else = {
+			create_wild_space_effect_1 = yes
+			create_wild_space_effect_3 = yes
+		}
+	}	
+}
+
+
+
+##################################################################
+#### adds Wild Space system ambient effects (Real Space enabled) ####
+#
+event = {
+	id = wild_space.04
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = has_real_space_mod
+	}
+	
+	immediate = {
+		every_system = {
+			limit = { 
+				is_star_class = sc_dn
+			}
+			create_wild_space_effect_2 = yes
+			create_wild_space_effect_4 = yes	
+		}
+	}
+}	
+		
+	

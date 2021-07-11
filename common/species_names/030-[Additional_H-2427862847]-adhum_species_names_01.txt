@@ -1,0 +1,66 @@
+
+ADDHUM = {
+	talhan = {
+		name = Tal'Han
+		plural = Tal'Hans
+		home_planet = T'mekath
+		home_system = V'Loruc
+		name_list = "HUM4"
+	}
+	kinaro = {
+		name = Kinaro
+		plural = Kinaros
+		home_planet = Seruria
+		home_system = Ydralla
+		name_list = "HUM3"
+	}
+    deniri = {
+		name = Deniri
+		plural = Deniri
+		home_planet = Xangha
+		home_system = Khotor
+		name_list = "HUM1"
+	}
+    rhonkora = {
+		name = Rhon'Kora
+		plural = Rhon'Korae
+		home_planet = Rhoh'Dara
+		home_system = Rhom'lena
+		name_list = "HUM2"
+	}
+    aridiran = {
+		name = Aridian
+		plural = Aridians
+		home_planet = Waerana
+		home_system = Zennemirin
+		name_list = "HUM1"
+	}
+    varican = {
+		name = Varican
+		plural = Varicans
+		home_planet = Asharev
+		home_system = R'jin
+		name_list = "HUM2"
+	}
+    semanshai = {
+		name = Semanshai
+		plural = Semanshai
+		home_planet = Xuldalo
+		home_system = Meran
+		name_list = "HUM3"
+	}
+	vlealmune = {
+		name = Vlealmune
+		plural = Vlealmunes
+		home_planet = Ainglin
+		home_system = Gaerfaroth
+		name_list = "HUM4"
+	}
+    zelani = {
+		name = Zelani
+		plural = Zelani
+		home_planet = "Thar Nomor"
+		home_system = "Ledaera"
+		name_list = "HUM1"
+	}
+}

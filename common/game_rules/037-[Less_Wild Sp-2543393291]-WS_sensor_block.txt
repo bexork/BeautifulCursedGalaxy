@@ -1,0 +1,42 @@
+#Tooltips will be generated from these rules when they fail. Use of custom_tooltip is recommended
+#There are still multiple hard-coded rules that apply in addition to these.
+#If rules here evaluate to true, there might still be other rules that make the action unavailable.
+#If a rule here evaluates to false the action will become unavailable
+
+# this = system
+# root = country
+system_blocks_sensors = {
+	OR = {
+		
+		has_star_flag = lcluster
+		has_star_flag = sealed_system	
+
+		AND = {
+			has_natural_wormhole = yes
+			ROOT = { NOT = { has_technology = tech_WS_sensors_wormhole } }
+		}
+
+		AND = {
+			OR = {
+				is_inside_nebula = yes 
+				is_ws_system = yes
+				#is_border_ws_system = yes 
+				is_nebula_star = yes
+				has_modifier = space_storm
+			}
+			ROOT = { NOT = { has_technology = tech_WS_sensors_nebula_1 } } 
+		}
+
+		#AND = {									#### Note - this doesn't work, and breaks the rest of the options 
+		#	OR = {									#### i.e. with it here regardless of tech, all the systems in the above block sensors. 
+		#		has_modifier = space_storm			#### No idea why, but perhaps I'll be smarter in 2021. If fixed. Re-enable tech and tweak localislation.
+		#		#has_star_flag = deep_ws_system 
+		#		is_deep_ws_system = yes
+		#	}
+		#	ROOT = { NOT = { has_technology = tech_WS_sensors_nebula_2 } } 
+		#}
+
+	}
+}
+
+

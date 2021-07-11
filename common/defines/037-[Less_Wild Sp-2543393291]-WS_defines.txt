@@ -1,0 +1,37 @@
+
+# NGraphics = {
+							
+# 	GALAXY_STAR_ICON_SCALE = 0.8				#vanilla = 1.5	/ ACG 0.55		
+# 	GALAXY_STAR_ICON_MAX_SCALE = 0.6			#vanilla = 1.25	
+# 	GALAXY_DUST_ROTATION_SPEED = 0.02			#0.005			
+# 	GALAXY_NEBULA_DUST_ROTATION_SPEED = 0.01	#0.002
+							
+# 	MAPNAME_NEBULA_SCALE = 0							
+
+# 	}
+
+# NCamera = {
+# 	BORDER_NAMES_FADEOUT_ZOOM = 650							
+# 	BORDER_NAMES_FADEOUT_SPEED = 1.0						
+# 	ENTER_SYSTEM_ZOOM_STEP = 19 #19								# 20 Controls which zoom step is used after entering system	
+# 	FOCUS_START_ZOOM_STEP = 12 #9	 							# which zoom step will be used when focusing on a new object	
+# 	FOCUSED_MIN_PITCH = -120.0  							# in degrees, used when focused on planet/ship
+# 	FOCUSED_MAX_PITCH = 179.0  								# in degrees, used when focused on planet/ship
+# 	FOCUSED_MIN_ZOOM_BASE = 1.0								# 2.0 20.0 base min zoom
+# 	#FOV = 35 												# Field-of-View
+# 	GALAXY_SHOW_FLEETS_ZOOM = 950 							# Camera zoom interval to show fleet icons
+# 	GALAXY_SHOW_STARNAME_ZOOM = 650 						# Camera zoom interval to show star name
+# 	HIDE_ORBITS_ZOOM = 2								
+# 	LEAVE_SYSTEM_ZOOM_STEP = 3										 
+# 	SHOW_FLEETS_ZOOM = 300								
+	
+# 	ZOOM_STEPS_SYSTEM_PERCENTAGES = { 0.01 0.01125 0.0125 0.01375 0.015 0.0175 0.02 0.025 0.0275 0.03 0.035 0.04 0.045 0.05 0.0625 0.075 0.1 0.15 0.2 0.25 0.375 0.5 0.75 1.0 1.5 2.25 3.0 } 	# System zoom steps in percent relative to the system size need same amount of values as PLANET_SCALE_SYSTEM
+# 	ZOOM_STEPS_GALAXY = { 100, 200, 400, 600, 900, 1500, 3000 } 	# Galaxy zoom steps
+# 	ZOOM_STEPS_SHOW_FLEET_HEALTH_BARS = { 7, 8 }  			#on which zoom steps per-fleet health bars should be shown
+# 	FOCUSED_ZOOM_RATE = 0.05 							# 0.1 0.2 vanilla .. higher values means faster zoom in/out
+# }
+
+	
+# NAI = {
+# 		MAX_EXPANSION_DISTANCE = 3				# Max number of jumps away AI will build starbases
+# 	}

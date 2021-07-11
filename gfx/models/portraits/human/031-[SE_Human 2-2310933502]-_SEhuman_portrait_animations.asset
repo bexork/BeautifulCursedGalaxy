@@ -1,0 +1,109 @@
+	
+	#FEMALE
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+	animation = {
+		name = "human_female_portrait_SE01_happy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v19.anim" ###v19 working
+	}
+	animation = {
+		name = "human_female_portrait_SE01_happy_1b_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v21b.anim" ###v19 working
+	}
+	animation = {
+		name = "human_female_portrait_SE01_happy_2_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_2_v19.anim" ###v19 working
+	}	
+	
+	
+	animation = {
+		name = "human_female_portrait_SE01_mischeif_1_animation"
+		file = "human_cyborg_female_portrait_SE01_mischeif_1_v19.anim"
+	}	
+	
+	animation = {
+		name = "human_female_portrait_SE01_unhappy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_unhappy_1_v19.anim"
+	}	
+	
+	animation = {
+		name = "human_female_portrait_SE01_angry_1_animation"
+		file = "human_cyborg_female_portrait_SE01_angry_1_v19.anim"
+	}
+	
+	
+	
+	animation = {
+		name = "angel_female_04_portrait_angry_4_lucifer_temp_animation"
+		file = "angel_female_04_portrait_angry_4_lucifer_temp_arm.anim"
+	}	
+	
+	animation = {
+		name = "angel_female_04_portrait_happy_3_lucifer_animation"
+		file = "angel_female_04_portrait_happy_3_lucifer.anim"
+	}	
+	
+	animation = {
+		name = "angel_female_04_portrait_happy_4_lucifer_animation"
+		file = "angel_female_04_portrait_happy_4_lucifer.anim"
+	}	
+	
+	
+	animation = {
+		name = "human_synthetic_female_portrait_SE01_happy_1_animation"
+		file = "human_synthetic_female_portrait_SE01_happy_1.anim"
+	}
+	animation = {
+		name = "human_synthetic_female_portrait_SE01_happy_2_animation"
+		file = "human_synthetic_female_portrait_SE01_happy_2.anim"
+	}	
+	
+	
+	
+	
+	
+	#MALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+	animation = {
+		name = "human_male_portrait_SE01_happy_1_animation"
+		file = "human_male_portrait_SE01_happy_1.anim"
+	}
+	animation = {
+		name = "human_male_portrait_SE01_happy_2_animation"
+		file = "human_male_portrait_SE01_happy_2.anim"
+	}	
+	
+	animation = {
+		name = "human_male_portrait_SE01_unhappy_1_animation"
+		file = "human_cyborg_female_portrait_SE01_happy_1_v19arm.anim" ###v19 working
+	}
+	
+	
+	
+	
+	animation = {
+		name = "human_male_01_happy_3_animation"
+		file = "human_male_01_portrait_happy_3.anim"
+	}
+	animation = {
+		name = "human_male_01_happy_4_animation"
+		file = "human_male_01_portrait_happy_4.anim"
+	}
+	
+	animation = {
+		name = "human_male_01_sad_3_animation"
+		file = "human_male_01_portrait_sad_3.anim"
+	}
+	animation = {
+		name = "human_male_01_sad_4_animation"
+		file = "human_male_01_portrait_sad_4.anim"
+	}
+	
+	
+	
+	
+	

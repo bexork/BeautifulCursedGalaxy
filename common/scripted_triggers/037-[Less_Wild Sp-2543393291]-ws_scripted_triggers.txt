@@ -1,0 +1,21 @@
+
+is_ws_system = {
+	is_star_class = sc_dn
+}
+
+is_border_ws_system = {
+	has_star_flag = ws_border_system
+}
+
+is_deep_ws_system = {
+	has_star_flag = deep_ws_system
+}
+
+is_nebula_star = {
+	Or = {
+		is_star_class = sc_collapsar
+		is_star_class = sc_p_purple
+		is_star_class = sc_p_green
+		is_star_class = sc_p_red
+	}
+}
